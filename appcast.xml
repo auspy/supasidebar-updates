@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SupaSidebar Updates</title>
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Sat, 03 Aug 2025 15:00:00 +0530</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <description><![CDATA[
+<h1 id="supasidebar-1.0.0">SupaSidebar 1.0.0</h1>
+<h2 id="whats-new">What's New</h2>
+<ul>
+<li><strong>Initial Release</strong>: Launch of SupaSidebar with Arc-inspired design</li>
+<li><strong>Global Shortcuts</strong>: Quick access with ⌘⇧Space and command panel with ⌘⌃K</li>
+<li><strong>Browser Integration</strong>: Save pages and copy URLs from any browser</li>
+<li><strong>Multi-Screen Support</strong>: Floating sidebar that works across displays</li>
+<li><strong>CloudKit Sync</strong>: Your links sync across devices</li>
+<li><strong>Auto-Updates</strong>: Sparkle integration for seamless updates</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/auspy/supasidebar/releases/download/v0.0.1/supasidebar_v0.0.1.zip"
+                sparkle:edSignature="PLACEHOLDER_SIGNATURE"
+                length="0"
+                type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
