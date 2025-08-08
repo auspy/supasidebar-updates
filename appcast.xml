@@ -3,44 +3,52 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.1.0</title>
-            <pubDate>Wed, 06 Aug 2025 12:55:00 +0530</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>Version 0.2.0</title>
+            <pubDate>Fri, 08 Aug 2025 16:52:00 +0530</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-v0.1.0">SupaSidebar v0.1.0</h1>
-<p>Welcome to SupaSidebar!</p>
+<h1 id="supasidebar-0.2.0">SupaSidebar 0.2.0</h1>
 <h2 id="whats-new">What’s New</h2>
-<h3 id="core-features">Core Features</h3>
 <ul>
-<li><strong>Quick Access Sidebar</strong> - Press <code>CMD SHIFT SPACE</code> to toggle</li>
-<li><strong>Command Panel</strong> - Press <code>CMD CONTROL K</code> for fuzzy search</li>
-<li><strong>Save Pages</strong> - Press <code>CMD CONTROL S</code> to save current webpage</li>
-<li><strong>Copy URLs</strong> - Press <code>CMD CONTROL C</code> to copy current URL</li>
+<li><strong>Vivaldi Browser Support</strong>: Added full support for Vivaldi browser</li>
+<li><strong>Enhanced Visual Feedback</strong>: Reduced opacity on inactive sidebar for better visual distinction</li>
+<li><strong>Smart Focus Management</strong>:
+<ul>
+<li>Option to hide sidebar when clicking outside for cleaner workspace. Configure in settings.</li>
+<li>Keyboard focus automatically set when opening sidebar for immediate interaction</li>
+</ul></li>
+<li><strong>Intelligent Browser Detection</strong>: Option to open links in the currently active browser. Configure in settings.</li>
+<li><strong>Improved Desktop Experience</strong>:
+<ul>
+<li>Optimized height adjustment for desktop usage</li>
+<li>Better window positioning and sizing</li>
+</ul></li>
+<li><strong>Item Management</strong>:
+<ul>
+<li>Added ability to rename sidebar items for better organization</li>
+<li>Keyboard shortcut to quickly delete entries</li>
+</ul></li>
+<li><strong>Mouse Hover Triggers</strong>: Sidebar opens automatically when hovering on left or right screen edges. Configure in settings.</li>
+<li><strong>Keyboard Navigation</strong>: Added shortcut to focus directly on sidebar for keyboard-first workflow</li>
+<li><strong>Glass Theme</strong>: Added a more modern looking theme</li>
 </ul>
-<h3 id="browser-support">Browser Support</h3>
+<h2 id="minor-updates">Minor Updates</h2>
 <ul>
-<li>Safari, Chrome, Firefox, Edge, Arc, and Brave</li>
+<li>Enhanced multi-browser AppleScript integration</li>
+<li>Better space management across multiple screens</li>
+<li>Multiple keyboard shortcuts to interact with sidebar items. Check in Preferences &gt; Shortcuts.</li>
 </ul>
-<h3 id="additional-features">Additional Features</h3>
+<h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>iCloud sync across devices</li>
-<li>Pin sidebar to left or right</li>
-<li>Recent tabs tracking</li>
-<li>Adjustable global shortcuts</li>
-<li>Drag and drop support</li>
-<li>7 Day trial period with one-time purchase</li>
-</ul>
-<h2 id="requirements">Requirements</h2>
-<ul>
-<li>macOS 13.0+</li>
-<li>Automation permissions for browser integration</li>
+<li>Fixed: Sidebar hiding behind dock and menu bar</li>
+<li>Enhanced sidebar visibility and interaction states</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.1.0/supasidebar_v0.1.0.zip"
-                sparkle:edSignature="nCnr9W/x4aTla+DAQ4yLP8Urx2o153FEeR+y1VtR4wMbdsO5/oIO0o1+tjCO+AJsRWsbE/M5dklYfI8oRNMbBA=="
-                length="2834551"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.2.0/supasidebar_v0.2.0.zip"
+                sparkle:edSignature="XEA7YcJUO/b6nSspQJ+3KU3Cl2Wu2JJBx9mpN1PKyteD9ZERaAjrW3E+rDD+7ynPqxlytjXwLda9fPxGNujuAw=="
+                length="2990593"
                 type="application/octet-stream"/>
         </item>
     </channel>
