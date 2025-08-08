@@ -44,6 +44,10 @@
 <li>Fixed: Sidebar hiding behind dock and menu bar</li>
 <li>Enhanced sidebar visibility and interaction states</li>
 </ul>
+                <h4 id="bug-fixes">Tip</h2>
+<ul>
+<li>If some setting does not work, try turning it on/off or opening the preferences again. I will fix this issue in next update.</li>
+</ul>
             ]]></description>
             <enclosure
                 url="https://github.com/auspy/supasidebar-updates/releases/download/v0.2.0/supasidebar_v0.2.0.zip"
