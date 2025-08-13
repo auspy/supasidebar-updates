@@ -3,56 +3,46 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.2.0</title>
-            <pubDate>Fri, 08 Aug 2025 16:52:00 +0530</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <title>Version 0.3.0</title>
+            <pubDate>Thu, 14 Aug 2025 00:11:00 +0530</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.2.0">SupaSidebar 0.2.0</h1>
+<h1 id="supasidebar-0.3.0">SupaSidebar 0.3.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Vivaldi Browser Support</strong>: Added full support for Vivaldi browser</li>
-<li><strong>Enhanced Visual Feedback</strong>: Reduced opacity on inactive sidebar for better visual distinction</li>
-<li><strong>Smart Focus Management</strong>:
+<li><strong>Spaces</strong>: New feature that allows having multiple spaces for organizing urls.</li>
+<li><strong>Mouse Interaction</strong>: Improved mouse interaction for better user experience.
 <ul>
-<li>Option to hide sidebar when clicking outside for cleaner workspace. Configure in settings.</li>
-<li>Keyboard focus automatically set when opening sidebar for immediate interaction</li>
+<li>Hover to show the sidebar</li>
+<li>Hover away from sidebar to auto hide it</li>
+<li>Pin to keep the sidebar visible</li>
+<li>More intuitive feel using the mouse.</li>
 </ul></li>
-<li><strong>Intelligent Browser Detection</strong>: Option to open links in the currently active browser. Configure in settings.</li>
-<li><strong>Improved Desktop Experience</strong>:
-<ul>
-<li>Optimized height adjustment for desktop usage</li>
-<li>Better window positioning and sizing</li>
-</ul></li>
-<li><strong>Item Management</strong>:
-<ul>
-<li>Added ability to rename sidebar items for better organization</li>
-<li>Keyboard shortcut to quickly delete entries</li>
-</ul></li>
-<li><strong>Mouse Hover Triggers</strong>: Sidebar opens automatically when hovering on left or right screen edges. Configure in settings.</li>
-<li><strong>Keyboard Navigation</strong>: Added shortcut to focus directly on sidebar for keyboard-first workflow</li>
-<li><strong>Glass Theme</strong>: Added a more modern looking theme</li>
+<li><strong>Free Plan</strong>: Enjoy SupaSidebar for free with limited features.</li>
+<li><strong>Draggable Sidebar</strong>: Drag the sidebar to reposition it on screen. Good for wide screens.</li>
+<li><strong>Dia Browser</strong>: Support for Dia Browser</li>
+<li><strong>Improved Command Panel</strong>: Click outside to close, toggle using shortcut, better keyboard support, and view recents when empty.</li>
 </ul>
 <h2 id="minor-updates">Minor Updates</h2>
 <ul>
-<li>Enhanced multi-browser AppleScript integration</li>
-<li>Better space management across multiple screens</li>
-<li>Multiple keyboard shortcuts to interact with sidebar items. Check in Preferences &gt; Shortcuts.</li>
+<li><strong>Improved Sidebar Layout</strong>: Better organization and spacing for a cleaner look.</li>
+<li><strong>Enhanced Keyboard Shortcuts</strong>: More intuitive and efficient keyboard shortcuts for common actions. Shortcuts to move between spaces.</li>
+<li><strong>Recents</strong>: Improved performace and tab change detection.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed: Sidebar hiding behind dock and menu bar</li>
-<li>Enhanced sidebar visibility and interaction states</li>
-</ul>
-                <h4 id="bug-fixes">Tip</h2>
-<ul>
-<li>If some setting does not work, try turning it on/off or opening the preferences again. I will fix this issue in next update.</li>
+<li>Fixed: Sometimes esc key not working to close the command panel.</li>
+<li>Fixed: Mouse trigger works even when sidebar is already visible.</li>
+<li>Fixed: Recents getting multiple similar entries.</li>
+<li>Fixed: Recents not working for Arc Browser.</li>
+<li>Fixed: Wrong version number in preferences.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.2.0/supasidebar_v0.2.0.zip"
-                sparkle:edSignature="XEA7YcJUO/b6nSspQJ+3KU3Cl2Wu2JJBx9mpN1PKyteD9ZERaAjrW3E+rDD+7ynPqxlytjXwLda9fPxGNujuAw=="
-                length="2990593"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.3.0/supasidebar_v0.3.0.zip"
+                sparkle:edSignature="e8YIBeHYj/K7Q4rrczMVz+dgDJR/N+CgevBxCV91NM8aGnMe1pUFdE8RABfSvGtvlzVc5dRGVUQ3WjPRaPyzDw=="
+                length="3288819"
                 type="application/octet-stream"/>
         </item>
     </channel>
