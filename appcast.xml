@@ -3,46 +3,32 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.3.0</title>
-            <pubDate>Thu, 14 Aug 2025 00:11:00 +0530</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <title>Version 0.3.1</title>
+            <pubDate>Thu, 14 Aug 2025 13:31:00 +0530</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.3.0">SupaSidebar 0.3.0</h1>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Spaces</strong>: New feature that allows having multiple spaces for organizing urls.</li>
-<li><strong>Mouse Interaction</strong>: Improved mouse interaction for better user experience.
-<ul>
-<li>Hover to show the sidebar</li>
-<li>Hover away from sidebar to auto hide it</li>
-<li>Pin to keep the sidebar visible</li>
-<li>More intuitive feel using the mouse.</li>
-</ul></li>
-<li><strong>Free Plan</strong>: Enjoy SupaSidebar for free with limited features.</li>
-<li><strong>Draggable Sidebar</strong>: Drag the sidebar to reposition it on screen. Good for wide screens.</li>
-<li><strong>Dia Browser</strong>: Support for Dia Browser</li>
-<li><strong>Improved Command Panel</strong>: Click outside to close, toggle using shortcut, better keyboard support, and view recents when empty.</li>
-</ul>
+<h1 id="supasidebar-0.3.1">SupaSidebar 0.3.1</h1>
 <h2 id="minor-updates">Minor Updates</h2>
 <ul>
-<li><strong>Improved Sidebar Layout</strong>: Better organization and spacing for a cleaner look.</li>
-<li><strong>Enhanced Keyboard Shortcuts</strong>: More intuitive and efficient keyboard shortcuts for common actions. Shortcuts to move between spaces.</li>
-<li><strong>Recents</strong>: Improved performace and tab change detection.</li>
+<li><strong>Accessibility Permissions</strong>: Ask for accessibility permissions for all browsers to enable faster tab change detection.</li>
+<li><strong>Default Space Creation</strong>: Create a default space automatically when starting the app for the first time.</li>
+<li><strong>Better Onboarding</strong>: Added more suggestions and guidance for new users to help them get started with the app.</li>
+<li><strong>Better Error Notifications</strong>: Improved error notifications to provide more context and actionable steps for users.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed: Sometimes esc key not working to close the command panel.</li>
-<li>Fixed: Mouse trigger works even when sidebar is already visible.</li>
-<li>Fixed: Recents getting multiple similar entries.</li>
-<li>Fixed: Recents not working for Arc Browser.</li>
-<li>Fixed: Wrong version number in preferences.</li>
+<li>Fixed: No space being created on first launch, leaving users without a starting point.</li>
+<li>Fixed: Insufficient guidance for new users on how to begin using the app effectively.</li>
+<li>Fixed: Users getting stuck in space creation flow when no default space exists.</li>
+<li>Fixed: Not able to space same link in multiple spaces or even same space</li>
+<li>Fixed: Empty box appearing when no space without proper information</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.3.0/supasidebar_v0.3.0.zip"
-                sparkle:edSignature="e8YIBeHYj/K7Q4rrczMVz+dgDJR/N+CgevBxCV91NM8aGnMe1pUFdE8RABfSvGtvlzVc5dRGVUQ3WjPRaPyzDw=="
-                length="3288819"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.3.1/supasidebar_v0.3.1.zip"
+                sparkle:edSignature="oFMSy+KL80vx2fDOuGK1rLMsK6oHnr3cEVFkq+b3wq4yabnTe0afio1vzh+tibjb2fmyLYlQh+jByEzsIkaABg=="
+                length="3295464"
                 type="application/octet-stream"/>
         </item>
     </channel>
