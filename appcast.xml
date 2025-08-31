@@ -4,7 +4,7 @@
         <title>SupaSidebar Updates</title>
         <item>
             <title>Version 0.4.0</title>
-            <pubDate>Sun, 31 Aug 2025 12:30:00 +0530</pubDate>
+            <pubDate>Sun, 31 Aug 2025 17:23:00 +0530</pubDate>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <description><![CDATA[
@@ -28,11 +28,12 @@
 <li><strong>New Browsers</strong>: Support for Comet and Orion</li>
 <li><strong>Adjust Opacity</strong>: Option to adjust opacity when sidebar not in focus</li>
 </ul>
+<p>##Bug Fix - Fixed: app crashes when opening command panel</p>
             ]]></description>
             <enclosure
                 url="https://github.com/auspy/supasidebar-updates/releases/download/v0.4.0/supasidebar_v0.4.0.zip"
-                sparkle:edSignature="3/KuZunzIND65jEkrxDFwgDiHeX4+FpNOmzKFQWejta3KeG1LE42q+5dzcYwZRpWAdweTVDLn6OKkYdFh/xYDg=="
-                length="3596632"
+                sparkle:edSignature="BGBVf2hVJEC+c6EuTbChPKWuUiA3sogvrBngHyOHi3W9FFoiXY06KakYtOMeg6rTmiLlqVtRKwz+cvBMBToVBQ=="
+                length="3596489"
                 type="application/octet-stream"/>
         </item>
     </channel>
