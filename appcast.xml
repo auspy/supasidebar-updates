@@ -3,37 +3,32 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.4.0</title>
-            <pubDate>Sun, 31 Aug 2025 17:23:00 +0530</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <title>Version 0.4.1</title>
+            <pubDate>Tue, 02 Sep 2025 23:09:00 +0530</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.4.0">SupaSidebar 0.4.0</h1>
+<h1 id="supasidebar-0.4.1">SupaSidebar 0.4.1</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Folders</strong>: Organize links in folders</li>
-<li><strong>Essential Tabs</strong>: Pin frequently used links to the sidebar</li>
-<li><strong>New Keyboard Shortcuts</strong>: No need to use mouse, access everything using keyboard shortcuts
-<ul>
-<li><strong>Copy Selected Link</strong>: Cmd + C</li>
-<li><strong>Open or Close Folder</strong>: Enter or Right and left Arrow keys</li>
-<li><strong>Pin Tab</strong>: Cmd + P</li>
-<li><strong>Open Essential Tabs</strong>: Cmd + Option + 1-9 (Global)</li>
-<li><strong>Select Browser to Open Link</strong>: Option + Enter or Option + Click</li>
-<li><strong>Open in Default Browser</strong>: Cmd + Enter or Cmd + Click</li>
-<li><strong>Move between Essentials, Saved and Folders</strong>: Up and Down Arrow keys</li>
-</ul></li>
-<li><strong>Move Folders and Links Between Spaces</strong>: Right click to move to another space</li>
-<li><strong>Adjust Recents</strong>: They are now optional, remove them or limit to a certain number</li>
-<li><strong>New Browsers</strong>: Support for Comet and Orion</li>
-<li><strong>Adjust Opacity</strong>: Option to adjust opacity when sidebar not in focus</li>
+<li><strong>Browser Detection</strong>: Automatically open on browser detection and close on browser removal</li>
+<li><strong>Optional Firefox Recents</strong>: Option to turn off recents only for firefox to prevent auto shortcuts</li>
+<li>Better UI/UX for folders</li>
+<li>Create folders option more easy to access</li>
+<li>Multi select to create folders, copy urls, delete and move</li>
+<li>Cmd + , : Opens preferences</li>
 </ul>
-<p>##Bug Fix - Fixed: app crashes when opening command panel</p>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed: Add folder button not visible</li>
+<li>Fixed: Open with popover does not allow keyboard access</li>
+<li>Fixed: on hide on deactivate users needed to press shortcut twice to open the sidebar</li>
+</ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.4.0/supasidebar_v0.4.0.zip"
-                sparkle:edSignature="BGBVf2hVJEC+c6EuTbChPKWuUiA3sogvrBngHyOHi3W9FFoiXY06KakYtOMeg6rTmiLlqVtRKwz+cvBMBToVBQ=="
-                length="3596489"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.4.1/supasidebar_v0.4.1.zip"
+                sparkle:edSignature="4z1YGYG6+0ilt5T8hrTCtBdQ7nRhjRBe+JYt8hwM1eqBf/HjZ7SnbHINsTTKG4OsSSk1obTq2TbMOSoNAfneAg=="
+                length="3663497"
                 type="application/octet-stream"/>
         </item>
     </channel>
