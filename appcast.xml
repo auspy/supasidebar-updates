@@ -4,7 +4,7 @@
         <title>SupaSidebar Updates</title>
         <item>
             <title>Version 0.4.2</title>
-            <pubDate>Thu, 04 Sep 2025 00:25:00 +0530</pubDate>
+            <pubDate>Thu, 04 Sep 2025 17:27:00 +0530</pubDate>
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
             <description><![CDATA[
@@ -17,6 +17,7 @@
 <li><strong>Better Header Differentiators</strong>: Enhanced visual distinction between different levels in the hierarchy</li>
 <li><strong>Numeric Input for Preferences</strong>: Allow typing numbers directly in recents limit preferences</li>
 <li><strong>Enhanced Onboarding</strong>: Expanded onboarding process to cover more features and scenarios</li>
+<li><strong>Major Performance Improvements</strong>: Optimized rendering and loading times for smoother user experience. Smooth scrolling and faster loading times.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
@@ -25,12 +26,14 @@
 <li>Fixed: Arrow keys not functioning properly in subfolders</li>
 <li>Fixed: Browser detection not starting until moving between spaces</li>
 <li>Fixed: Final onboarding screen did not use dynamic shortcutss</li>
+<li>Fixed: Rename does not rename the item and opens link</li>
+<li>Fixed: Cmd + Q not working</li>
 </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/auspy/supasidebar-updates/releases/download/v0.4.2/supasidebar_v0.4.2.zip"
-                sparkle:edSignature="WgfSQ00nSUvq7eeaG3/vB+sr/PY3O8QNyS98Pf1k4baNd9FfUb57ZH2YAtLwesr6UInBRoU1KMdjjkQL8sZlAA=="
-                length="3781603"
+                sparkle:edSignature="ob88wJfrVyNjJ7mWV6IK9i/z37y1NGcmhf6e/W3TastcQl2MU6nuBNjXrKb9os52KL7Vmrr9SU46NUNKqBbFDw=="
+                length="3818731"
                 type="application/octet-stream"/>
         </item>
     </channel>
