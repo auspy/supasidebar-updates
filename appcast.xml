@@ -3,37 +3,30 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.4.2</title>
-            <pubDate>Thu, 04 Sep 2025 17:27:00 +0530</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <title>Version 0.5.0</title>
+            <pubDate>Thu, 18 Sep 2025 16:46:00 +0530</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.4.2">SupaSidebar 0.4.2</h1>
+<h1 id="supasidebar-0.5.0">SupaSidebar 0.5.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Arrow Key Navigation</strong>: Scroll through items using arrow keys for better keyboard navigation</li>
-<li><strong>Non-Arrow Key Folder Mode</strong>: New folder expansion mode that doesn’t rely on arrow keys</li>
-<li><strong>Improved UI</strong>: More modern interface with better spacing and visual hierarchy</li>
-<li><strong>Better Header Differentiators</strong>: Enhanced visual distinction between different levels in the hierarchy</li>
-<li><strong>Numeric Input for Preferences</strong>: Allow typing numbers directly in recents limit preferences</li>
-<li><strong>Enhanced Onboarding</strong>: Expanded onboarding process to cover more features and scenarios</li>
-<li><strong>Major Performance Improvements</strong>: Optimized rendering and loading times for smoother user experience. Smooth scrolling and faster loading times.</li>
+<li><strong>Zen Browser Support</strong>: Added full support for Zen browser with proper accessibility integration</li>
+<li><strong>macOS Tahoe Support</strong>: Enhanced compatibility with macOS 26.0+ (Tahoe) including improved notification positioning and system integration</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed: Hanging issue caused by CloudKit sync</li>
-<li>Fixed: 3-dot rename option not working for folders</li>
-<li>Fixed: Arrow keys not functioning properly in subfolders</li>
-<li>Fixed: Browser detection not starting until moving between spaces</li>
-<li>Fixed: Final onboarding screen did not use dynamic shortcutss</li>
-<li>Fixed: Rename does not rename the item and opens link</li>
-<li>Fixed: Cmd + Q not working</li>
+<li>Fixed: Firefox and Dia browsers now use accessibility (AX) for URL detection, preventing conflicts with auto-copy shortcuts</li>
+<li>Fixed: Application crashes when using copy keyboard shortcut</li>
+<li>Fixed: Core Data operations causing application hangs during save processes</li>
+<li>Fixed: Renaming bugs that prevented proper item updates</li>
+<li>Fixed: Dia browser notification positioning on macOS Sequoia</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.4.2/supasidebar_v0.4.2.zip"
-                sparkle:edSignature="ob88wJfrVyNjJ7mWV6IK9i/z37y1NGcmhf6e/W3TastcQl2MU6nuBNjXrKb9os52KL7Vmrr9SU46NUNKqBbFDw=="
-                length="3818731"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.5.0/supasidebar_v0.5.0.zip"
+                sparkle:edSignature="2VCWAxTgsFYaasL+qM8xY5Hnae9xUtdFQb2Ut9Y1JuOUjWD9b35TNXLzcECt9zdMSEo4tYmcnMzLYcXBzCrJBA=="
+                length="3721145"
                 type="application/octet-stream"/>
         </item>
     </channel>
