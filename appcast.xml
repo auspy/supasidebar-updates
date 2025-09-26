@@ -3,30 +3,38 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.5.0</title>
-            <pubDate>Thu, 18 Sep 2025 16:46:00 +0530</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <title>Version 0.6.0</title>
+            <pubDate>Fri, 26 Sep 2025 21:07:00 +0530</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.5.0">SupaSidebar 0.5.0</h1>
+<h1 id="supasidebar-0.6.0">SupaSidebar 0.6.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Zen Browser Support</strong>: Added full support for Zen browser with proper accessibility integration</li>
-<li><strong>macOS Tahoe Support</strong>: Enhanced compatibility with macOS 26.0+ (Tahoe) including improved notification positioning and system integration</li>
-</ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+<li><strong>Enhanced Command Panel</strong>: Powerful new features for faster workflow
 <ul>
-<li>Fixed: Firefox and Dia browsers now use accessibility (AX) for URL detection, preventing conflicts with auto-copy shortcuts</li>
-<li>Fixed: Application crashes when using copy keyboard shortcut</li>
-<li>Fixed: Core Data operations causing application hangs during save processes</li>
-<li>Fixed: Renaming bugs that prevented proper item updates</li>
-<li>Fixed: Dia browser notification positioning on macOS Sequoia</li>
+<li>Quick website search functionality for instant web access (e.g., search YouTube by typing “yo” and pressing TAB)</li>
+<li>Toggle between searching saves, recents, or both using SHIFT + TAB</li>
+<li>Open links in any installed browser of your choice by pressing OPTION + ENTER</li>
+<li>No need to open a browser first—just open the command panel and search directly</li>
+</ul></li>
+<li><strong>File System Integration</strong>: Full support for files and folders in your sidebar
+<ul>
+<li>Drag and drop any Finder file directly into the sidebar</li>
+<li>Use Copy URL shortcut (⌘⇧C) to copy file/folder paths</li>
+<li>Save shortcut (⌘⇧S) to quickly add files to your sidebar</li>
+</ul></li>
+</ul>
+<h2 id="ui-improvements">UI Improvements</h2>
+<ul>
+<li><strong>Better Renaming Experience</strong>: Renaming interface is now more visible and intuitive</li>
+<li><strong>Multiple Folder Creation Options</strong>: Create new folders using the footer plus button or right-click context menu in the sidebar</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.5.0/supasidebar_v0.5.0.zip"
-                sparkle:edSignature="2VCWAxTgsFYaasL+qM8xY5Hnae9xUtdFQb2Ut9Y1JuOUjWD9b35TNXLzcECt9zdMSEo4tYmcnMzLYcXBzCrJBA=="
-                length="3721145"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.6.0/supasidebar_v0.6.0.zip"
+                sparkle:edSignature="z5O4I0at+eUWi0I+cs4zPJbGrmPK+MlLln+rm1eAXj1qIdjjLcVx6GCRzxSfcV7RylCmSagopAPh7DEPsECUAQ=="
+                length="3978778"
                 type="application/octet-stream"/>
         </item>
     </channel>
