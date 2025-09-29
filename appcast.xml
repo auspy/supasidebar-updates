@@ -3,38 +3,35 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.6.0</title>
-            <pubDate>Fri, 26 Sep 2025 21:07:00 +0530</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <title>Version 0.6.1</title>
+            <pubDate>Mon, 29 Sep 2025 20:48:00 +0530</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.6.0">SupaSidebar 0.6.0</h1>
+<h1 id="supasidebar-0.6.1">SupaSidebar 0.6.1</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Enhanced Command Panel</strong>: Powerful new features for faster workflow
-<ul>
-<li>Quick website search functionality for instant web access (e.g., search YouTube by typing “yo” and pressing TAB)</li>
-<li>Toggle between searching saves, recents, or both using SHIFT + TAB</li>
-<li>Open links in any installed browser of your choice by pressing OPTION + ENTER</li>
-<li>No need to open a browser first—just open the command panel and search directly</li>
-</ul></li>
-<li><strong>File System Integration</strong>: Full support for files and folders in your sidebar
-<ul>
-<li>Drag and drop any Finder file directly into the sidebar</li>
-<li>Use Copy URL shortcut (⌘⇧C) to copy file/folder paths</li>
-<li>Save shortcut (⌘⇧S) to quickly add files to your sidebar</li>
-</ul></li>
+<li><strong>About Section in Preferences</strong>: Added comprehensive about section with license information, contact details, and option to quit app directly from preferences</li>
+<li><strong>Editing options in Command Panel</strong>: Allows copy, paste, undo and select all in command panel input box.</li>
 </ul>
-<h2 id="ui-improvements">UI Improvements</h2>
+<h2 id="minor-changes">Minor Changes</h2>
 <ul>
-<li><strong>Better Renaming Experience</strong>: Renaming interface is now more visible and intuitive</li>
-<li><strong>Multiple Folder Creation Options</strong>: Create new folders using the footer plus button or right-click context menu in the sidebar</li>
+<li><strong>Default Browser Selection</strong>: Open in foremost browser is now the default option instead of default browser</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed: Icons not displaying properly during drag and drop operations</li>
+<li>Fixed: Files and folders not saving to current space when using keyboard shortcut to save</li>
+<li>Fixed: Space switching shortcuts not opening correct space folders</li>
+<li>Fixed: Command panel not allowing keyboard access on first open</li>
+<li>Fixed: Auto-hide toggle synchronization issues requiring manual toggle to activate properly</li>
+<li>Fixed: Duplicate saves being prevented, which blocked saving same folder/file path across different spaces</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.6.0/supasidebar_v0.6.0.zip"
-                sparkle:edSignature="z5O4I0at+eUWi0I+cs4zPJbGrmPK+MlLln+rm1eAXj1qIdjjLcVx6GCRzxSfcV7RylCmSagopAPh7DEPsECUAQ=="
-                length="3978778"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.6.1/supasidebar_v0.6.1.zip"
+                sparkle:edSignature="gJV/xodgb5QoPDVOuQdUciKKKmJfUdEdZx7s4eUyQ/nfx+jl2YTDNJYe6yDscIMMXXgyW5cWpD/00xEQyqcZCg=="
+                length="3992891"
                 type="application/octet-stream"/>
         </item>
     </channel>
