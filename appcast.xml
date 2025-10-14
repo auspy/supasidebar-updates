@@ -3,35 +3,27 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.6.1</title>
-            <pubDate>Mon, 29 Sep 2025 20:48:00 +0530</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <title>Version 0.7.0</title>
+            <pubDate>Wed, 15 Oct 2025 04:25:00 +0530</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.6.1">SupaSidebar 0.6.1</h1>
+<h1 id="supasidebar-0.7.0">SupaSidebar 0.7.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>About Section in Preferences</strong>: Added comprehensive about section with license information, contact details, and option to quit app directly from preferences</li>
-<li><strong>Editing options in Command Panel</strong>: Allows copy, paste, undo and select all in command panel input box.</li>
+<li><strong>Live Browser Tabs</strong>: View active tabs from supported browsers directly inside the sidebar so you can jump back without context switching.</li>
+<li><strong>Arc Imports</strong>: Bring your saved pages from Arc into SupaSidebar to populate spaces in seconds.</li>
 </ul>
 <h2 id="minor-changes">Minor Changes</h2>
 <ul>
-<li><strong>Default Browser Selection</strong>: Open in foremost browser is now the default option instead of default browser</li>
-</ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<ul>
-<li>Fixed: Icons not displaying properly during drag and drop operations</li>
-<li>Fixed: Files and folders not saving to current space when using keyboard shortcut to save</li>
-<li>Fixed: Space switching shortcuts not opening correct space folders</li>
-<li>Fixed: Command panel not allowing keyboard access on first open</li>
-<li>Fixed: Auto-hide toggle synchronization issues requiring manual toggle to activate properly</li>
-<li>Fixed: Duplicate saves being prevented, which blocked saving same folder/file path across different spaces</li>
+<li><strong>Command Panel Suggestions</strong>: Smarter recommendations surface the most relevant apps, pages, and saves while you type.</li>
+<li><strong>Right Arrow Shortcut</strong>: Press the Right Arrow key in the command panel to convert the highlighted suggestion into editable text before launching.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.6.1/supasidebar_v0.6.1.zip"
-                sparkle:edSignature="gJV/xodgb5QoPDVOuQdUciKKKmJfUdEdZx7s4eUyQ/nfx+jl2YTDNJYe6yDscIMMXXgyW5cWpD/00xEQyqcZCg=="
-                length="3992891"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.7.0/supasidebar_v0.7.0.zip"
+                sparkle:edSignature="Fye0dGhI3CJe1n/SM6vH34hy+32dX553Q7jqzXP+nh5dSm91SDai94Z4O1GVZpbAbOVDNlgf2uVSxW0oNbEjDQ=="
+                length="4435678"
                 type="application/octet-stream"/>
         </item>
     </channel>
