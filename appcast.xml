@@ -3,27 +3,48 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.7.0</title>
-            <pubDate>Wed, 15 Oct 2025 04:25:00 +0530</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <title>Version 0.8.0</title>
+            <pubDate>Wed, 29 Oct 2025 02:43:00 +0530</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.7.0">SupaSidebar 0.7.0</h1>
+<h1 id="supasidebar-0.8.0">SupaSidebar 0.8.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Live Browser Tabs</strong>: View active tabs from supported browsers directly inside the sidebar so you can jump back without context switching.</li>
-<li><strong>Arc Imports</strong>: Bring your saved pages from Arc into SupaSidebar to populate spaces in seconds.</li>
-</ul>
-<h2 id="minor-changes">Minor Changes</h2>
+<li><strong>Browser Integration</strong>: Choose how the sidebar works with your browser:
 <ul>
-<li><strong>Command Panel Suggestions</strong>: Smarter recommendations surface the most relevant apps, pages, and saves while you type.</li>
-<li><strong>Right Arrow Shortcut</strong>: Press the Right Arrow key in the command panel to convert the highlighted suggestion into editable text before launching.</li>
+<li><strong>Attach Mode</strong>: The sidebar sticks to the left or right edge of your browser and moves with it. Works with multiple browsers simultaneously.</li>
+<li><strong>Smart Open</strong>: Automatically repositions your browser windows so the sidebar never overlaps them.</li>
+<li><strong>Fill Mode</strong>: The sidebar and browser combine to use your entire screen space efficiently.</li>
+</ul></li>
+<li><strong>Save and Restore Tabs</strong>: Each space can now save and restore its own set of tabs, just like Arc’s sidebar. Works with any browser and even supports multiple browsers at once. (Will try bringing different login for each space!)</li>
+<li><strong>Chrome Import</strong>: Bring your saved pages from Chrome into SupaSidebar to quickly populate your spaces.</li>
+<li><strong>ChatGPT Atlas Support</strong>: New browser support.</li>
+<li><strong>Smart Tab Reuse</strong>: Links now open in existing tabs in that browser when available instead of creating duplicates every time.</li>
+</ul>
+<h2 id="minor-changes---quality-of-life-improvements">Minor Changes - Quality of life improvements</h2>
+<ul>
+<li><strong>Browser Switcher</strong>: The command panel now shows which browser will open your link and lets you easily switch between browsers.</li>
+<li><strong>Quick Browser Access</strong>: Hover on saved links to quickly open links in either of your last 2 used browsers without navigating through menus.</li>
+<li><strong>Improved Preferences</strong>: Reorganized settings to make it easier to find what you need.</li>
+<li><strong>Better Search Priority</strong>: Command panel now prioritizes recently visited links to surface what you’re looking for faster.</li>
+<li><strong>Domain Search</strong>: Find and open domains more easily in the command panel.</li>
+<li><strong>Extended History</strong>: Recents are now stored locally for 30 days to provide better search suggestions. Clear them anytime with one click.</li>
+<li><strong>Live Tabs Multi Window Support</strong>: Accurately opens correct tab of any window.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed dragging links accidentally opening folders too quickly, making it difficult to move items between folders.</li>
+<li>Fixed mouse trigger toggle settings not syncing properly.</li>
+<li>Replaced automatic tab sorting with manual sorting in live tabs for better control.</li>
+<li>Fixed search highlight persistence that made using backspace difficult.</li>
+<li>Various UI updates and performance improvements.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.7.0/supasidebar_v0.7.0.zip"
-                sparkle:edSignature="Fye0dGhI3CJe1n/SM6vH34hy+32dX553Q7jqzXP+nh5dSm91SDai94Z4O1GVZpbAbOVDNlgf2uVSxW0oNbEjDQ=="
-                length="4435678"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.8.0/supasidebar_v0.8.0.zip"
+                sparkle:edSignature="JTcfGC8otbnJqoXp5+7vDsl8kGSImDRCx5cBomjemG9pr5AXQyEWXgrh96qF4Rh/2m4Z8FO7j9+hSGv5XgCcCw=="
+                length="4962387"
                 type="application/octet-stream"/>
         </item>
     </channel>
