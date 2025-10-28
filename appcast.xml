@@ -4,7 +4,7 @@
         <title>SupaSidebar Updates</title>
         <item>
             <title>Version 0.8.0</title>
-            <pubDate>Wed, 29 Oct 2025 02:43:00 +0530</pubDate>
+            <pubDate>Wed, 29 Oct 2025 02:57:00 +0530</pubDate>
             <sparkle:version>12</sparkle:version>
             <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
             <description><![CDATA[
@@ -43,8 +43,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/auspy/supasidebar-updates/releases/download/v0.8.0/supasidebar_v0.8.0.zip"
-                sparkle:edSignature="JTcfGC8otbnJqoXp5+7vDsl8kGSImDRCx5cBomjemG9pr5AXQyEWXgrh96qF4Rh/2m4Z8FO7j9+hSGv5XgCcCw=="
-                length="4962387"
+                sparkle:edSignature="OPcd9zZzH0fVWWlW4AEk0L8q4mT2JBktqdU1C/y6OyVUbhPd7kVnTidgzl8rbIMcmjepvAWaJt8jTl1BtizoCQ=="
+                length="4962312"
                 type="application/octet-stream"/>
         </item>
     </channel>
