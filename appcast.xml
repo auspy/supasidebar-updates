@@ -4,7 +4,7 @@
         <title>SupaSidebar Updates</title>
         <item>
             <title>Version 0.10.0</title>
-            <pubDate>Sun, 09 Nov 2025 14:36:00 +0530</pubDate>
+            <pubDate>Sun, 09 Nov 2025 17:35:00 +0530</pubDate>
             <sparkle:version>15</sparkle:version>
             <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
             <description><![CDATA[
@@ -20,12 +20,13 @@
 <ul>
 <li>Fixed nested folders not appearing in the “Move to Folder” menu and manual link creation folder picker.</li>
 <li>Fixed app taking 20+ seconds to launch or hanging on startup in some devices caused by iCloud sync issues.</li>
+<li>Fixed: Smart folders changing order</li>
 </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/auspy/supasidebar-updates/releases/download/v0.10.0/supasidebar_v0.10.0.zip"
-                sparkle:edSignature="eWFFJZAGQ2dlK7P8O/6iWK8fpNFf9V1tq6wK61UAArljlaAb738txepYeyaDWugW71scpUbI3QE7kAiYbHzZBg=="
-                length="5780549"
+                sparkle:edSignature="dlNLuqnU3KIfB1laE10Gd3OrpnMrEOw8tAe9lz8W9JUgccmOaJNxMGUJfMmDhcnN4gGlchj8vK6LTwPdu8EjBA=="
+                length="5799621"
                 type="application/octet-stream"/>
         </item>
     </channel>
