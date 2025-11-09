@@ -3,37 +3,29 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.9.0</title>
-            <pubDate>Tue, 04 Nov 2025 07:36:00 +0530</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <title>Version 0.10.0</title>
+            <pubDate>Sun, 09 Nov 2025 14:36:00 +0530</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.9.0">SupaSidebar 0.9.0</h1>
+<h1 id="supasidebar-0.10.0">SupaSidebar 0.10.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Smart Folders</strong>: Automatically organize links using custom filters. Filter by date, domain, URL pattern, type, or spaces to keep everything organized without manual sorting. Create them using the plus button in the sidebar footer.</li>
-<li><strong>Default Sidebar Position</strong>: Choose whether the sidebar opens on the left or right side by default to match your preferred workflow.</li>
-<li><strong>Manual Link Creation</strong>: Add new links directly from the sidebar footer using the plus button instead of relying only on keyboard shortcuts.</li>
-<li><strong>Wavebox browser support</strong></li>
-</ul>
-<h2 id="minor-changes">Minor Changes</h2>
-<ul>
-<li><strong>Better Rename Flow</strong>: Renaming items now automatically selects the text and focuses the input field for faster editing.</li>
-<li><strong>Quick Move to Folder</strong>: Move items to folders using right-click or the 3-dot context menu.</li>
-<li><strong>Performance Improvements</strong>: Various optimizations throughout the app.</li>
+<li><strong>Quick Link Pasting</strong>: Paste any copied URL directly into folders using ⌘V for lightning-fast link organization without opening dialogs.</li>
+<li><strong>Manual Link Creation Shortcuts</strong>: Create new links instantly with ⌘N in-app or set your own global shortcut for system-wide access to the link creator.</li>
+<li><strong>Helium Browser Support</strong>: Full integration with Helium’s live tabs for seamless browsing workflow.</li>
+<li><strong>Customizable Hover Behavior</strong>: Choose whether hovering over links shows browser buttons or displays the link title and icon to match your preferred workflow.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed folders collapsing unexpectedly when renaming items.</li>
-<li>Fixed rename functionality being blocked by hover interactions.</li>
-<li>Fixed browser button breaking layout after 3rd layer of nested folders.</li>
-<li>Fixed scrolling lag when opening nested folders.</li>
+<li>Fixed nested folders not appearing in the “Move to Folder” menu and manual link creation folder picker.</li>
+<li>Fixed app taking 20+ seconds to launch or hanging on startup in some devices caused by iCloud sync issues.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.9.0/supasidebar_v0.9.0.zip"
-                sparkle:edSignature="ZI/fdbcb1k0P8EXg7nwq05x7pmBdLS2eXx4U39vju/awjMrh91ZsPZSaEZg8hZo235Dc3owC31Y5vQxo0YEeBg=="
-                length="5761395"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.10.0/supasidebar_v0.10.0.zip"
+                sparkle:edSignature="eWFFJZAGQ2dlK7P8O/6iWK8fpNFf9V1tq6wK61UAArljlaAb738txepYeyaDWugW71scpUbI3QE7kAiYbHzZBg=="
+                length="5780549"
                 type="application/octet-stream"/>
         </item>
     </channel>
