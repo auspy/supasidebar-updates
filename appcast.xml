@@ -3,30 +3,26 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.10.0</title>
-            <pubDate>Sun, 09 Nov 2025 17:35:00 +0530</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <title>Version 0.10.1</title>
+            <pubDate>Tue, 11 Nov 2025 12:02:00 +0530</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.10.0">SupaSidebar 0.10.0</h1>
+<h1 id="supasidebar-0.10.1">SupaSidebar 0.10.1</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Quick Link Pasting</strong>: Paste any copied URL directly into folders using ⌘V for lightning-fast link organization without opening dialogs.</li>
-<li><strong>Manual Link Creation Shortcuts</strong>: Create new links instantly with ⌘N in-app or set your own global shortcut for system-wide access to the link creator.</li>
-<li><strong>Helium Browser Support</strong>: Full integration with Helium’s live tabs for seamless browsing workflow.</li>
-<li><strong>Customizable Hover Behavior</strong>: Choose whether hovering over links shows browser buttons or displays the link title and icon to match your preferred workflow.</li>
+<li><strong>Improved Hover Behavior</strong>: Live tabs hover no longer changes text, reducing confusion and providing a more stable viewing experience.</li>
+<li><strong>Removed Cloud Sync Status</strong>: Cloud Sync button now does not show sync status.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed nested folders not appearing in the “Move to Folder” menu and manual link creation folder picker.</li>
-<li>Fixed app taking 20+ seconds to launch or hanging on startup in some devices caused by iCloud sync issues.</li>
-<li>Fixed: Smart folders changing order</li>
+<li>Fixed critical issue where Cloud Sync prevented the app from launching on some devices.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.10.0/supasidebar_v0.10.0.zip"
-                sparkle:edSignature="dlNLuqnU3KIfB1laE10Gd3OrpnMrEOw8tAe9lz8W9JUgccmOaJNxMGUJfMmDhcnN4gGlchj8vK6LTwPdu8EjBA=="
-                length="5799621"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.10.1/supasidebar_v0.10.1.zip"
+                sparkle:edSignature="iBEl7iMVJywQlfHlW7YgMANOJK9CHmj2nzMxFx9zahsSohN0cMwmSuvLmiVAEO/D5bRMFGMrRqtTtxVznzYqDg=="
+                length="5749844"
                 type="application/octet-stream"/>
         </item>
     </channel>
