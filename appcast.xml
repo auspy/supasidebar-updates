@@ -3,26 +3,38 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.10.1</title>
-            <pubDate>Tue, 11 Nov 2025 12:02:00 +0530</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+            <title>Version 0.12.0</title>
+            <pubDate>Thu, 04 Dec 2025 18:41:00 +0530</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.10.1">SupaSidebar 0.10.1</h1>
+<h1 id="supasidebar-0.12.0">SupaSidebar 0.12.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Improved Hover Behavior</strong>: Live tabs hover no longer changes text, reducing confusion and providing a more stable viewing experience.</li>
-<li><strong>Removed Cloud Sync Status</strong>: Cloud Sync button now does not show sync status.</li>
+<li><strong>Dock Mode</strong>: Sidebar now pushes browser windows aside instead of overlapping them. Windows automatically return to full width when sidebar hides. This mimics the behaviour of inbuilt sidebar in any browser.</li>
+<li><strong>Smart Folders for Files</strong>: Smart folders can now automatically organize files and folders (not just links) based on conditions like file type, path, or name patterns.</li>
+<li><strong>Save All Tabs to Folder</strong>: Quickly save all currently open tabs to a folder with a single action.</li>
+<li><strong>Custom Pin Icons</strong>: Added ability to manually set custom icons for pinned sites.</li>
+<li><strong>Compact Sidebar View</strong>: New sidebar view option that shows only favicons, taking up minimal space.</li>
+<li><strong>Smart Folder Operations</strong>: Smart folders now support the same operations as normal folders, including moving to different spaces.</li>
+<li><strong>Improved Tab Distinction</strong>: Better visual contrast for tabs from different browser windows.</li>
+<li><strong>Favicons in Live Tabs</strong>: Live tabs now show favicons</li>
+<li><strong>Toolip</strong>: Tooltip on hover to get full link and info about link or folder.</li>
+<li><strong>Swipe to Change Space</strong>: Swipe left or right with 2 fingers to move between spaces.</li>
+<li><strong>Peek View</strong>: Cmd + Click to preview link in a mini window.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed critical issue where Cloud Sync prevented the app from launching on some devices.</li>
+<li>Fixed issue where clicking the cloud status menu icon would trigger hide on deactivate behavior, causing the sidebar to hide unexpectedly.</li>
+<li>Fixed critical bug where save shortcut was not working in Arc and Dia browsers.</li>
+<li>Fixed issue where users were stuck on the onboarding screen.</li>
+<li>Fixed bug where smart folders and regular folders were not shown until there was at least one link in the space.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.10.1/supasidebar_v0.10.1.zip"
-                sparkle:edSignature="iBEl7iMVJywQlfHlW7YgMANOJK9CHmj2nzMxFx9zahsSohN0cMwmSuvLmiVAEO/D5bRMFGMrRqtTtxVznzYqDg=="
-                length="5749844"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.12.0/supasidebar_v0.12.0.zip"
+                sparkle:edSignature="6tJQxaSHdbc/tnoZCfwuKJh+tP1TPLwNif/tiLhCZMYUcz4+9GfRxCgjsFRmAPyGu979NSY7N9vsASwp7GUjAw=="
+                length="6560763"
                 type="application/octet-stream"/>
         </item>
     </channel>
