@@ -3,39 +3,35 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.13.0</title>
-            <pubDate>Sun, 04 Jan 2026 20:34:00 +0530</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+            <title>Version 0.14.0</title>
+            <pubDate>Tue, 27 Jan 2026 00:04:00 +0530</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.13.0">SupaSidebar 0.13.0</h1>
+<h1 id="supasidebar-0.14.0">SupaSidebar 0.14.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Notes</strong>: Add notes to any link or folder. Keep context and thoughts alongside your saved content. Search links using fuzzy search on notes as well.</li>
-<li><strong>Tags</strong>: Organize links with custom tags for better categorization and filtering.</li>
-<li><strong>AI-Powered Auto Tagging</strong>: SupaSidebar now suggests relevant tags automatically using on-device AI (MLX) or openai models(API key needed).</li>
-</ul>
-<h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Glass Theme Compact Mode</strong>: Fixed compact mode visual issues when using the glass theme.</li>
+<li><strong>Smart Folders with Tags</strong>: Smart folders can now use tags as filter conditions. Create dynamic folders that automatically collect links based on their tags.</li>
+<li><strong>Open Tab in Another Browser</strong>: Quickly open the current tab in a different browser directly from SupaSidebar.</li>
+<li><strong>Preferred Browser per Link</strong>: Set a preferred browser for individual links. When opened, the link will automatically launch in your chosen browser.</li>
+<li><strong>Tooltip Delay</strong>: Added option to configure tooltip delay, giving you control over when tooltips appear on hover.</li>
+<li><strong>French Translations</strong>: Added French language support.</li>
+<li><strong>Cmd + Click Options</strong>: Configure what happens when you Cmd + Click a link - open in frontmost browser, preferred browser, or show preview.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed multi-monitor usage for dock mode.</li>
-<li>Fixed multi-window support issues.</li>
-<li>Fixed existing tabs not opening correctly from recents.</li>
-<li>Fixed sidebar icon not displaying correctly.</li>
-<li>Fixed sidebar closing unexpectedly when opening a pinned tab.</li>
-</ul>
-<h2 id="notes">Notes</h2>
-<ul>
-<li>Background sync may result in higher CPU usage. This is expected behavior during sync operations.</li>
+<li>Fixed browser window resizing on space change even when sidebar is not visible.</li>
+<li>Fixed license activation error.</li>
+<li>Fixed edit menu showing links in root folder instead of their actual folder location.</li>
+<li>Fixed edit menu displaying folders in random order instead of hierarchical structure.</li>
+<li>Fixed browser reopening after being closed.</li>
+<li>Fixed open at login not working.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.13.0/supasidebar_v0.13.0.zip"
-                sparkle:edSignature="7T3tqz/udSyly+RTxrc7lSGFw1dWFDgGfBYZZQA8Iz5bKHomLB4RKQddzg7s2qZhp/hnQWevc0c0EhUbj7FbAw=="
-                length="15817409"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.14.0/supasidebar_v0.14.0.zip"
+                sparkle:edSignature=""
+                length="16325270"
                 type="application/octet-stream"/>
         </item>
     </channel>
