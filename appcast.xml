@@ -3,59 +3,31 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.15.0</title>
-            <pubDate>Wed, 25 Feb 2026 13:18:00 +0530</pubDate>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+            <title>Version 0.15.1</title>
+            <pubDate>Wed, 25 Feb 2026 18:12:00 +0530</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.15.0">SupaSidebar 0.15.0</h1>
+<h1 id="supasidebar-0.15.1">SupaSidebar 0.15.1</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Air Traffic Control</strong>: Create rules to automatically route links to specific spaces based on URL patterns. Filter by source browser and choose whether rules apply when saving or opening links.</li>
-<li><strong>Profile &amp; Browser-Linked Spaces</strong>: Link any space to a browser profile or a specific browser. Switching spaces instantly raises the correct window using Accessibility APIs. Includes profile discovery across Safari, Chrome, Firefox, Edge, and Arc.</li>
-<li><strong>Smart Attach</strong>: Sidebar now truly integrates with your browser. It auto-shows when your browser is in focus, brings the browser forward when activated, and hides when you switch to other apps. Choose between Independent and Smart Attach modes.</li>
-<li><strong>Auto-Tiling</strong>: Browser windows automatically arrange alongside the sidebar. Smart mode tiles only the active profile’s windows, while All mode tiles every browser window.</li>
-<li><strong>Shared Spaces</strong>: Publish any space as a shareable link collection. Others can view and import your shared spaces into their own sidebar.</li>
-<li><strong>Import &amp; Export</strong>: Back up and transfer your data with the new .ssb file format. Export everything or import from another device.</li>
-<li><strong>Spotlight-Like Search</strong>: Completely redesigned search with token matching, inline autocomplete, and selection memory. Finds links by title, URL, notes, and tags.</li>
-<li><strong>Expanded Pin Icons</strong>: Customize pinned link icons with emoji, SF Symbols, or upload your own image.</li>
-<li><strong>Drag-to-Reorder Pinned Tabs</strong>: Rearrange your pinned links directly by dragging them into the order you want.</li>
-<li><strong>Copy All URLs</strong>: Bulk copy or open all URLs from any folder, smart folder, or live tabs. Also works with multi-selected links.</li>
-<li><strong>Paste from Clipboard</strong>: Right-click any folder or space to paste a URL directly from your clipboard.</li>
-<li><strong>Tab Restore on Space Switch</strong>: When switching between profile spaces, a prompt shows any tabs that were open before with options to restore or skip. Configurable per-space with a “Don’t ask again” option.</li>
-<li><strong>Fill Screen Shortcut</strong>: Press Cmd+Opt+F to toggle fill screen mode, instantly positioning the sidebar and browser to use your full display.</li>
-<li><strong>Adaptive Spaces Bar</strong>: Arc-style bottom bar that dynamically sizes space icons based on available width - icons shrink progressively as you add more spaces, with dock-style hover magnification.</li>
-<li><strong>More AI Models</strong>: Added Ollama as an AI tagging provider alongside the expanded MLX model list for on-device tag suggestions.</li>
-<li><strong>Space Switch Suggestion</strong>: When you activate a browser or profile linked to a different space, the sidebar suggests switching to the matching space automatically.</li>
-<li><strong>Free Tier Update</strong>: The free plan now includes 3 spaces instead of 1, giving new users more room to organize before upgrading.</li>
+<li><strong>Update Notifications</strong>: A new in-sidebar notification alerts you after each update with the release title and a “Learn More” link to the full release notes. Appears once per update and can be dismissed.</li>
+<li><strong>Space Finder</strong>: Quickly find and switch between spaces, even with 15-20+. Type a space name in the command panel (⌘⌃K) to see matching spaces in results, or right-click the bottom bar or any space icon for a full space list.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Don’t Reload Open Tabs</strong>: Clicking a saved or pinned link that’s already open now switches to it without reloading the page.</li>
-<li><strong>Edit from Context Menu</strong>: Pinned links context menu now includes Edit and Open Preview options.</li>
-<li><strong>Preferred Browser</strong>: “Browser Saved From” renamed to “Preferred Browser” for clarity across the app and menu bar.</li>
-<li><strong>Auto-Raise Browser</strong>: Opening the sidebar now automatically brings the browser window to the front, so it’s always ready alongside your tabs. With Smart Attach enabled, the sidebar and browser automatically tile side-by-side or fill the screen together.</li>
-<li><strong>Floating Tooltips</strong>: Space icons now show floating tooltips on hover for better identification.</li>
+<li><strong>Manual Hide Respected</strong>: When you manually hide the sidebar (shortcut, menu bar, button, or Escape), it stays hidden while you keep browsing. Auto-show resumes automatically once you switch to another app and come back. Mouse hover to the screen edge still works anytime.</li>
+<li><strong>Auto-show Paused Notification</strong>: A brief notification appears when you manually hide the sidebar, letting you know auto-show is paused. Can be turned off in Sidebar preferences under “Show Manual Hide Notification”.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Fixed folder count not updating correctly after pinning a link.</li>
-<li>Fixed multi-select drag not moving all selected links together.</li>
-<li>Fixed subfolder spacing gap and header height shifting on hover.</li>
-<li>Fixed crash when scrolling through folders with 80+ tabs.</li>
-<li>Fixed live tabs causing lag with 30+ open tabs.</li>
-<li>Fixed sidebar not staying within screen bounds in attach mode.</li>
-</ul>
-<h2 id="performance">Performance</h2>
-<ul>
-<li>Optimized folder tree rendering for large collections (80+ tabs per folder).</li>
-<li>Adaptive live tabs polling - faster when active, slower when sidebar is hidden.</li>
+<li>Fixed sidebar reappearing immediately after manual hide when clicking on a browser window.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.0/supasidebar_v0.15.0.zip"
-                sparkle:edSignature="W20gK7F/Hs+sU1T9738NgHWTgFsr+c4AjdC8Wx3SYTdeaK06lOmgSvs+i8hoIm30018NkaqoZRFyT9MVftlWAQ=="
-                length="18223709"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.1/supasidebar_v0.15.1.zip"
+                sparkle:edSignature="HaSxIr2RpxF7EMtuHu3SjDWm/AQ1qAHjNWAVhR509pR7ilSr/tNGZkD+b1yKqHfduW/drb7jE+aAS4imbt0CDQ=="
+                length="18265010"
                 type="application/octet-stream"/>
         </item>
     </channel>
