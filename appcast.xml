@@ -3,31 +3,26 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.15.1</title>
-            <pubDate>Thu, 26 Feb 2026 07:54:00 +0530</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+            <title>Version 0.15.2</title>
+            <pubDate>Thu, 26 Feb 2026 17:53:00 +0530</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.15.1">SupaSidebar 0.15.1</h1>
+<h1 id="supasidebar-0.15.2">SupaSidebar 0.15.2</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Update Notifications</strong>: A new in-sidebar notification alerts you after each update with the release title and a “Learn More” link to the full release notes. Appears once per update and can be dismissed.</li>
-<li><strong>Space Finder</strong>: Quickly find and switch between spaces, even with 15-20+. Type a space name in the command panel (⌘⌃K) to see matching spaces in results, or right-click the bottom bar or any space icon for a full space list.</li>
+<li><strong>Natural Swipe Direction</strong>: Swipe direction for switching spaces now matches macOS Mission Control by default (swipe left → next space). You can toggle this in Preferences → Sidebar → Gestures.</li>
+<li><strong>Show on Finder</strong>: Sidebar now stays visible when switching to Finder, making it easy to drag and drop files into the sidebar. Enabled by default, configurable in Preferences → Sidebar.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Manual Hide Respected</strong>: When you manually hide the sidebar (shortcut, menu bar, button, or Escape), it stays hidden while you keep browsing. Auto-show resumes automatically once you switch to another app and come back. Mouse hover to the screen edge still works anytime.</li>
-<li><strong>Auto-show Paused Notification</strong>: A brief notification appears when you manually hide the sidebar, letting you know auto-show is paused. Can be turned off in Sidebar preferences under “Show Manual Hide Notification”.</li>
-</ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<ul>
-<li>Fixed sidebar reappearing immediately after manual hide when clicking on a browser window.</li>
+<li>Manual hide notification (“Auto-show Paused”) now auto-disables after showing 10 times to reduce noise.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.1/supasidebar_v0.15.1.zip"
-                sparkle:edSignature="HaSxIr2RpxF7EMtuHu3SjDWm/AQ1qAHjNWAVhR509pR7ilSr/tNGZkD+b1yKqHfduW/drb7jE+aAS4imbt0CDQ=="
-                length="18265010"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.2/supasidebar_v0.15.2.zip"
+                sparkle:edSignature="GMyf3GoOSTg7+c6fLChhgp9gl2GFtzJfeAsfi5A/uHlYfYf3YKbwf3WRhW8KMRtiqEiEhbZcPPaSCSaelVjSAw=="
+                length="18269887"
                 type="application/octet-stream"/>
         </item>
     </channel>
