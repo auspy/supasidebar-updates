@@ -3,26 +3,28 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.15.2</title>
-            <pubDate>Thu, 26 Feb 2026 17:53:00 +0530</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
+            <title>Version 0.15.3</title>
+            <pubDate>Sat, 28 Feb 2026 14:29:00 +0530</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.15.3</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.15.2">SupaSidebar 0.15.2</h1>
+<h1 id="supasidebar-0.15.3">SupaSidebar 0.15.3</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Natural Swipe Direction</strong>: Swipe direction for switching spaces now matches macOS Mission Control by default (swipe left → next space). You can toggle this in Preferences → Sidebar → Gestures.</li>
-<li><strong>Show on Finder</strong>: Sidebar now stays visible when switching to Finder, making it easy to drag and drop files into the sidebar. Enabled by default, configurable in Preferences → Sidebar.</li>
+<li><strong>French Translations</strong>: Added ~110 French translations covering context menus, settings, notifications, license view, share dialog, referral section, and more.</li>
 </ul>
-<h2 id="improvements">Improvements</h2>
+<h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Manual hide notification (“Auto-show Paused”) now auto-disables after showing 10 times to reduce noise.</li>
+<li><strong>Compact Mode</strong>: Fixed broken banner cards and missing browser entries in compact sidebar view.</li>
+<li><strong>Arc Import</strong>: Fixed freezing and silent failures during import, with better feedback and support for the latest Arc data format.</li>
+<li><strong>Folder Ordering</strong>: Fixed folders continuously swapping positions by adding stable sort tiebreakers and deduplicating existing order values on startup.</li>
+<li><strong>Thread Safety</strong>: Moved SF Symbol validation off background threads to prevent potential crashes.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.2/supasidebar_v0.15.2.zip"
-                sparkle:edSignature="GMyf3GoOSTg7+c6fLChhgp9gl2GFtzJfeAsfi5A/uHlYfYf3YKbwf3WRhW8KMRtiqEiEhbZcPPaSCSaelVjSAw=="
-                length="18269887"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.3/supasidebar_v0.15.3.zip"
+                sparkle:edSignature="xn9dDjr0AHC/7CZnmyJlI/jnHqAiXm/blHKql0Nbhgw6JG+4BY+rJOnxWXxKMX1e2gnKeWDdRhMnenvAUHHwCw=="
+                length="18306348"
                 type="application/octet-stream"/>
         </item>
     </channel>
