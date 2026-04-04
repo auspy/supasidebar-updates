@@ -3,28 +3,49 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.15.3</title>
-            <pubDate>Sat, 28 Feb 2026 14:29:00 +0530</pubDate>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.15.3</sparkle:shortVersionString>
+            <title>Version 0.16.0</title>
+            <pubDate>Sat, 04 Apr 2026 20:43:00 +0530</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.15.3">SupaSidebar 0.15.3</h1>
+<h1 id="supasidebar-0.16.0">SupaSidebar 0.16.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>French Translations</strong>: Added ~110 French translations covering context menus, settings, notifications, license view, share dialog, referral section, and more.</li>
+<li><strong>Space Color Tint</strong>: Each space now tints the entire sidebar with its color, giving you an instant visual cue for which space you’re in.</li>
+<li><strong>Slide Animation</strong>: The sidebar smoothly slides in and out when it opens or closes, animating in the right direction based on where it sits on your screen.</li>
+<li><strong>Active Tab Highlight</strong>: Your currently open tab is now highlighted in Live Tabs, so it’s always easy to spot where you are.</li>
+<li><strong>Dia Browser Support</strong>: Live Tabs now work with Dia browser.</li>
+<li><strong>Per-Space Browser</strong>: Each space can now have its own default browser. Links in that space open there automatically, regardless of your global setting. You can set this in Preferences &gt; Air Traffic Control.</li>
+<li><strong>Privacy Blocklist</strong>: Keep certain sites or entire browsers out of Live Tabs and Recents. Add any URL, domain, or browser so your personal browsing stays private.</li>
+<li><strong>Quick Settings Menu</strong>: A new ••• menu in the top bar gives you fast access to common sidebar settings without opening Preferences.</li>
+<li><strong>Import from HTML &amp; More Browsers</strong>: Import bookmarks from an exported HTML file, or bring in links from any Chromium-based browser — Brave, Opera, Vivaldi, and more.</li>
+<li><strong>SupaSidebar MCP</strong>: SupaSidebar can now be controlled by AI assistants like Claude. Search your sidebar, switch spaces, and open links — all hands-free using SupaSidebar MCP.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Snappier Browser Tracking</strong>: The sidebar now reacts to browser window changes the moment they happen, instead of checking on a fixed interval.</li>
+<li><strong>Smart Folder Keyboard Navigation</strong>: Navigate smart folders with your keyboard, just like regular folders.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Compact Mode</strong>: Fixed broken banner cards and missing browser entries in compact sidebar view.</li>
-<li><strong>Arc Import</strong>: Fixed freezing and silent failures during import, with better feedback and support for the latest Arc data format.</li>
-<li><strong>Folder Ordering</strong>: Fixed folders continuously swapping positions by adding stable sort tiebreakers and deduplicating existing order values on startup.</li>
-<li><strong>Thread Safety</strong>: Moved SF Symbol validation off background threads to prevent potential crashes.</li>
+<li><strong>Sidebar Position</strong>: In draggable mode the sidebar no longer resets its position when toggled off and back on.</li>
+<li><strong>Locked Space</strong>: Fixed the locked space overlay navigating to the wrong space.</li>
+<li><strong>Auto-Tile Popups</strong>: Small browser popups no longer interfere with auto-tiling.</li>
+<li><strong>Glass Theme</strong>: Fixed a visual glitch in the Glass theme making the search and bottom bars appear darker than intended.</li>
+<li><strong>Safari Profiles</strong>: Fixed profile detection for users with 3 or more Safari profiles.</li>
+<li><strong>Command Panel</strong>: The search shortcut name now shows correctly in command panel suggestions.</li>
+<li><strong>Autocomplete URL</strong>: Autocomplete suggestions now show the actual URL, not just the site name.</li>
+<li><strong>Edit Link Sheet</strong>: Editing any type of link now opens the full edit sheet correctly.</li>
+<li><strong>Moving Subfolders</strong>: Moving a subfolder is now possible to another space.</li>
+<li><strong>Atlas Startup</strong>: Fixed a slowdown at launch caused by Atlas browser.</li>
+<li><strong>Safari Profile Language</strong>: Safari profile detection now works correctly regardless of your system language.</li>
+<li><strong>Import Permissions</strong>: The error shown when import lacks permissions now points to the correct system setting.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.15.3/supasidebar_v0.15.3.zip"
-                sparkle:edSignature="xn9dDjr0AHC/7CZnmyJlI/jnHqAiXm/blHKql0Nbhgw6JG+4BY+rJOnxWXxKMX1e2gnKeWDdRhMnenvAUHHwCw=="
-                length="18306348"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.16.0/supasidebar_v0.16.0.zip"
+                sparkle:edSignature="IZbHt0HiKatDte5218BMV3pTl2RHAGRzUpdw4fMJnj5AKjF//P8AizajhLzWx9b7GO+YM8IJ26EvXEZCsaFsDw=="
+                length="18722246"
                 type="application/octet-stream"/>
         </item>
     </channel>
