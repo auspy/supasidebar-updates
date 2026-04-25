@@ -3,49 +3,82 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.16.0</title>
-            <pubDate>Sat, 04 Apr 2026 20:43:00 +0530</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+            <title>Version 0.17.0</title>
+            <pubDate>Sat, 25 Apr 2026 16:22:00 +0530</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.16.0">SupaSidebar 0.16.0</h1>
+<h1 id="supasidebar-0.17.0">SupaSidebar 0.17.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Space Color Tint</strong>: Each space now tints the entire sidebar with its color, giving you an instant visual cue for which space you’re in.</li>
-<li><strong>Slide Animation</strong>: The sidebar smoothly slides in and out when it opens or closes, animating in the right direction based on where it sits on your screen.</li>
-<li><strong>Active Tab Highlight</strong>: Your currently open tab is now highlighted in Live Tabs, so it’s always easy to spot where you are.</li>
-<li><strong>Dia Browser Support</strong>: Live Tabs now work with Dia browser.</li>
-<li><strong>Per-Space Browser</strong>: Each space can now have its own default browser. Links in that space open there automatically, regardless of your global setting. You can set this in Preferences &gt; Air Traffic Control.</li>
-<li><strong>Privacy Blocklist</strong>: Keep certain sites or entire browsers out of Live Tabs and Recents. Add any URL, domain, or browser so your personal browsing stays private.</li>
-<li><strong>Quick Settings Menu</strong>: A new ••• menu in the top bar gives you fast access to common sidebar settings without opening Preferences.</li>
-<li><strong>Import from HTML &amp; More Browsers</strong>: Import bookmarks from an exported HTML file, or bring in links from any Chromium-based browser — Brave, Opera, Vivaldi, and more.</li>
-<li><strong>SupaSidebar MCP</strong>: SupaSidebar can now be controlled by AI assistants like Claude. Search your sidebar, switch spaces, and open links — all hands-free using SupaSidebar MCP.</li>
+<li><strong>Ask AI</strong>: A new AI chat mode in the command panel with markdown rendering, slash commands, model picker, and a frosted-glass design. Supports OpenAI, Anthropic, Google Gemini, Ollama, MLX, and OpenAI-compatible providers. Type <code>/guide</code> to get help.</li>
+<li><strong>Draggable Command Panel</strong>: Drag the command panel anywhere on screen. It magnetically snaps to center with visual guide lines and remembers its position between sessions.</li>
+<li><strong>Folder Preview on Hover</strong>: Hover over a folder in compact mode to see its contents in a preview window with inline search and keyboard navigation.</li>
+<li><strong>Pinned Tabs per Space</strong>: Each space can now have its own set of pinned tabs. Right-click a space icon for intelligent pinned recents.</li>
+<li><strong>Drag-to-Resize</strong>: Resize the sidebar width by dragging its inner edge.</li>
+<li><strong>14 New Browsers</strong>: Added support for 14 additional browser variants including Wavebox, with full Live Tabs integration.</li>
+<li><strong>Open With Browser Profiles</strong>: The “Open With” and “Open All With” menus now show browser profiles (e.g. Chrome Work, Safari Personal) alongside browsers. Pick a specific profile from the sidebar context menu, Option+Click popover, or Command Panel.</li>
+<li><strong>Air Traffic Control with Browser Profiles</strong>: ATC rules can now route links to specific browser profiles, not just browsers. Create and manage rules via in-app AI or the MCP server.</li>
+<li><strong>Clipboard Awareness</strong>: The command panel detects URLs on your clipboard and offers a “Paste and Go” action.</li>
+<li><strong>Reveal in Sidebar from Command Panel</strong>: Search for any link, file, or folder in the command panel and reveal it directly in the sidebar.</li>
+<li><strong>Firefox Bookmark Import</strong>: Import bookmarks directly from Firefox.</li>
+<li><strong>Use Case Presets</strong>: Choose from ready-made presets - Tab Manager, Bookmark Manager, and more - that configure SupaSidebar for your workflow in one click.</li>
+<li><strong>Redesigned Onboarding</strong>: A new onboarding flow that asks what you want to accomplish and configures features accordingly.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Snappier Browser Tracking</strong>: The sidebar now reacts to browser window changes the moment they happen, instead of checking on a fixed interval.</li>
-<li><strong>Smart Folder Keyboard Navigation</strong>: Navigate smart folders with your keyboard, just like regular folders.</li>
+<li><strong>Command Panel Search</strong>: Search history, better ranking, folder search, category browsing, uncapped results, and 7 search scopes via Shift+Tab.</li>
+<li><strong>Live Tabs Refresh</strong>: Collapsible sections, unified row actions, Switch to Tab, deduplication, and a cleaner layout.</li>
+<li><strong>Drag and Drop Across Sections</strong>: Drag links from Live Tabs, Recents, or saved links directly into Pinned Tabs, folders, or other spaces.</li>
+<li><strong>Pinned Tabs Drop Zone</strong>: The pinned section now shows a visual drop zone when empty, making it clear where to drop items.</li>
+<li><strong>Cross-Space Reveal</strong>: Revealing a link from the command panel now correctly switches spaces, scrolls to the item, and highlights it.</li>
+<li><strong>MCP Air Traffic Control</strong>: The MCP server now supports Air Traffic Control rule management - create, update, and delete rules.</li>
+<li><strong>Open All With Browser</strong>: Right-click any folder and choose “Open All With” to open all links in a specific browser or profile.</li>
+<li><strong>Option+Enter Actions</strong>: Press Option+Enter on any item to see quick actions like Reveal in Sidebar, Reveal in Finder, Ask AI, and more.</li>
+<li><strong>Toggle Settings in Command Panel</strong>: Most preferences are now available as toggle commands directly in the command panel.</li>
+<li><strong>Real Browser Icons</strong>: Live Tabs now show the actual app icon of each installed browser.</li>
+<li><strong>Noise Texture</strong>: A subtle texture overlay for the sidebar (10% by default), configurable in Appearance settings.</li>
+<li><strong>French Localization</strong>: French translations expanded from 54% to 97% coverage.</li>
+<li><strong>Appearance Tab</strong>: Appearance settings now have their own dedicated preferences tab.</li>
+<li><strong>Accessibility Permission Note</strong>: Shortcuts that interact with browsers now show a note about the required accessibility permission.</li>
+<li><strong>Haptic Feedback</strong>: Optional haptic feedback when drag-and-dropping items (off by default).</li>
+<li><strong>Floating Button Reset</strong>: Right-click the floating button to reset its position.</li>
+<li><strong>Clearer Settings Descriptions</strong>: Sidebar preferences now have clearer descriptions and a reordered layout to help you find settings faster.</li>
+<li><strong>Tabs &amp; History Rename</strong>: Live Tabs settings renamed to “Tabs &amp; History” with a card-based mode selector for Live Tabs, Recents, or None.</li>
+<li><strong>Polished Live Tabs UI</strong>: Redesigned Live Tabs with collapsible browser sections, unified row actions, and a cleaner layout.</li>
+<li><strong>Command Panel UI Polish</strong>: Frosted glass design, refined styling, and a more polished overall look.</li>
+<li><strong>Split-Panel Preferences</strong>: Sidebar preferences now use a split-panel layout with presets on the left and settings on the right.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Sidebar Position</strong>: In draggable mode the sidebar no longer resets its position when toggled off and back on.</li>
-<li><strong>Locked Space</strong>: Fixed the locked space overlay navigating to the wrong space.</li>
-<li><strong>Auto-Tile Popups</strong>: Small browser popups no longer interfere with auto-tiling.</li>
-<li><strong>Glass Theme</strong>: Fixed a visual glitch in the Glass theme making the search and bottom bars appear darker than intended.</li>
-<li><strong>Safari Profiles</strong>: Fixed profile detection for users with 3 or more Safari profiles.</li>
-<li><strong>Command Panel</strong>: The search shortcut name now shows correctly in command panel suggestions.</li>
-<li><strong>Autocomplete URL</strong>: Autocomplete suggestions now show the actual URL, not just the site name.</li>
-<li><strong>Edit Link Sheet</strong>: Editing any type of link now opens the full edit sheet correctly.</li>
-<li><strong>Moving Subfolders</strong>: Moving a subfolder is now possible to another space.</li>
-<li><strong>Atlas Startup</strong>: Fixed a slowdown at launch caused by Atlas browser.</li>
-<li><strong>Safari Profile Language</strong>: Safari profile detection now works correctly regardless of your system language.</li>
-<li><strong>Import Permissions</strong>: The error shown when import lacks permissions now points to the correct system setting.</li>
+<li><strong>Trial Expiration</strong>: Fixed trial expiring instantly or prematurely after activation.</li>
+<li><strong>Command Panel Crash</strong>: Fixed a crash when typing long search queries.</li>
+<li><strong>Favicon Flash</strong>: Eliminated favicon flicker on app restart.</li>
+<li><strong>Save to Current Space</strong>: Pressing Cmd+Shift+S to save a recent link now uses the current space instead of a random one.</li>
+<li><strong>Sidebar Position on Hover</strong>: Opening the sidebar on mouse hover now appears at the screen edge, not attached to the browser.</li>
+<li><strong>Custom Icons</strong>: Local file, folder, and app links now correctly display custom icons.</li>
+<li><strong>Smart Folder Arrows</strong>: Smart folders now respect the arrow indicators preference.</li>
+<li><strong>Paste Link Crash</strong>: Fixed a crash when pasting a link into the sidebar.</li>
+<li><strong>Open in Finder</strong>: Right-clicking a file or folder link now correctly shows “Open in Finder” instead of a browser name.</li>
+<li><strong>SSB Export/Import</strong>: Fixed same-name folders merging into one during import, losing nested folder structure and links.</li>
+<li><strong>Icon Cache Crash</strong>: Fixed a crash when loading icons for many links at once.</li>
+<li><strong>Tooltip Persistence</strong>: Fixed link tooltip staying visible after the sidebar closes.</li>
+<li><strong>Compact Mode Folder Colors</strong>: Folders in compact mode now use tint-aware colors instead of hardcoded blue.</li>
+<li><strong>Move to Folder</strong>: Fixed move-to-folder menu indentation.</li>
+</ul>
+<h2 id="performance">Performance</h2>
+<ul>
+<li><strong>Faster Sidebar Open</strong>: Reduced main-thread work when opening the sidebar and selecting items.</li>
+<li><strong>Folder Tap Delay</strong>: Eliminated the perceptible delay when tapping folders and links.</li>
+<li><strong>Smoother Scrolling</strong>: Rebuilt sidebar rendering for smoother scrolling with large collections.</li>
+<li><strong>Reduced Re-renders</strong>: Fixed unnecessary full-sidebar rebuilds when interacting with individual items.</li>
+<li><strong>Faster Profile Discovery</strong>: Browser profile detection is now cached and deferred to first use.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.16.0/supasidebar_v0.16.0.zip"
-                sparkle:edSignature="IZbHt0HiKatDte5218BMV3pTl2RHAGRzUpdw4fMJnj5AKjF//P8AizajhLzWx9b7GO+YM8IJ26EvXEZCsaFsDw=="
-                length="18722246"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.0/supasidebar_v0.17.0.zip"
+                sparkle:edSignature="fes6QnL4b0U5Bbsip/Az6Hv4sBj7fD1ImaV5LSShprNQXJBYd6cnLxoauB4lYa9MarPK8ZCxdqzGD1GccsrABg=="
+                length="19875029"
                 type="application/octet-stream"/>
         </item>
     </channel>
