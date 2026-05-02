@@ -3,36 +3,34 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.17.2</title>
-            <pubDate>Sat, 02 May 2026 16:54:00 +0530</pubDate>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>0.17.2</sparkle:shortVersionString>
+            <title>Version 0.17.3</title>
+            <pubDate>Sun, 03 May 2026 00:03:00 +0530</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.17.3</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.17.2">SupaSidebar 0.17.2</h1>
+<h1 id="supasidebar-0.17.3">SupaSidebar 0.17.3</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Bulk Close Live Tabs</strong>: Right-click a live tab to close other tabs in the same window, the same browser, across all browsers, or close tabs above/below it. Works in both expanded sidebar and compact mode.</li>
-<li><strong>Smarter Command Panel Suggestions</strong>: Search suggestions are now ranked by how closely they match what you typed, so exact and prefix matches surface faster while stale past searches get out of the way.</li>
-<li><strong>German, Spanish &amp; Japanese Beta Translations</strong>: SupaSidebar now includes beta translations for German, Spanish, and Japanese, alongside English and French. You can choose your language in Preferences &gt; General.</li>
-<li><strong>MCP Connection Status</strong>: AI preferences now show the local MCP bridge status, endpoint, setup guide, and restart control, making Claude/Cursor setup easier to diagnose.</li>
-<li><strong>Command Panel Suggestion Controls</strong>: Use the item options menu to remove old searches or recent links from suggestions, delete saved links, or reset ranking for a single item.</li>
+<li><strong>Use Cmd+T in Browsers</strong>: You can now use Cmd+T to open the command panel only while a browser is active. Other apps still receive Cmd+T normally, and SupaSidebar skips the browser-scoped binding if your global command panel shortcut already uses Cmd+T.</li>
+<li><strong>Faster Live Tab Switching</strong>: The command panel now remembers which browser tabs you used most recently, so open tabs surface first when you search or open the panel with no query.</li>
+<li><strong>Open Preferences from the Floating Button</strong>: Right-click the floating button and choose Open Preferences to jump straight into settings.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Better Domain Autocomplete</strong>: Multi-word searches can now still surface useful base-domain shortcuts, such as matching a saved site from the first word of your query.</li>
-<li><strong>Localization Coverage</strong>: Remaining UI text has been wrapped for localization, bringing French, German, Spanish, and Japanese coverage to 100%.</li>
-<li><strong>MCP Documentation</strong>: The setup guide and troubleshooting docs now match SupaSidebar 0.17.2 and the latest <code>supasidebar-mcp</code> tool set.</li>
-<li><strong>Better Crash Reports</strong>: When SupaSidebar runs into a problem, crashes now produce more detailed reports, so we can identify and fix issues faster.</li>
+<li><strong>Better Live Tab Results</strong>: Live tabs now compete more naturally with saved links in command panel search, with recently focused tabs winning close matches.</li>
+<li><strong>Cleaner Command Panel Empty State</strong>: When live tabs are available, the default command panel view prioritizes your open browser tabs before pinned utility actions.</li>
+<li><strong>Documentation Compatibility Note</strong>: The docs site pointer has been updated for the latest MCP compatibility line.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Web Preview Typing</strong>: Fixed preview browser windows so text fields and pages can receive keyboard input without stealing focus from your active app.</li>
+<li><strong>Domain Search Accuracy</strong>: Searches like <code>x.com</code> now require a literal domain match instead of matching every <code>.com</code> result.</li>
+<li><strong>Duplicate Live Tab Suggestions</strong>: Saved links that are already open as live tabs no longer appear twice in command panel search.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.2/supasidebar_v0.17.2.zip"
-                sparkle:edSignature="ZBgut+KmBQZj6n+saYgptiDZ08Eej3QOckkOcGR+ONzWiQK9TqvjoUcRAUHYeBvx2dFLFxHodg//+cAGtVwgBw=="
-                length="20459549"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.3/supasidebar_v0.17.3.zip"
+                sparkle:edSignature="YwmtDEHPvdMm6dxq4w5oYFMOTMC0k7/UUyat7NDYPM/2j8J8WrXb/8qCOrLCi8eWgx6aRCxqbyvUB7fbyX/rAA=="
+                length="20500287"
                 type="application/octet-stream"/>
         </item>
     </channel>
