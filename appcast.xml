@@ -3,36 +3,25 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.17.4</title>
-            <pubDate>Sun, 03 May 2026 23:48:00 +0530</pubDate>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>0.17.4</sparkle:shortVersionString>
+            <title>Version 0.17.5</title>
+            <pubDate>Tue, 05 May 2026 03:02:00 +0530</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.17.5</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.17.4">SupaSidebar 0.17.4</h1>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Safari Bookmark Import</strong>: Import your Safari bookmarks directly into SupaSidebar, with a guided Full Disk Access flow and HTML fallback if needed.</li>
-<li><strong>Bulk Tab Actions</strong>: Right-click live tabs to close or save several tabs at once.</li>
-<li><strong>Convert Folder to Space</strong>: Turn any folder into its own space from the folder right-click menu.</li>
-<li><strong>More Beta Languages</strong>: Added beta translations for Brazilian Portuguese, Simplified Chinese, Italian, and Korean, selectable in Preferences &gt; General.</li>
-</ul>
+<h1 id="supasidebar-0.17.5">SupaSidebar 0.17.5</h1>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Saved Links Found Inside Longer Queries</strong>: Typing a full sentence or question that contains a saved link’s name now surfaces that link at the top, instead of burying it under web and clipboard results.</li>
-<li><strong>Exact Names Always Match</strong>: Typing a saved link’s exact name reliably brings it up, even when many other results are competing for the same query.</li>
+<li><strong>Privacy Blocklist Hides Browsers Fully</strong>: Adding a browser to the privacy blocklist now stops every automatic behavior for that browser, including auto-show, sidebar attachment, window resizing, Cmd+T capture, and smart save and copy.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Browser Expands Back After Hiding Sidebar</strong>: With a single browser attached, hiding the sidebar now expands that browser to fill the screen, instead of leaving it at the smaller attached size.</li>
-<li><strong>Renamed Pinned Tabs in Search</strong>: Renaming a space-pinned tab now correctly surfaces it in command panel search.</li>
-<li><strong>Slashes in URLs No Longer Open Scope Picker</strong>: Typing <code>/</code> inside URLs or paths like <code>foo/bar</code> or <code>example.com/path</code> no longer triggers the scope picker.</li>
-<li><strong>Cleaner Active Tab Highlight</strong>: Removed the blue tint from the active browser tab row in the command panel for a calmer look.</li>
+<li><strong>Frontmost Browser Works as Intended</strong>: Links set to open in the frontmost browser now reliably do so, instead of sometimes opening in a different browser.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.4/supasidebar_v0.17.4.zip"
-                sparkle:edSignature="L2SZ1eB5kqaEGIa3hf+CrcFh5GWRDpxdLXxzlEk3yXbS51RLlCYzIDjP8SVeojJ+dD6WPUTt6fV30JsQ9/49Dg=="
-                length="20767544"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.5/supasidebar_v0.17.5.zip"
+                sparkle:edSignature="3FgMXTnfO34zJOrZuUMua3MNu2dsOzwa4AVLujq3bL8SCqhaj26UB6e2aYt3GtnIK4/Vnt2yqQimIOroIYa1Dw=="
+                length="20764988"
                 type="application/octet-stream"/>
         </item>
     </channel>
