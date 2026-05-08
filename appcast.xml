@@ -3,25 +3,36 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.17.5</title>
-            <pubDate>Tue, 05 May 2026 03:02:00 +0530</pubDate>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.17.5</sparkle:shortVersionString>
+            <title>Version 0.17.6</title>
+            <pubDate>Fri, 08 May 2026 17:46:00 +0530</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.17.6</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.17.5">SupaSidebar 0.17.5</h1>
+<h1 id="supasidebar-0.17.6">SupaSidebar 0.17.6</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li><strong>Auto-update Link Power-up (Beta)</strong>: Saved links now follow you through episodic content like anime, manga, web serials, and courses. Right-click any saved link and choose Power-ups &gt; Auto-update link, then pick which number in the URL is the episode or chapter. The link advances automatically as you read or watch, and a history submenu shows the last 20 visited URLs.</li>
+<li><strong>Replace Active Browser Tab with ⌘⌥-click (Beta)</strong>: Hold Cmd+Option and click a saved or recent link in the sidebar to navigate the active browser tab in place instead of opening a new one. Falls back to a normal open if the browser can’t mutate its active tab.</li>
+<li><strong>Firefox Live Tabs</strong>: Firefox, Nightly and Developer Edition now support Live Tabs and tab switching natively, without an extension. Multiple Firefox-family browsers running side by side stay properly separated by profile.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Privacy Blocklist Hides Browsers Fully</strong>: Adding a browser to the privacy blocklist now stops every automatic behavior for that browser, including auto-show, sidebar attachment, window resizing, Cmd+T capture, and smart save and copy.</li>
+<li><strong>Browse Recents and Saved Without Searching</strong>: Switching the command panel to the Recents or Saved scope now shows a populated list of your items right away, so you can browse and pick without typing a query.</li>
+</ul>
+<h2 id="performance">Performance</h2>
+<ul>
+<li><strong>Faster Command Panel</strong>: Reduced lag and empty flashes when switching scopes. The command panel feels snappier overall.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Frontmost Browser Works as Intended</strong>: Links set to open in the frontmost browser now reliably do so, instead of sometimes opening in a different browser.</li>
+<li><strong>Sidebar Stops Attaching to Browser Dialogs</strong>: The sidebar no longer attaches to Safari Settings, Customize Toolbar sheets, Atlas login overlays, Arc file dialogs, and other browser popups, sheets, and modals. Closing a popup also redirects the sidebar back to the main browser window.</li>
+<li><strong>Smart Attach Works for All Browsers</strong>: Prevent-overlap, Smart Attach, fill, and maximize adjustments now apply correctly to Comet, Zen, Dia, Wavebox, Helium, every Chromium variant, and every Firefox variant. Previously these browsers were silently skipped.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.5/supasidebar_v0.17.5.zip"
-                sparkle:edSignature="3FgMXTnfO34zJOrZuUMua3MNu2dsOzwa4AVLujq3bL8SCqhaj26UB6e2aYt3GtnIK4/Vnt2yqQimIOroIYa1Dw=="
-                length="20764988"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.6/supasidebar_v0.17.6.zip"
+                sparkle:edSignature="bS0v94CvXpJecoVRmQ4/gEtxwxQT2cV4xfv0t1GbE6gRf1Jn1jn4J4TxZPeVtqB66ujiFi+ktYa3unjhPnimAg=="
+                length="20932304"
                 type="application/octet-stream"/>
         </item>
     </channel>
