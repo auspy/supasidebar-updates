@@ -3,36 +3,49 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.17.6</title>
-            <pubDate>Fri, 08 May 2026 17:46:00 +0530</pubDate>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>0.17.6</sparkle:shortVersionString>
+            <title>Version 0.18.0</title>
+            <pubDate>Sun, 10 May 2026 13:33:00 +0530</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.17.6">SupaSidebar 0.17.6</h1>
+<h1 id="supasidebar-0.18.0">SupaSidebar 0.18.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Auto-update Link Power-up (Beta)</strong>: Saved links now follow you through episodic content like anime, manga, web serials, and courses. Right-click any saved link and choose Power-ups &gt; Auto-update link, then pick which number in the URL is the episode or chapter. The link advances automatically as you read or watch, and a history submenu shows the last 20 visited URLs.</li>
-<li><strong>Replace Active Browser Tab with ⌘⌥-click (Beta)</strong>: Hold Cmd+Option and click a saved or recent link in the sidebar to navigate the active browser tab in place instead of opening a new one. Falls back to a normal open if the browser can’t mutate its active tab.</li>
-<li><strong>Firefox Live Tabs</strong>: Firefox, Nightly and Developer Edition now support Live Tabs and tab switching natively, without an extension. Multiple Firefox-family browsers running side by side stay properly separated by profile.</li>
+<li><strong>Incognito Mode</strong>: Pause recents, search history, and link ranking for the rest of your session. Live Tabs keep working because they save nothing. Toggle from the floating button, the sidebar 3-dot menu, the command panel, or Preferences &gt; Tabs &amp; History.</li>
+<li><strong>Link Open Tabs to Space</strong>: Optional advanced flow that closes a space’s tabs when you leave and reopens them in the right browser and profile when you come back. Lock specific tabs to keep them open across every space. Turn it on in Preferences &gt; Tabs &amp; History &gt; Advanced.</li>
+<li><strong>Open Next Episode</strong>: Right-click an auto-updating link to jump to the next episode in the frontmost browser, with a quick “live” check beside the action so you know whether the next one is up.</li>
+<li><strong>Norton Private Browser Support</strong>: Attach Norton Private Browser to the sidebar and use it with Live Tabs, profile linking, and every per-browser action.</li>
+<li><strong>Brave Origin Browser Support</strong>: Attach Brave Origin, Brave Origin Beta, or Brave Origin Nightly to the sidebar and use them with tabs, profiles, and all the usual browser features.</li>
+<li><strong>Group Your Unfiled Links</strong>: Each space now has its own group-by setting for the Unfiled section, so a long list of loose saved links can be tidied per-space.</li>
+<li><strong>Collapse and Expand All Folders</strong>: New entries in the space options menu let you fold a busy sidebar shut, or open it back up, in one click.</li>
+<li><strong>More Pin Slots and Custom Shortcuts</strong>: Pinned slots now go up to 12, with ⌘⌥0 as the default for slot 10. Record your own shortcut for any slot in Preferences &gt; Pinned Items.</li>
+<li><strong>Numpad Shortcuts for Pinned Slots</strong>: Pin shortcuts 1-10 can now fire from the numeric keypad too. Turn on “Use Numpad Keys” in Preferences &gt; Pinned Items.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Browse Recents and Saved Without Searching</strong>: Switching the command panel to the Recents or Saved scope now shows a populated list of your items right away, so you can browse and pick without typing a query.</li>
-</ul>
-<h2 id="performance">Performance</h2>
-<ul>
-<li><strong>Faster Command Panel</strong>: Reduced lag and empty flashes when switching scopes. The command panel feels snappier overall.</li>
+<li><strong>Notes Are Easier to Add</strong>: A dedicated note editor opens from the link’s right-click menu, ⌥+Enter in command panel results, or an inline “Add note” row. ⌘+Enter saves, Esc cancels.</li>
+<li><strong>Most-Used Links Rise to the Top</strong>: The command panel now learns which saved links you open most and surfaces them first, especially for one or two-letter queries.</li>
+<li><strong>Replace Active Tab Works on Pinned Tabs</strong>: ⌘⌥-click on a pinned tab now replaces the active browser tab in place, and the whole feature is out of beta.</li>
+<li><strong>Domain Autocomplete Keeps the Port</strong>: Typing a partial host like <code>lo</code> now completes to <code>localhost:3000</code> instead of dropping the port.</li>
+<li><strong>Click Feedback While the Browser Wakes Up</strong>: Clicking a link while its browser is cold-starting now shows a small “Opening browser” indicator on that exact row, so you know the click registered.</li>
+<li><strong>Tidier Live Tab Hover Icons</strong>: Smaller, cleaner hover icons on live tabs, with a clearer pinned vs unpinned look at a glance.</li>
+<li><strong>Update Banner Links to the Changelog</strong>: The “new version available” banner now points straight to the published release notes for the new version.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Sidebar Stops Attaching to Browser Dialogs</strong>: The sidebar no longer attaches to Safari Settings, Customize Toolbar sheets, Atlas login overlays, Arc file dialogs, and other browser popups, sheets, and modals. Closing a popup also redirects the sidebar back to the main browser window.</li>
-<li><strong>Smart Attach Works for All Browsers</strong>: Prevent-overlap, Smart Attach, fill, and maximize adjustments now apply correctly to Comet, Zen, Dia, Wavebox, Helium, every Chromium variant, and every Firefox variant. Previously these browsers were silently skipped.</li>
+<li><strong>Add Note in Sidebar Menu</strong>: “Add note” in the link right-click menu now opens the note editor instead of the rename field.</li>
+<li><strong>Notes Show Up in Search</strong>: Typing a word from a link’s note now surfaces that link, with the match highlighted in the preview.</li>
+<li><strong>Settings Scope Shows Real Matches</strong>: A query with no matches in the Settings scope now shows an empty list instead of every command.</li>
+<li><strong>Same Page Saved Twice</strong>: Saving a page after visiting it no longer creates a near-duplicate that differs only by trailing slash or letter case.</li>
+<li><strong>Item Counts on Live Tabs Headers</strong>: The Show Item Counts setting now hides the tab-count badges on Live Tabs section and per-browser headers, as it does everywhere else.</li>
+<li><strong>Folder Arrow Toggling Twice</strong>: Single-clicking a folder’s chevron now opens or closes the folder once, instead of firing twice and leaving it where it started.</li>
+<li><strong>Brave Origin Tab Actions</strong>: Attaching tabs and other per-browser actions now work correctly for every Brave Origin variant.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.17.6/supasidebar_v0.17.6.zip"
-                sparkle:edSignature="bS0v94CvXpJecoVRmQ4/gEtxwxQT2cV4xfv0t1GbE6gRf1Jn1jn4J4TxZPeVtqB66ujiFi+ktYa3unjhPnimAg=="
-                length="20932304"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.0/supasidebar_v0.18.0.zip"
+                sparkle:edSignature="YUuQPjqYJlBn2FQhML/w4Uu4U1DG1bZeYpVGAOEsB08Uhzhl59fRFX0wSN8A0PIxUjMy4aJofF/GOq3ED0v+CA=="
+                length="21232669"
                 type="application/octet-stream"/>
         </item>
     </channel>
