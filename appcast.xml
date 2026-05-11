@@ -3,49 +3,28 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.18.0</title>
-            <pubDate>Sun, 10 May 2026 14:10:00 +0530</pubDate>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <title>Version 0.18.1</title>
+            <pubDate>Mon, 11 May 2026 17:18:00 +0530</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.18.0">SupaSidebar 0.18.0</h1>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Incognito Mode</strong>: Pause recents, search history, and link ranking for the rest of your session. Live Tabs keep working because they save nothing. Toggle from the floating button, the sidebar 3-dot menu, the command panel, or Preferences &gt; Tabs &amp; History.</li>
-<li><strong>Link Open Tabs to Space</strong>: Optional advanced flow that closes a space’s tabs when you leave and reopens them in the right browser and profile when you come back. Lock specific tabs to keep them open across every space. Turn it on in Preferences &gt; Tabs &amp; History &gt; Advanced.</li>
-<li><strong>Open Next Episode</strong>: Right-click an auto-updating link to jump to the next episode in the frontmost browser, with a quick “live” check beside the action so you know whether the next one is up.</li>
-<li><strong>Norton Private Browser Support</strong>: Attach Norton Private Browser to the sidebar and use it with Live Tabs, profile linking, and every per-browser action.</li>
-<li><strong>Brave Origin Browser Support</strong>: Attach Brave Origin, Brave Origin Beta, or Brave Origin Nightly to the sidebar and use them with tabs, profiles, and all the usual browser features.</li>
-<li><strong>Group Your Unfiled Links</strong>: Each space now has its own group-by setting for the Unfiled section, so a long list of loose saved links can be tidied per-space.</li>
-<li><strong>Collapse and Expand All Folders</strong>: New entries in the space options menu let you fold a busy sidebar shut, or open it back up, in one click.</li>
-<li><strong>More Pin Slots and Custom Shortcuts</strong>: Pinned slots now go up to 12, with ⌘⌥0 as the default for slot 10. Record your own shortcut for any slot in Preferences &gt; Pinned Items.</li>
-<li><strong>Numpad Shortcuts for Pinned Slots</strong>: Pin shortcuts 1-10 can now fire from the numeric keypad too. Turn on “Use Numpad Keys” in Preferences &gt; Pinned Items.</li>
-</ul>
+<h1 id="supasidebar-0.18.1">SupaSidebar 0.18.1</h1>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Notes Are Easier to Add</strong>: A dedicated note editor opens from the link’s right-click menu, ⌥+Enter in command panel results, or an inline “Add note” row. ⌘+Enter saves, Esc cancels.</li>
-<li><strong>Most-Used Links Rise to the Top</strong>: The command panel now learns which saved links you open most and surfaces them first, especially for one or two-letter queries.</li>
-<li><strong>Replace Active Tab Works on Pinned Tabs</strong>: ⌘⌥-click on a pinned tab now replaces the active browser tab in place, and the whole feature is out of beta.</li>
-<li><strong>Domain Autocomplete Keeps the Port</strong>: Typing a partial host like <code>lo</code> now completes to <code>localhost:3000</code> instead of dropping the port.</li>
-<li><strong>Click Feedback While the Browser Wakes Up</strong>: Clicking a link while its browser is cold-starting now shows a small “Opening browser” indicator on that exact row, so you know the click registered.</li>
-<li><strong>Tidier Live Tab Hover Icons</strong>: Smaller, cleaner hover icons on live tabs, with a clearer pinned vs unpinned look at a glance.</li>
-<li><strong>Update Banner Links to the Changelog</strong>: The “new version available” banner now points straight to the published release notes for the new version.</li>
+<li><strong>Tighter Recents Spacing</strong>: Recent links now sit flush with saved links in the sidebar.</li>
+<li><strong>Rename From the Right-Click Menu</strong>: Rename a link directly from its right-click menu, without opening the Edit sheet.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Add Note in Sidebar Menu</strong>: “Add note” in the link right-click menu now opens the note editor instead of the rename field.</li>
-<li><strong>Notes Show Up in Search</strong>: Typing a word from a link’s note now surfaces that link, with the match highlighted in the preview.</li>
-<li><strong>Settings Scope Shows Real Matches</strong>: A query with no matches in the Settings scope now shows an empty list instead of every command.</li>
-<li><strong>Same Page Saved Twice</strong>: Saving a page after visiting it no longer creates a near-duplicate that differs only by trailing slash or letter case.</li>
-<li><strong>Item Counts on Live Tabs Headers</strong>: The Show Item Counts setting now hides the tab-count badges on Live Tabs section and per-browser headers, as it does everywhere else.</li>
-<li><strong>Folder Arrow Toggling Twice</strong>: Single-clicking a folder’s chevron now opens or closes the folder once, instead of firing twice and leaving it where it started.</li>
-<li><strong>Brave Origin Tab Actions</strong>: Attaching tabs and other per-browser actions now work correctly for every Brave Origin variant.</li>
+<li><strong>Website Shortcut Stays Focused</strong>: With a website shortcut like <code>gh</code> active, the command panel only shows that site’s search row and matching saved links.</li>
+<li><strong>Auto-Update Link Recovers After a Save Failure</strong>: A failed save now retries on the next page visit instead of getting stuck on the old URL.</li>
+<li><strong>Rapid Space Switching With Linked Profiles</strong>: Holding the next-space shortcut now advances reliably when a space is linked to a browser profile.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.0/supasidebar_v0.18.0.zip"
-                sparkle:edSignature="I2OsqLnUSxxsYswozQCXYL5mKsG88zeDdNeNAHY6MZkqyz6DyA235XVcgRfDE7FILpxTbQEspq7mcsHHlnD5AA=="
-                length="21237323"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.1/supasidebar_v0.18.1.zip"
+                sparkle:edSignature="vB3vSKt5Bc8KJnlGdfHsmHqXkLtTreDiajKM8f5GG9Nr7cOTT5wN2KoCTW5UjSplBFFjn6KjbJy1qWq0dQwqBQ=="
+                length="21245308"
                 type="application/octet-stream"/>
         </item>
     </channel>
