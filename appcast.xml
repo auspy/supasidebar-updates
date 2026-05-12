@@ -3,28 +3,28 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.18.1</title>
-            <pubDate>Mon, 11 May 2026 17:18:00 +0530</pubDate>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>0.18.1</sparkle:shortVersionString>
+            <title>Version 0.18.2</title>
+            <pubDate>Tue, 12 May 2026 22:34:00 +0530</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.18.1">SupaSidebar 0.18.1</h1>
-<h2 id="improvements">Improvements</h2>
+<h1 id="supasidebar-0.18.2">SupaSidebar 0.18.2</h1>
+<h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Tighter Recents Spacing</strong>: Recent links now sit flush with saved links in the sidebar.</li>
-<li><strong>Rename From the Right-Click Menu</strong>: Rename a link directly from its right-click menu, without opening the Edit sheet.</li>
+<li><strong>Dark Mode</strong>: New appearance picker in the menu bar and Preferences &gt; Appearance, with System, Light, and Dark options.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Website Shortcut Stays Focused</strong>: With a website shortcut like <code>gh</code> active, the command panel only shows that site’s search row and matching saved links.</li>
-<li><strong>Auto-Update Link Recovers After a Save Failure</strong>: A failed save now retries on the next page visit instead of getting stuck on the old URL.</li>
-<li><strong>Rapid Space Switching With Linked Profiles</strong>: Holding the next-space shortcut now advances reliably when a space is linked to a browser profile.</li>
+<li>Locked tabs no longer get closed when you switch away from a different space.</li>
+<li>Sidebar links matching a route now open in the configured profile (e.g. Safari Work) instead of the default one.</li>
+<li>The Open Next button now respects route and profile rules, like a regular sidebar click.</li>
+<li>Saving the current page when a route decides its destination no longer crashes the app.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.1/supasidebar_v0.18.1.zip"
-                sparkle:edSignature="vB3vSKt5Bc8KJnlGdfHsmHqXkLtTreDiajKM8f5GG9Nr7cOTT5wN2KoCTW5UjSplBFFjn6KjbJy1qWq0dQwqBQ=="
-                length="21245308"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.2/supasidebar_v0.18.2.zip"
+                sparkle:edSignature="81ktNweKNzhFM2gZFl2NAhw5dZOWtCBSTrG/UCBiCs7LTSnZkHymHXPk90puIwRHFUSYrK/qwOuYvzEnMWqQDQ=="
+                length="21287322"
                 type="application/octet-stream"/>
         </item>
     </channel>
