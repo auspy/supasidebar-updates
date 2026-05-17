@@ -3,28 +3,36 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.18.2</title>
-            <pubDate>Tue, 12 May 2026 22:34:00 +0530</pubDate>
-            <sparkle:version>35</sparkle:version>
-            <sparkle:shortVersionString>0.18.2</sparkle:shortVersionString>
+            <title>Version 0.18.3</title>
+            <pubDate>Sun, 17 May 2026 09:11:00 +0530</pubDate>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>0.18.3</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.18.2">SupaSidebar 0.18.2</h1>
+<h1 id="supasidebar-0.18.3">SupaSidebar 0.18.3</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Dark Mode</strong>: New appearance picker in the menu bar and Preferences &gt; Appearance, with System, Light, and Dark options.</li>
+<li><strong>Adjustable Text Size</strong>: A new slider in Preferences &gt; Appearance scales sidebar text from 85% to 150%, applied live across the app.</li>
+<li><strong>Toggle Dark Mode From the Command Panel</strong>: A new command panel entry flips between Light and Dark. Search “dark”, “light”, “theme”, or “appearance” to find it.</li>
+<li><strong>Open in New Window</strong>: Right-click a saved link or folder to open it (or every link inside) in a fresh browser window. The menu item shows which browser will be used.</li>
+<li><strong>Auto-Tile Windows Shortcut</strong>: Record a global keyboard shortcut to flip Auto-Tile Windows on and off without opening preferences.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Pick Profiles When Importing Bookmarks</strong>: Importing from Chrome, Brave, Edge, Vivaldi, or Firefox now offers a profile picker, and each chosen profile becomes its own space.</li>
+<li><strong>Save Rules Can Target a Folder</strong>: Air Traffic Control rules now accept a target folder, so a matching save lands in the right folder inside the right space.</li>
+<li><strong>Browser Name on Replace Active Tab</strong>: The Replace Active Tab right-click action now shows the active browser’s name beside it.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Locked tabs no longer get closed when you switch away from a different space.</li>
-<li>Sidebar links matching a route now open in the configured profile (e.g. Safari Work) instead of the default one.</li>
-<li>The Open Next button now respects route and profile rules, like a regular sidebar click.</li>
-<li>Saving the current page when a route decides its destination no longer crashes the app.</li>
+<li>Dragging a link into another folder now immediately removes it from the source folder, instead of appearing in both until the next refresh.</li>
+<li>Cut, copy, paste, and select-all work again in the command panel search field.</li>
+<li>Very long search queries in the command panel no longer hang the search.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.2/supasidebar_v0.18.2.zip"
-                sparkle:edSignature="81ktNweKNzhFM2gZFl2NAhw5dZOWtCBSTrG/UCBiCs7LTSnZkHymHXPk90puIwRHFUSYrK/qwOuYvzEnMWqQDQ=="
-                length="21287322"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.18.3/supasidebar_v0.18.3.zip"
+                sparkle:edSignature="XGZDHD5S3riJHsYGC2OGglnBfdJGh67zMnOcqvtCRsgasUisUwPMlmy5GNEzGXhtVY5jzKM3j+VUpwe1cQlbDQ=="
+                length="21454339"
                 type="application/octet-stream"/>
         </item>
     </channel>
