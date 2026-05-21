@@ -3,66 +3,23 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.19.0</title>
-            <pubDate>Wed, 20 May 2026 21:02:00 +0530</pubDate>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+            <title>Version 0.19.1</title>
+            <pubDate>Thu, 21 May 2026 15:50:00 +0530</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>0.19.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.19.0">SupaSidebar 0.19.0</h1>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Custom Colors for Links and Folders</strong>: Pick any color for individual links and folders to make them stand out, in both the sidebar and compact mode.</li>
-<li><strong>Per-Tab Colors for Live Tabs</strong>: Assign colors to specific URLs so your live tabs are easier to scan at a glance.</li>
-<li><strong>File Browser Popover</strong>: Hover or click a saved folder to browse its files in a Finder-style column view with single-click open, available in the sidebar and compact mode.</li>
-<li><strong>File Actions in the Folder Browser</strong>: Right-click files inside the folder browser to Open, Quick Look, Open With, or Move to Trash.</li>
-<li><strong>File Preview Tooltip</strong>: Hover a file in the folder browser to see a deeper preview column with file details.</li>
-<li><strong>Finder Actions for File Links</strong>: Right-click a file-type link in the sidebar for direct Finder actions like Reveal, Move to Trash, and more.</li>
-<li><strong>Smart Air Traffic Control Suggestions</strong>: Air Traffic Control now suggests rules based on which sites you actually open from the sidebar.</li>
-<li><strong>One-Click Air Traffic Control Rule From the Command Panel</strong>: When the URL you’re opening matches a strong pattern, the command panel offers to create the rule and open it in the suggested browser in one step.</li>
-<li><strong>Auto-Route Links to a Space’s Linked Profile</strong>: Linking a browser profile to a space now sends every link from that space to the linked profile, with a “Profile linked” badge in Air Traffic Control to tell auto rules apart from manual ones.</li>
-<li><strong>Edit Note From the Link Row</strong>: A new Edit Note button appears on hover, so you can jot a note without opening the link details.</li>
-<li><strong>View-Mode Switch in Live Tabs and Recents</strong>: Toggle between compact and detailed views for Live Tabs and Recents right from the section header.</li>
-<li><strong>Mute Routine Notifications</strong>: A new Notifications pane in Preferences lets you silence Save Page, Copy URL, Open Pin, Save All Tabs, Add from Finder, and Paste Link toasts. Error toasts always show.</li>
-<li><strong>In-App Update Indicator</strong>: A subtle badge appears in the app when a new version is available to install.</li>
-<li><strong>Quick Toggle for Browser Fill on Hide</strong>: A new “Browser Fills Space When Sidebar Hides” entry in the sidebar overflow menu flips browser expansion on or off without opening preferences.</li>
-</ul>
-<h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Unified Right-Click Menus</strong>: The sidebar and compact mode now share identical context menus for links, folders, and spaces.</li>
-<li><strong>Pin Tab Right-Click Menu</strong>: Pin tabs now use the full link context menu, with Move to Space/Folder, Open With, Power-Ups, and a color tint that paints the tile itself.</li>
-<li><strong>Cleaner Context Menu Layout</strong>: Link and folder context menus are reordered and divided into logical groups, with the most useful actions at the top.</li>
-<li><strong>Cleaner Sidebar Overflow Menu</strong>: Set-once toggles moved into Preferences &gt; Sidebar so the three-dot menu only shows what changes day to day.</li>
-<li><strong>Hover-to-Switch Between Live Tabs and Recents</strong>: Hover the section header to swap between Live Tabs and Recents in one click.</li>
-<li><strong>Live Tabs Empty State</strong>: Live Tabs now shows a friendly “Open a browser to see your tabs” state instead of disappearing when no browser is running.</li>
-<li><strong>Matching Recents Header</strong>: The Recents header now matches Live Tabs with a hover background, chevron, item count, and tap-to-collapse.</li>
-<li><strong>Clear a Space’s Theme Color</strong>: The space theme color menu now leads with a “None” option, so you can drop a color back to the default.</li>
-<li><strong>Hide the Drag-to-Pin Hint</strong>: A new Appearance toggle hides the dashed drop target when you have no pinned tabs.</li>
-<li><strong>Larger Default Preferences Window</strong>: Preferences now opens at a roomier size so dense panes don’t feel cramped.</li>
-<li><strong>Separate Hover Delays for Folder and File Previews</strong>: Folder previews and the Finder file preview each have their own hover delay control in Preferences.</li>
-<li><strong>Power-Up Episode Badge</strong>: The Power-Up episode badge sits cleanly at the trailing edge of the row.</li>
-</ul>
+<h1 id="supasidebar-0.19.1">SupaSidebar 0.19.1</h1>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Text on space tints now stays readable on any color.</li>
-<li>Exporting and re-importing your data now preserves every link, folder, and space field intact.</li>
-<li>Cmd+Ctrl+1 through 9 can now be used as pin shortcuts.</li>
-<li>Sidebar preferences no longer shows the Auto-Tile shortcut twice.</li>
-<li>The sidebar now hides instantly when you Cmd+H, quit, or close the browser’s last window.</li>
-<li>When you quit one of multiple attached browsers, the sidebar jumps to the next one.</li>
-<li>Clicking anywhere on a live-tab row now opens it.</li>
-<li>Arrow keys keep working in the sidebar after closing the command panel.</li>
-<li>Arrow navigation now skips collapsed Unfiled groups.</li>
-<li>Recents now reliably records every page you visit.</li>
-<li>Hide Live Tabs and Hide Recent Tabs now work independently — hiding one no longer cascades into the other.</li>
-<li>Fill Remaining Space now works on whichever browser window is visible.</li>
-<li>The Link Auto-Update power-up now updates reliably.</li>
-<li>Maximized browser windows now resize correctly when the sidebar opens beside them.</li>
+<li>Opening the sidebar now refreshes live tabs for every running browser, instead of showing empty or stale tabs until you click into a browser window.</li>
+<li>Moving a folder out of its parent now updates the sidebar instantly, instead of leaving the folder hidden until the next refresh.</li>
+<li>Visible gaps between rows inside folders are now gone.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.0/supasidebar_v0.19.0.zip"
-                sparkle:edSignature="cbNnk5SHA0HxTwNVhAZLyaDi6PeAwfUKncLiwkL0kQ9TOuUgl+hMoQbUYGvbrli7sOGF7euweHnrrxDz4AVtBA=="
-                length="21974969"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.1/supasidebar_v0.19.1.zip"
+                sparkle:edSignature="bw0I6lum8ijNHKjCsY5Yn/imivqxne0uaqgp2Wcig/wNKHqcLnCHytxelxaepBHuSNKett2IAPGnPlYkiBpxDg=="
+                length="21976965"
                 type="application/octet-stream"/>
         </item>
     </channel>
