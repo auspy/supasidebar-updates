@@ -3,62 +3,22 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.19.2</title>
-            <pubDate>Sun, 31 May 2026 03:33:00 +0530</pubDate>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>0.19.2</sparkle:shortVersionString>
+            <title>Version 0.19.3</title>
+            <pubDate>Mon, 01 Jun 2026 12:53:00 +0530</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>0.19.3</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.19.2">SupaSidebar 0.19.2</h1>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Safari Technology Preview Support</strong>: SupaSidebar now works with Safari Technology Preview alongside regular Safari, Chrome, Firefox, and the rest.</li>
-<li><strong>DuckDuckGo Browser Support</strong>: Use SupaSidebar with the DuckDuckGo browser, including its live tabs.</li>
-<li><strong>Open With and Activate in Live Tab Menu</strong>: Right-click a live tab to activate it directly or send it to a different browser or profile.</li>
-<li><strong>Choose What Happens When the Sidebar Opens and Hides</strong>: Sidebar preferences now has two clear menus, one for what your browser does when the sidebar opens (do nothing, prevent overlap, or fill the freed space) and one for when it hides (restore the browser, expand it to fill, or leave it).</li>
-<li><strong>Restore Browser When Sidebar Hides</strong>: Pick “Restore” in the new “When Sidebar Hides” menu to put your browser back where it was before the sidebar shaped it, so an overlay panel doesn’t permanently move or resize your window.</li>
-<li><strong>Auto-Switch Side on Clipped Browser</strong>: A new opt-in toggle in Sidebar preferences flips the sidebar to the opposite side when your preferred side would be cut off by an adjacent monitor.</li>
-</ul>
-<h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Compact Mode Fades When Unfocused</strong>: The compact sidebar dims when you switch to another app, so it stays out of the way.</li>
-<li><strong>Choose Whether the Browser Jumps Forward on Show</strong>: A new “Bring Browser to Front on Show” toggle in Sidebar preferences lets you keep your current app frontmost when the sidebar opens.</li>
-<li><strong>Fill Entire Screen Works in Independent Mode</strong>: Fill now works whether the sidebar is attached to your browser or floating independently, and lives in the top toolbar in both.</li>
-<li><strong>Vivaldi Profiles in Open With</strong>: Right-clicking a live tab now lets you send it to a specific Vivaldi profile, the same way you already can for Chrome, Safari, and the rest.</li>
-<li><strong>Regrouped Overflow Menu</strong>: The three-dot menu is now split into Browser Layout, Sidebar Position, Visibility, and Content &amp; Privacy sections so it scans faster.</li>
-<li><strong>Simpler Auto-tile Menu</strong>: The Auto-tile Windows sidebar menu is now a single toggle that matches the keyboard shortcut.</li>
-<li><strong>Tiling No Longer Covers Browser Windows</strong>: After tiling, the sidebar stays anchored to its column when you click between browsers, instead of following focus and ending up on top of the tiled windows.</li>
-</ul>
+<h1 id="supasidebar-0.19.3">SupaSidebar 0.19.3</h1>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>The sidebar no longer hides when you move your cursor into the folder preview or file browser.</li>
-<li>Saving a link with a custom URL scheme like obsidian:// or drafts:// now preserves the scheme, instead of mangling it into https://.</li>
-<li>Opening a link with a custom URL scheme now hands off to the registered app, instead of failing silently in the browser.</li>
-<li>The sidebar now brings your actual frontmost browser forward on show, instead of always activating whichever browser comes first in the process list.</li>
-<li>Firefox and Zen now resize in one clean motion when the sidebar fills, restores, or tiles, instead of shimmering through repeated attempts before settling.</li>
-<li>Tiling no longer resizes the wrong window when the same browser has more than one window open.</li>
-<li>Smart attach now works on Orion, instead of silently skipping its main window.</li>
-<li>With multiple browsers open at the same size, the sidebar now attaches to the one you’re actually using.</li>
-<li>The sidebar now follows you to the new browser when you Cmd-Tab between browsers, inheriting the fill layout.</li>
-<li>Opening “Open With &gt; Safari Personal” on a live tab no longer activates an existing Safari Work tab from a different profile.</li>
-<li>Onboarding text now stays readable when you’re on light-mode macOS, instead of showing as black text on dark cards.</li>
-<li>Preferences and Onboarding windows now appear above the sidebar instead of disappearing behind it.</li>
-<li>Background sync no longer relaunches browsers you have quit.</li>
-<li>The sidebar now follows the browser to its screen on auto-show, instead of stranding itself on the wrong monitor.</li>
-<li>Dragging a tab out into its own window now keeps the sidebar attached, instead of needing an app switch to catch up.</li>
-<li>The browser on your old screen now reclaims the space the sidebar freed when you move the sidebar to another monitor.</li>
-<li>Launch at Login no longer silently turns itself off when macOS needs your approval; a banner now points you to System Settings.</li>
-<li>Permission notices across Mouse Triggers, Shortcuts, and Sidebar preferences now disappear once you grant Accessibility access.</li>
-<li>The sidebar no longer blinks and closes when you open it from a non-browser app on a screen different from your last-focused browser.</li>
-<li>The sidebar no longer attaches to detached DevTools or Web Inspector windows, sticking to your actual browser window instead.</li>
-<li>The sidebar now picks the right screen on side-by-side monitors, instead of jumping to the next monitor the moment your browser’s title bar crosses the boundary.</li>
-<li>The sidebar now follows your browser across stacked top-and-bottom monitors, instead of getting stranded on the screen the browser left.</li>
-<li>The sidebar now stays on the screen where most of your browser is still visible, instead of flipping the instant the title bar crosses a monitor edge.</li>
+<li>The sidebar no longer shows up as a thumbnail in Mission Control.</li>
+<li>Smart Attach now leaves your browser alone in fullscreen and Split View Spaces, instead of giving you a shortened sidebar and reshaping the OS-tiled window.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.2/supasidebar_v0.19.2.zip"
-                sparkle:edSignature="lMhtPkGWWBTSrXn/LM0AkbZ83xjRo7l65mJkBJIPNv+JgQtbzQ5smWPwC4vdSY/R0YeM0whgJTmdj2zPA5BmBg=="
-                length="22063213"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.3/supasidebar_v0.19.3.zip"
+                sparkle:edSignature="AZYS4VgacIsOi++qcquqezn3AqSQpXc8l2KJ1d1qIzYL7EJWexEDg4yWq1AkeoVuFUT33F18FydarFjcWgrpCg=="
+                length="22061535"
                 type="application/octet-stream"/>
         </item>
     </channel>
