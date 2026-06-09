@@ -3,27 +3,32 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.19.4</title>
-            <pubDate>Tue, 02 Jun 2026 15:56:00 +0530</pubDate>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>0.19.4</sparkle:shortVersionString>
+            <title>Version 0.19.5</title>
+            <pubDate>Tue, 09 Jun 2026 12:44:00 +0530</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>0.19.5</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.19.4">SupaSidebar 0.19.4</h1>
+<h1 id="supasidebar-0.19.5">SupaSidebar 0.19.5</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li><strong>Duplicate Link</strong>: Right-click any saved link and choose Duplicate to drop a copy right beneath the original.</li>
+<li><strong>Three New Languages</strong>: Traditional Chinese, Russian, and Dutch join the locale list, with polished translations across French, German, Spanish, Italian, Japanese, Simplified Chinese, Portuguese (Brazil), and Korean.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Search Button in Compact Sidebar</strong>: A new magnifying-glass button in the compact sidebar top bar opens the command panel without reaching for a shortcut.</li>
-<li><strong>Turn Off Hover Previews</strong>: Tooltip and folder preview delay pickers now include an Off option that disables hover previews entirely.</li>
+<li><strong>Documentation Link</strong>: A new Documentation entry in the menu bar and About settings opens the help site in one click.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>The sidebar now docks to the side edge when you switch stages in Stage Manager, instead of stranding mid-screen on the new stage’s app.</li>
-<li>Files now disappear from the file browser the instant you choose Move to Trash, instead of lingering until you reopen the folder.</li>
+<li>Open With on a file now opens in your chosen browser when you pick one from the menu, while regular clicks still open files in your default app and folders in Finder.</li>
+<li>The sidebar now sizes correctly in fullscreen across all menubar settings, instead of leaving a gap or overlapping a visible menubar.</li>
+<li>Using a pinned URL shortcut no longer hides the sidebar after opening the link.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.4/supasidebar_v0.19.4.zip"
-                sparkle:edSignature="heef6eI3ni1ukiKLN3QBaDQ2j4cuodZp3hPqAK7Diw5NIQD0H0/Zp2sbKegCk9FFKwLCX6d+i0ij4DBSLFJ6BA=="
-                length="22068963"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.5/supasidebar_v0.19.5.zip"
+                sparkle:edSignature="JbG+JP2SxaqxPXr+AhVSjhhVWNW4vTuLNVTe9Fj3D34iihTghslEo8AANeD9yduKZoHR3dWl23AaTKoTvnKdCQ=="
+                length="22252449"
                 type="application/octet-stream"/>
         </item>
     </channel>
