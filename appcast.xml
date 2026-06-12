@@ -3,25 +3,29 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.19.6</title>
-            <pubDate>Wed, 10 Jun 2026 17:21:00 +0530</pubDate>
-            <sparkle:version>43</sparkle:version>
-            <sparkle:shortVersionString>0.19.6</sparkle:shortVersionString>
+            <title>Version 0.19.7</title>
+            <pubDate>Fri, 12 Jun 2026 11:36:00 +0530</pubDate>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.19.6">SupaSidebar 0.19.6</h1>
+<h1 id="supasidebar-0.19.7">SupaSidebar 0.19.7</h1>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Instant Tab Close</strong>: Closing a live tab from the sidebar now removes it immediately, without waiting for the browser to respond.</li>
+<li><strong>Smoother Sidebar</strong>: Browser checks now run fully in the background, removing brief hitches while you scroll and click.</li>
+</ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Recently visited links now appear in every space, instead of only the space where you first opened them.</li>
-<li>Clearing your Recents list no longer deletes saved links you had visited.</li>
-<li>The sidebar no longer freezes at full CPU when you scroll and click inside nested folders.</li>
-<li>Quitting a browser no longer causes it to relaunch on its own.</li>
-<li>Clicking the X, Open With button, or a browser pill on a saved link no longer also opens the link.</li>
+<li>Quitting a browser with many tabs open no longer brings it back on its own.</li>
+<li>The app no longer freezes when a browser stops responding; the sidebar stays usable and catches up once the browser recovers.</li>
+<li>SupaSidebar no longer keeps using CPU in the background after you close the welcome window.</li>
+<li>Switching tabs no longer flashes the profile detection indicator when there is no suggestion to make.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.6/supasidebar_v0.19.6.zip"
-                sparkle:edSignature="9bQE/SdR2WDgVGbV5mnbjGnALgraIODLJ/e8krs/xOmIyOBxsLPIWRqEVr5G3qdqzV50IdkBhaCN1T+8IbGSDw=="
-                length="22262545"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.7/supasidebar_v0.19.7.zip"
+                sparkle:edSignature="c8WM4yLaaP8rDk5AofkBo1tP0a7th93RFF6M1qzItnFKWza9TndczxXLOYU+PMCF5/JtxmDe1e0GJpLG07xXDQ=="
+                length="22315592"
                 type="application/octet-stream"/>
         </item>
     </channel>
