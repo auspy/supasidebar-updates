@@ -3,29 +3,26 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.19.7</title>
-            <pubDate>Fri, 12 Jun 2026 11:36:00 +0530</pubDate>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
+            <title>Version 0.19.8</title>
+            <pubDate>Sat, 13 Jun 2026 14:37:00 +0530</pubDate>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>0.19.8</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.19.7">SupaSidebar 0.19.7</h1>
-<h2 id="improvements">Improvements</h2>
+<h1 id="supasidebar-0.19.8">SupaSidebar 0.19.8</h1>
+<h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Instant Tab Close</strong>: Closing a live tab from the sidebar now removes it immediately, without waiting for the browser to respond.</li>
-<li><strong>Smoother Sidebar</strong>: Browser checks now run fully in the background, removing brief hitches while you scroll and click.</li>
+<li><strong>Switch Spaces with Mouse Wheel</strong>: A new opt-in toggle lets you scroll your mouse wheel to switch between spaces.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Quitting a browser with many tabs open no longer brings it back on its own.</li>
-<li>The app no longer freezes when a browser stops responding; the sidebar stays usable and catches up once the browser recovers.</li>
-<li>SupaSidebar no longer keeps using CPU in the background after you close the welcome window.</li>
-<li>Switching tabs no longer flashes the profile detection indicator when there is no suggestion to make.</li>
+<li>Saved links to Google apps like Docs and Gmail now show their correct icons, and more sites now load one at all.</li>
+<li>Opening the Move to Folder menu no longer freezes the app.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.7/supasidebar_v0.19.7.zip"
-                sparkle:edSignature="c8WM4yLaaP8rDk5AofkBo1tP0a7th93RFF6M1qzItnFKWza9TndczxXLOYU+PMCF5/JtxmDe1e0GJpLG07xXDQ=="
-                length="22315592"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.8/supasidebar_v0.19.8.zip"
+                sparkle:edSignature="P0VW0L7/1mhtzwmiCS7hDyuQtZ/Ka7x+nUb25R8HUEBG+a1ygMXJz+96ixZCMDOG2+N5MnQE18zfPDDNt7pwCg=="
+                length="22336455"
                 type="application/octet-stream"/>
         </item>
     </channel>
