@@ -3,26 +3,34 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.19.8</title>
-            <pubDate>Sat, 13 Jun 2026 14:37:00 +0530</pubDate>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>0.19.8</sparkle:shortVersionString>
+            <title>Version 0.19.9</title>
+            <pubDate>Mon, 15 Jun 2026 20:47:00 +0530</pubDate>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>0.19.9</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.19.8">SupaSidebar 0.19.8</h1>
+<h1 id="supasidebar-0.19.9">SupaSidebar 0.19.9</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Switch Spaces with Mouse Wheel</strong>: A new opt-in toggle lets you scroll your mouse wheel to switch between spaces.</li>
+<li><strong>Duplicate Folder</strong>: Right-click any folder to duplicate it, including all its links and nested subfolders, in one step.</li>
+<li><strong>Move Tab to Another Browser</strong>: Right-click a live tab and choose “Move to Browser” to reopen it elsewhere and close the original.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Clearer Tooltip Settings</strong>: Tooltips and previews now use a simple on/off switch with a delay dropdown, and “None” is renamed “Instant”.</li>
+<li><strong>Refined French Translations</strong>: French settings labels read more consistently, and the remaining English labels are now translated.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Saved links to Google apps like Docs and Gmail now show their correct icons, and more sites now load one at all.</li>
-<li>Opening the Move to Folder menu no longer freezes the app.</li>
+<li>The space header now counts every saved link in the space, instead of counting each folder as one.</li>
+<li>You can now switch spaces using the physical thumb wheel on an MX Master mouse.</li>
+<li>Expanding a folder in a large library no longer freezes the app while icons load.</li>
+<li>A live tab row now shows the correct icon after a tab closes, instead of keeping the previous tab’s favicon.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.8/supasidebar_v0.19.8.zip"
-                sparkle:edSignature="P0VW0L7/1mhtzwmiCS7hDyuQtZ/Ka7x+nUb25R8HUEBG+a1ygMXJz+96ixZCMDOG2+N5MnQE18zfPDDNt7pwCg=="
-                length="22336455"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.19.9/supasidebar_v0.19.9.zip"
+                sparkle:edSignature="+mPe5iUaSBejFUZm1jtkCKYWCyR7gAZ8uBisPhTY9Vg1L/hDGyI968A2evjlllfdsgLM6tPwCWHyLRw5DNulBA=="
+                length="22362911"
                 type="application/octet-stream"/>
         </item>
     </channel>
