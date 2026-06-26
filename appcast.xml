@@ -3,47 +3,32 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.20.0</title>
-            <pubDate>Sun, 21 Jun 2026 00:14:00 +0530</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+            <title>Version 0.20.1</title>
+            <pubDate>Fri, 26 Jun 2026 15:22:00 +0530</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.20.0">SupaSidebar 0.20.0</h1>
+<h1 id="supasidebar-0.20.1">SupaSidebar 0.20.1</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Recover Deleted Links from Trash</strong>: Deleted links now move to Trash, where you can restore them, empty it, or set a 7-to-90-day retention.</li>
-<li><strong>LibreWolf Support</strong>: SupaSidebar now works with LibreWolf, including live tabs, saving pages, and per-profile launching.</li>
-<li><strong>Close Firefox and Zen Tabs</strong>: Close live tabs in Firefox, Zen, and LibreWolf right from the sidebar, just like other browsers.</li>
+<li><strong>Reset a Single Shortcut</strong>: A new per-shortcut reset button restores one shortcut to its default without clearing the rest.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Search Across All Spaces</strong>: Command panel search now finds saved links from every Space, not just the one you’re in.</li>
-<li><strong>Local and Custom AI Models</strong>: Connect to Ollama or any OpenAI-compatible server, pick a model from a dropdown, and see live status.</li>
-<li><strong>Complete Translations</strong>: All 11 supported languages are now fully translated.</li>
-</ul>
-<h2 id="performance">Performance</h2>
-<ul>
-<li><strong>No Freeze on Large Collections</strong>: The command panel no longer freezes while saving links or rebuilding search across thousands of links.</li>
-<li><strong>Smoother Browser Tracking</strong>: Removed main-thread work while following browser tabs, cutting momentary stutters.</li>
+<li><strong>Background Tab Sync Always On</strong>: Switching to an already-open tab and background tab monitoring now run in every display mode.</li>
+<li><strong>Fewer Default Shortcuts on Fresh Installs</strong>: New installs no longer claim seven occasional global shortcuts that could clash with your other apps.</li>
+<li><strong>More of the App Translated</strong>: The Trash pane, sidebar tooltips, and color names now appear in your language across French and ten more languages.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>The sidebar now docks to the screen edge instead of stranding mid-screen when your browser leaves the Stage Manager stage.</li>
-<li>Typing a saved link’s full name now reliably matches it, even when many similar results compete.</li>
-<li>The first Enter now confirms an in-progress Japanese or other IME conversion instead of opening the top result.</li>
-<li>Creating a folder from selected links now keeps your click order instead of scrambling it.</li>
-<li>Shortcut key combinations now appear in every language instead of showing as a dash.</li>
-<li>Appearance settings and license menus now appear in your language instead of English.</li>
-<li>AI permission buttons no longer overflow the window in French, German, and other longer languages.</li>
-<li>Yes/no toggles in Shortcuts and Command Panel settings now appear as switches instead of checkboxes.</li>
-<li>The ⌘⌥1 through ⌘⌥0 pin shortcuts now release for other apps when Pinned Item Number Shortcuts is off.</li>
-<li>Folder hover previews now consistently show about six links instead of varying each time.</li>
+<li>Closing a single-tab Orion window no longer reopens the tab or leaves it stuck open.</li>
+<li>Collapse and expand arrows now point the right way when the sidebar is docked on the right.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.20.0/supasidebar_v0.20.0.zip"
-                sparkle:edSignature="ag5+lEUIJo/5wztYaKdz8OYsi74ROi7mSul/945YoIE+N5NBgO3vnkzCGzbgQ+UT6vw9n0wF5zmDbnh1PJNBDA=="
-                length="22470863"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.20.1/supasidebar_v0.20.1.zip"
+                sparkle:edSignature="unTFQGJOwprPsn9xYlItCdIykeSkCWAFC3g8JuNVGy9SoZMEKZPZA8eH05U4Tqu9/FjhKco8npdYpO8Gzg2AAg=="
+                length="22509551"
                 type="application/octet-stream"/>
         </item>
     </channel>
