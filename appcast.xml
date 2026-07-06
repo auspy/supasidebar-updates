@@ -3,32 +3,31 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.20.1</title>
-            <pubDate>Fri, 26 Jun 2026 15:22:00 +0530</pubDate>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>0.20.1</sparkle:shortVersionString>
+            <title>Version 0.21.0</title>
+            <pubDate>Mon, 06 Jul 2026 18:38:00 +0530</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>0.21.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.20.1">SupaSidebar 0.20.1</h1>
+<h1 id="supasidebar-0.21.0">SupaSidebar 0.21.0</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Reset a Single Shortcut</strong>: A new per-shortcut reset button restores one shortcut to its default without clearing the rest.</li>
+<li><strong>Beta Updates</strong>: Opt in from Preferences &gt; About to get new features early. Free and trial users see the option locked with an upgrade prompt; Pro is required to turn it on.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Background Tab Sync Always On</strong>: Switching to an already-open tab and background tab monitoring now run in every display mode.</li>
-<li><strong>Fewer Default Shortcuts on Fresh Installs</strong>: New installs no longer claim seven occasional global shortcuts that could clash with your other apps.</li>
-<li><strong>More of the App Translated</strong>: The Trash pane, sidebar tooltips, and color names now appear in your language across French and ten more languages.</li>
+<li><strong>AI Out of Beta</strong>: The AI preferences pane no longer shows a Beta tag, now that AI features are fully rolled out.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Closing a single-tab Orion window no longer reopens the tab or leaves it stuck open.</li>
-<li>Collapse and expand arrows now point the right way when the sidebar is docked on the right.</li>
+<li>Backspace, arrow keys, and other composition keys now reach Japanese and other IME input instead of being hijacked by search, folder previews, or rename fields.</li>
+<li>The “Items to Show” recents setting now stays within 1-100, instead of accepting an out-of-range number typed directly into the field.</li>
+<li>Pasting a license key via Cmd+V or the right-click menu no longer fails to activate when it carries extra whitespace.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.20.1/supasidebar_v0.20.1.zip"
-                sparkle:edSignature="unTFQGJOwprPsn9xYlItCdIykeSkCWAFC3g8JuNVGy9SoZMEKZPZA8eH05U4Tqu9/FjhKco8npdYpO8Gzg2AAg=="
-                length="22509551"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.21.0/supasidebar_v0.21.0.zip"
+                sparkle:edSignature="dCIzGVoGC9BUDSRVtFKLBIdExeXknG6vDi9KLS38TQ11okGvTdk8X/Jm7sRXEq94ooGBVWXveAmPn9dKFW3jCw=="
+                length="22555798"
                 type="application/octet-stream"/>
         </item>
     </channel>
