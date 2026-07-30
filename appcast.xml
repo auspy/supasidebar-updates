@@ -3,29 +3,32 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.21.1</title>
-            <pubDate>Tue, 14 Jul 2026 00:38:00 +0530</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>0.21.1</sparkle:shortVersionString>
+            <title>Version 0.21.2</title>
+            <pubDate>Wed, 29 Jul 2026 14:53:00 +0530</pubDate>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.21.2</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.21.1">SupaSidebar 0.21.1</h1>
+<h1 id="supasidebar-0.21.2">SupaSidebar 0.21.2</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li><strong>Analytics Choice at Setup</strong>: Onboarding now asks whether to share usage data, and nothing is sent until you pick.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Cleaner Add and Edit Panels</strong>: The panels for adding links, spaces, and smart folders, and for sharing a space, now match the app’s design and show each link’s real icon.</li>
-<li><strong>Sidebar Side Conflict Warning</strong>: Preferences now warn when an enabled trigger edge overrides your default sidebar side, with a one-click fix.</li>
-<li><strong>Clearer Settings Names</strong>: Several preference toggles are renamed to plainly say what they do, and the ChatGPT Atlas section appears only when Atlas is installed.</li>
-<li><strong>Clearer Auto-Show Setting Name</strong>: The browser auto-show setting is now called “Auto Show on Browser Focus” for clarity.</li>
+<li><strong>AI Chat Text Is Never Collected</strong>: The text you type into AI chat is no longer sent anywhere, so its privacy toggle is gone.</li>
+<li><strong>Redesigned License Window</strong>: The license screen matches the onboarding design, scrolls, and keeps the Close button reachable at any size.</li>
+<li><strong>Wider Spaces Preferences</strong>: The Spaces list pane starts wider, remembers the width you drag it to, and matches the other panes.</li>
+<li><strong>Better French Translations</strong>: Corrected wording across settings, the menu bar, and update screens, plus several newly translated options.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>The folder hover preview now scrolls through all links, instead of stopping at the first six.</li>
-<li>Add and edit panels now stay open when your cursor leaves the sidebar, instead of vanishing.</li>
+<li>An expired trial now shows as a warning instead of a green success checkmark.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.21.1/supasidebar_v0.21.1.zip"
-                sparkle:edSignature="jeL8vyTBWrO32uAi990C/19KMT0KHhVNkM7wkVXblHt9O8+CkYTHP36YHrIDZKCqGhmHGLH8O7niPR3H1mAqCg=="
-                length="22610286"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.21.2/supasidebar_v0.21.2.zip"
+                sparkle:edSignature="WNKOaEU6HM/LGP3RRhP/3MXAh+eNeBkLHGW5GStfc/g/4pBsG4EbjE1hZTY9+o4UYoab/dtaypOFGujiHgXvCw=="
+                length="22759446"
                 type="application/octet-stream"/>
         </item>
     </channel>
