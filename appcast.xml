@@ -3,32 +3,101 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 0.21.2</title>
-            <pubDate>Wed, 29 Jul 2026 14:53:00 +0530</pubDate>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>0.21.2</sparkle:shortVersionString>
+            <title>Version 1.0.0</title>
+            <pubDate>Fri, 31 Jul 2026 15:58:00 +0530</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-0.21.2">SupaSidebar 0.21.2</h1>
-<h2 id="whats-new">What’s New</h2>
+<h1 id="supasidebar-1.0">SupaSidebar 1.0</h1>
+<p>SupaSidebar is out of beta.</p>
+<h2 id="why-it-started">Why It Started</h2>
+<p>I was an Arc user, and I loved Arc. When it first came out I shared it with all my friends. Then the team stopped working on it, and with so many bugs piling up I had no choice but to replace it.</p>
+<p>But I still wanted that Arc-like experience in my other browsers. Being a dev, I decided to build it myself and bring it to Safari, Brave, and the rest. It started as an Arc replacement for me.</p>
+<h2 id="where-it-ended-up">Where It Ended Up</h2>
+<p>As I kept adding features, I realized this is bigger than that. This is not just for Arc, or just adding a sidebar to another browser. It can be a layer that joins all browsers together and makes browsing browser-agnostic.</p>
+<p>The command panel made it easy to move between browsers and search links. Saving links in one place and opening them with Air Traffic Control changed the game for me. I slowly started looking at it as a multi-browser application.</p>
+<p>You have multiple browsers, and you use each one for its strength.</p>
+<h2 id="thank-you">Thank You</h2>
+<p>To everyone who sent a message, replied to one, reported a bug, or asked for a feature: thank you.</p>
+<p>Version 0.1.0 shipped in August 2025. 51 releases and 34 supported browsers later, more than 1,000 people are running it. A lot of what is in the list below started as somebody’s message.</p>
+<h2 id="a-sneak-peek">A Sneak Peek</h2>
+<p>I think the real work now is to go deeper into that. Make switching browsers so easy that you can forget which browser you are using. You set your tools once, and the link opens in the right place.</p>
+<p>So here is a sneak peek. One of the main things I want to add is opening a link from any app on your Mac and having it land in the right browser, not just from the sidebar. so ATC for entire Mac.</p>
+<p>I will keep making it more convenient and faster, and keep improving your browsing productivity.</p>
+<p>These are my plans.</p>
+<p>Here are all the features SupaSidebar has now:</p>
+<h2 id="sidebar">Sidebar</h2>
 <ul>
-<li><strong>Analytics Choice at Setup</strong>: Onboarding now asks whether to share usage data, and nothing is sent until you pick.</li>
+<li><strong>Spaces</strong>: Group links, folders, and tabs into separate spaces, each with its own color tint.</li>
+<li><strong>Compact and Dock Modes</strong>: Collapse the sidebar to an icon strip, or dock it beside your browser.</li>
+<li><strong>Folders and Smart Folders</strong>: Nest links in folders, or let smart folders fill themselves from tags and rules.</li>
+<li><strong>Tags and Notes</strong>: Tag any link, add notes, and let AI suggest matching tags as you save.</li>
+<li><strong>Floating Button</strong>: A draggable button that opens the sidebar from anywhere on screen.</li>
 </ul>
-<h2 id="improvements">Improvements</h2>
+<h2 id="browsers">Browsers</h2>
 <ul>
-<li><strong>AI Chat Text Is Never Collected</strong>: The text you type into AI chat is no longer sent anywhere, so its privacy toggle is gone.</li>
-<li><strong>Redesigned License Window</strong>: The license screen matches the onboarding design, scrolls, and keeps the Close button reachable at any size.</li>
-<li><strong>Wider Spaces Preferences</strong>: The Spaces list pane starts wider, remembers the width you drag it to, and matches the other panes.</li>
-<li><strong>Better French Translations</strong>: Corrected wording across settings, the menu bar, and update screens, plus several newly translated options.</li>
+<li><strong>34 Browsers</strong>: Safari, Chrome, Firefox, Edge, Arc, Brave, Vivaldi, Zen, Orion, Dia, Comet, and more, including beta and nightly channels.</li>
+<li><strong>Live Tabs</strong>: See and switch every open tab from the sidebar, with favicons and per-tab colors.</li>
+<li><strong>Pinned Tabs per Space</strong>: Pin the tabs each space needs and reach them with number keys.</li>
+<li><strong>Tabs Linked to a Space</strong>: Turn it on and leaving a space closes its tabs, while returning reopens them in the right browser and profile.</li>
+<li><strong>Air Traffic Control</strong>: Route links to the right space or browser by rule, with AI to help write the rules.</li>
+<li><strong>Browser Profiles</strong>: Link a space to a specific browser profile so work and personal stay apart.</li>
+<li><strong>One History Across Every Browser</strong>: Pages you visit in any browser collect in a single searchable list, kept on your Mac for 30 days.</li>
 </ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+<h2 id="window-behavior">Window Behavior</h2>
 <ul>
-<li>An expired trial now shows as a warning instead of a green success checkmark.</li>
+<li><strong>Smart Attach</strong>: The sidebar follows the browser window you are using and moves with it across screens.</li>
+<li><strong>Fill and Tiling</strong>: Expand your browser into the space beside the sidebar, or tile windows with a shortcut.</li>
+<li><strong>Hover and Swipe Triggers</strong>: Open the sidebar from a screen edge, or swipe to change spaces.</li>
+</ul>
+<h2 id="search">Search</h2>
+<ul>
+<li><strong>Command Panel</strong>: Press ⌘⌃K for fuzzy search across links, tabs, files, spaces, and the web.</li>
+<li><strong>Quick Website Search</strong>: Type a keyword and a space to search any site straight from the panel.</li>
+<li><strong>Ask AI</strong>: Chat with a model in the command panel, using a cloud provider or a local Ollama model.</li>
+<li><strong>Clipboard Awareness</strong>: A copied link surfaces at the top of the panel, ready to save or open.</li>
+</ul>
+<h2 id="customization">Customization</h2>
+<ul>
+<li><strong>Colors and Icons</strong>: Give links, folders, pinned tabs, and whole spaces their own colors and icons.</li>
+<li><strong>Themes</strong>: Light, dark, and a glass theme, with adjustable opacity and text size.</li>
+<li><strong>Position and Size</strong>: Pin the sidebar to either side, drag it to any width, and choose where it opens.</li>
+<li><strong>Open and Hide Behavior</strong>: Tile or fill your browser when the sidebar opens, and restore, expand, or leave it when the sidebar hides.</li>
+<li><strong>Hover Timing</strong>: Tune the delay before the sidebar appears, how close to the edge you need to be, and how far you move to dismiss it.</li>
+</ul>
+<h2 id="privacy">Privacy</h2>
+<ul>
+<li><strong>Incognito Mode</strong>: One switch stops new browsing data, search history, and ranking signals from being recorded.</li>
+<li><strong>Privacy Blocklist</strong>: Keep chosen sites, or whole browsers, out of live tabs and history entirely.</li>
+<li><strong>Your Data Is Yours</strong>: Your history, searches, and rankings live on your Mac and your own iCloud, never on our servers.</li>
+</ul>
+<h2 id="files">Files</h2>
+<ul>
+<li><strong>File and Folder Links</strong>: Save files and folders, preview them on hover, and browse them in a popover.</li>
+<li><strong>Finder Actions</strong>: Reveal, rename, duplicate, or trash a file without leaving the sidebar.</li>
+</ul>
+<h2 id="setup-and-data">Setup and Data</h2>
+<ul>
+<li><strong>Import From Anywhere</strong>: Bring in bookmarks from a browser, an HTML export, or a SupaSidebar backup file.</li>
+<li><strong>Shared Spaces</strong>: Send a space to someone as a link, and import theirs the same way.</li>
+<li><strong>iCloud Sync</strong>: Your spaces, links, and folders sync across your Macs.</li>
+<li><strong>Trash</strong>: Deleted links stay recoverable for 7, 14, 30, or 90 days, your choice.</li>
+<li><strong>12 Languages</strong>: French, German, Spanish, Italian, Japanese, Korean, Dutch, Portuguese, Russian, and both Chinese scripts.</li>
+</ul>
+<h2 id="automation">Automation</h2>
+<ul>
+<li><strong>SupaSidebar MCP</strong>: Let AI assistants read and change your spaces, links, and settings.</li>
+<li><strong>Global Shortcuts</strong>: Every action has a shortcut you can record, change, or clear.</li>
+</ul>
+<h2 id="known-issues">Known Issues</h2>
+<ul>
+<li>On macOS 27, setting and clearing keyboard shortcuts does not work. The fix lands in the next release, and Pro users can get it now by turning on beta updates in Preferences &gt; About.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v0.21.2/supasidebar_v0.21.2.zip"
-                sparkle:edSignature="WNKOaEU6HM/LGP3RRhP/3MXAh+eNeBkLHGW5GStfc/g/4pBsG4EbjE1hZTY9+o4UYoab/dtaypOFGujiHgXvCw=="
-                length="22759446"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.0.0/supasidebar_v1.0.0.zip"
+                sparkle:edSignature="jMvX4D3qwUQJZLlFK+QPN3faoL47imKe7JlaR8RZn7ihJQxxX8HUvTTB4bWNCB/BTW/iMkIk64aAwZaL+QkwAg=="
+                length="22761143"
                 type="application/octet-stream"/>
         </item>
     </channel>
