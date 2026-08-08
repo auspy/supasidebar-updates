@@ -3,6 +3,40 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
+            <title>Version 1.1.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sat, 08 Aug 2026 11:56:00 +0530</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>1.1.0-beta.1</sparkle:shortVersionString>
+            <description><![CDATA[
+<h1 id="supasidebar-1.1.0-beta.1">SupaSidebar 1.1.0-beta.1</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li><strong>Tab Auto-Close</strong>: Idle tabs close on their own after a timeout you set, and land in a new Archived Tabs list.</li>
+<li><strong>Portable Export</strong>: Export your links as browser bookmarks, plain JSON, or a full backup that restores your setup on a new Mac.</li>
+<li><strong>Window Groups in Live Tabs</strong>: When a browser has two or more windows open, its tabs group under headers you can rename and collapse.</li>
+<li><strong>Window Lock</strong>: Lock a whole window so none of its tabs get closed, and new tabs opened there stay protected too.</li>
+<li><strong>Number Keys for Browsers</strong>: Press 1-9 in the command panel or the Open With popover to open a link in that browser or profile.</li>
+<li><strong>Rename With ⌘-Click</strong>: A new ⌘+Click behavior starts renaming a link instead of opening it.</li>
+<li><strong>Version in the Menu Bar</strong>: The menu bar now shows your version above Check for Updates.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Open With Follows Your Habits</strong>: Browsers and profiles are ordered by how often you actually open links with them.</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Tab Auto-Close is off by default. Turn it on in Preferences &gt; Archived Tabs, then set the timeout and how many tabs to keep.</li>
+<li>Archived tabs are recoverable from Archived Tabs in the sidebar menu, so nothing closed is lost.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.1.0-beta.1/supasidebar_v1.1.0-beta.1.zip"
+                sparkle:edSignature="oO8sV63Pe7EsZJvD8zUfvJH5LlV6O87sI0r93Es8lAllGweUuv2KobpoEm12R9Vr26bjKVioSkuaEwt9NMRvDQ=="
+                length="23103795"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.0</title>
             <pubDate>Fri, 31 Jul 2026 15:58:00 +0530</pubDate>
             <sparkle:version>52</sparkle:version>
