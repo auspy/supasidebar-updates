@@ -9,25 +9,39 @@
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <description><![CDATA[
 <h1 id="supasidebar-1.1.0">SupaSidebar 1.1.0</h1>
+<p>This update focuses on the everyday experience of using SupaSidebar, with a revamped Command Panel, clearer Space navigation, and improvements to how you find, open, and organize your links.</p>
+<h2 id="redesigned-command-panel">Redesigned Command Panel</h2>
+<ul>
+<li><strong>Organized Results</strong>: Live tabs, pinned pages, saved links, and recent visits now appear in clearly labeled groups. See which pages are already open, where they are open, and when you last visited them.</li>
+<li><strong>Website Scopes</strong>: Browse and search pages from a specific website using the new scope bar. Type / and part of a website name or keyword, then press Space or Return to select it without losing your existing query.</li>
+<li><strong>Clearer Browser Choices</strong>: The panel shows where the selected result will open. Open With ranks your browser and profile choices by use, with number shortcuts for quick selection.</li>
+<li><strong>Better Web Suggestions</strong>: Web suggestions have their own expandable section below your local results, opening automatically when there is room.</li>
+<li><strong>Performance Improvements</strong>: Improved opening, searching, and keyboard navigation, with less repeated work as you move through results or switch scopes.</li>
+</ul>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Tab Auto-Close</strong>: Idle tabs close on their own after a timeout you set, and land in a new Archived Tabs list.</li>
-<li><strong>Portable Export</strong>: Export your links as browser bookmarks, plain JSON, or a full backup that restores your setup on a new Mac.</li>
-<li><strong>Window Groups in Live Tabs</strong>: When a browser has two or more windows open, its tabs group under headers you can rename and collapse.</li>
-<li><strong>Window Lock</strong>: Lock a whole window so none of its tabs get closed, and new tabs opened there stay protected too.</li>
-<li><strong>Number Keys for Browsers</strong>: Press 1-9 in the command panel or the Open With popover to open a link in that browser or profile.</li>
-<li><strong>Rename With ⌘-Click</strong>: A new ⌘+Click behavior starts renaming a link instead of opening it.</li>
-<li><strong>Version in the Menu Bar</strong>: The menu bar now shows your version above Check for Updates.</li>
+<li><strong>Preferred Apps and Browsers</strong>: Set a default app for each saved file or folder, such as opening a project folder in Visual Studio Code. Saved web links can remember a preferred browser too.</li>
+<li><strong>Search Settings</strong>: Find preferences from one search field and jump directly to the matching section.</li>
+<li><strong>Portable Export</strong>: Export your links as browser bookmarks, plain JSON, or a full backup that restores your setup on another Mac.</li>
+<li><strong>Window Groups in Live Tabs</strong>: Tabs from multiple browser windows are grouped under separate headers you can rename and collapse.</li>
+<li><strong>Feedback in Preferences</strong>: Send feedback directly from the app, with an editable reply email and your message kept in the form if sending fails.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Open With Follows Your Habits</strong>: Browsers and profiles are ordered by how often you actually open links with them.</li>
-<li><strong>Onboarding Restores Setup Steps</strong>: New installs walk through sidebar size, auto show/hide, and bookmark import again, and the sidebar now auto-shows with your browser by default.</li>
+<li><strong>Clearer Space Navigation</strong>: More compact Space buttons use centered icons that enlarge on hover, making Spaces easier to find even when the bar is crowded.</li>
+<li><strong>Sidebar Refinements</strong>: Compact Mode has clearer collapsed sections and item counts. Sidebar sections remember your expand or collapse choices after relaunching the app.</li>
+<li><strong>Updated Onboarding and Getting Started</strong>: Refreshed setup and Command Panel previews, with practical guides for saving, finding, and organizing links. You can also revisit sidebar setup after onboarding.</li>
+<li><strong>Arc Import Preview</strong>: Preview the Spaces in your Arc sidebar file and import only the ones you choose.</li>
+<li><strong>Save from Recent</strong>: Save a recently visited page directly using the star button beside it.</li>
+<li><strong>Air Traffic Control Suggestions</strong>: Choose whether Air Traffic Control suggests new routes based on how you open links.</li>
 </ul>
-<h2 id="notes">Notes</h2>
+<h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Tab Auto-Close is off by default. Turn it on in Preferences &gt; Archived Tabs, then set the timeout and how many tabs to keep.</li>
-<li>Archived tabs stay recoverable from Archived Tabs in the sidebar menu, so nothing closed is lost.</li>
+<li>Removing a saved link from Recent no longer removes it from Unfiled or its saved folder.</li>
+<li>Web searches now open in the browser shown by the Command Panel.</li>
+<li>Clearing a website query keeps that website selected, and closing the scope picker restores your previous search.</li>
+<li>Reordering website shortcuts no longer drags the Preferences window.</li>
+<li>Improved Safari popup filtering for sidebar attachment.</li>
 </ul>
             ]]></description>
             <enclosure
