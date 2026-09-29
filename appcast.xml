@@ -10,6 +10,7 @@
             <description><![CDATA[
 <h1 id="supasidebar-1.2.0">SupaSidebar 1.2.0</h1>
 <p>SupaSidebar 1.2.0 lets you search your browser history, select multiple sidebar items, and choose which browsers contribute Live Tabs, recent activity, and history. New privacy controls let you pause activity recording or clear imported history while keeping your saved links. Major performance improvements bring up to 84% less time reading browser tabs, up to 37% less time preparing search results, and 55% less time matching links in Smart Folders.</p>
+<p><a href="https://www.youtube.com/watch?v=6PV7Ktd1V04">Watch the 1.2.0 update video</a></p>
 <h2 id="whats-new">What’s New</h2>
 <ul>
 <li><strong>Search Browser History</strong>: Find visits from the last 30 days in supported browsers, including visits made while SupaSidebar was not running. Imported history is stored locally on your Mac.</li>
