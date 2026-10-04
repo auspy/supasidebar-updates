@@ -3,50 +3,49 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.2.0</title>
-            <pubDate>Tue, 29 Sep 2026 01:38:00 +0530</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>Version 1.3.0</title>
+            <pubDate>Sun, 04 Oct 2026 18:44:00 +0530</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.2.0">SupaSidebar 1.2.0</h1>
-<p>SupaSidebar 1.2.0 lets you search your browser history, select multiple sidebar items, and choose which browsers contribute Live Tabs, recent activity, and history. New privacy controls let you pause activity recording or clear imported history while keeping your saved links. Major performance improvements bring up to 84% less time reading browser tabs, up to 37% less time preparing search results, and 55% less time matching links in Smart Folders.</p>
-<p><a href="https://www.youtube.com/watch?v=6PV7Ktd1V04">Watch the 1.2.0 update video</a></p>
+<h1 id="supasidebar-1.3.0">SupaSidebar 1.3.0</h1>
+<p>SupaSidebar 1.3.0 makes Spaces easier to set up and connect to your browsers. Create and edit Spaces right in the sidebar, choose a browser or profile for each one, and bring across the bookmarks you need. Automatic backups, a dedicated Zen import, and improvements to everyday sidebar behavior round out the update.</p>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Search Browser History</strong>: Find visits from the last 30 days in supported browsers, including visits made while SupaSidebar was not running. Imported history is stored locally on your Mac.</li>
-<li><strong>Privacy &amp; Browsers</strong>: Control Live Tabs, Recent activity, and history importing separately for each browser. Pause activity capture with SupaSidebar’s Private Mode, block browsers, or clear imported history without deleting saved links or changing your browser’s own history.</li>
-<li><strong>Sidebar Selection</strong>: Select multiple items, including Live Tabs, enter selection from context menus, and select folder contents. Clearer selection controls make it easier to finish selecting and return to normal browsing.</li>
-<li><strong>Permission Status</strong>: See Accessibility and browser Automation permission status in Preferences, which features depend on them, and where to resolve missing permissions.</li>
-<li><strong>Recommended Section</strong>: A new section at the top of Command Panel search results brings together the best matches from Live Tabs, saved links, and recent visits.</li>
-<li><strong>Settings in the Command Panel</strong>: Search for a setting and open it directly from the Command Panel.</li>
+<li><strong>A Simpler Way to Connect Spaces</strong>: Use the link icon beside a Space’s name to choose a supported browser or profile. Live Tabs show tabs from that connection, and it becomes the Space’s default browser destination. Your explicit Open With choices, per-link browser preferences, and higher-priority Air Traffic Control rules still take precedence.</li>
+<li><strong>Create and Edit Spaces in the Sidebar</strong>: Set a Space’s name, icon, color, and browser connection in one form. Edit an existing Space in the same place, with the full adaptive color palette available.</li>
+<li><strong>Bring Your Bookmarks Along</strong>: Choose Fetch bookmarks when connecting a Space, review the selection, and import what you want. For an existing connection, use Check for new bookmarks to import more when you need them.</li>
+<li><strong>Import Zen Spaces</strong>: Choose which Zen Spaces to bring into SupaSidebar, keeping their folder structure and pinned tabs as saved links. Shared Essentials and browser bookmarks can be imported into their own Spaces. Ordinary open tabs are excluded, and imports add new Spaces without replacing your existing ones.</li>
+<li><strong>Automatic Backups</strong>: Save scheduled <code>.ssb</code> copies of your saved content, choose a backup folder and frequency, or use Back Up Now. Weekly backups are enabled when no previous backup preference exists; existing choices, including Off, are preserved. Backups cover saved content, not browser history, Live Tabs, or app settings.</li>
+<li><strong>Check &amp; Repair</strong>: Find unassigned folders and reconnect them to a Space from Preferences &gt; Backups. A recovery copy is saved before applying changes.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Live Tabs</strong>: Up to <strong>84% less time</strong> reading browser tabs during repeated updates.</li>
-<li><strong>Search</strong>: Up to <strong>37% less time</strong> preparing search results in large libraries.</li>
-<li><strong>Search Indexing</strong>: <strong>96% less time</strong> adding a page to an existing search index compared with rebuilding it.</li>
-<li><strong>Smart Folders</strong>: <strong>55% less time</strong> finding matching links across multiple Smart Folders.</li>
-<li><strong>Resume Where You Left Off</strong>: Reopen the Command Panel within 60 seconds to return to your category, search, selected result, and scroll position. After 60 seconds, it starts fresh in All.</li>
-<li><strong>Stable Live Tab Order</strong>: Live tabs refresh their browsing order when you reopen the panel. While it is open, existing tabs keep their order, new tabs are added, and closed tabs disappear. Typed searches continue to sort by relevance.</li>
-<li><strong>Visible Index Updates</strong>: A thin progress bar below the search field shows when the local search index is updating.</li>
-<li><strong>More Efficient Long Lists</strong>: Reduced repeated work when preparing, grouping, and navigating large result lists.</li>
-<li><strong>Better Search Ranking</strong>: Improved matching and scope-aware ranking across saved pages, recent visits, and imported history.</li>
-<li><strong>Live Tabs Updates</strong>: Reduced repeated browser-reading and sidebar-rendering work. Tab changes received during an ongoing refresh are retained for a follow-up refresh, and results from retired browser sessions are discarded.</li>
-<li><strong>Smart Attach</strong>: The sidebar docks to the screen edge until an eligible browser gains focus, with improvements to following browser movement.</li>
-<li><strong>Getting Started</strong>: Refreshed learning cards and optional sidebar learning and customization prompts.</li>
-<li><strong>Space Navigation</strong>: Refined hover enlargement and readability in the compact Space bar.</li>
+<li><strong>Easier Folder Reordering</strong>: Drop near the top or bottom of a folder row to place a folder before or after it, or in the center to move it inside. The drop area after the last folder is three times taller, making it easier to place folders at the end. Insertion indicators stay in place without shifting the rows.</li>
+<li><strong>Your Own Default Browser</strong>: Choose a default browser for SupaSidebar without changing your Mac’s default browser.</li>
+<li><strong>Clearer Space Connections</strong>: See the browser’s logo beside the connection label. Space preferences are organized into My spaces and Switching spaces, with automatic browser launching and automatic Space switching off until you choose to enable them when no saved preference exists.</li>
+<li><strong>Cleaner Command Panel Results</strong>: Source-browser logos sit beside aligned status labels. Window and tab numbers have been removed from the metadata, while visit times and footer shortcuts remain available.</li>
+<li><strong>Control Space Rules in the Command Panel</strong>: The new Use current Space rules setting is on by default. Turn it off to apply only browser rules for all Spaces when opening links from the Command Panel. Explicit browser choices still take precedence.</li>
+<li><strong>Easier Settings Search</strong>: Improved matching in Preferences and the Command Panel, with results that take you to the relevant controls. Repeated navigation to the same setting now scrolls it into view correctly.</li>
+<li><strong>More Helpful Permission Checks</strong>: Clearer browser-access and mouse-control status, with guidance for resolving missing access.</li>
+<li><strong>More Consistent Interface</strong>: Refined shared controls across the sidebar, Command Panel, and Preferences, plus expanded French translations.</li>
 </ul>
-<p>Based on selected internal component benchmarks against earlier implementations or full rebuilds. These measure the named operations, not total app response time. Results vary by browser and library.</p>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Trashed saved pages no longer appear in Recent, All, or website browse results as local saved/recent entries. A page still open in your browser remains available in Live tabs.</li>
-<li>Removing a saved page from Recent no longer lets it reappear through stale fallback results; the saved bookmark is preserved.</li>
+<li>The sidebar shortcut hides an uncovered sidebar even when another app has keyboard focus, and brings a covered sidebar forward.</li>
+<li>Prevent Overlap waits for sidebar movement to settle, rechecks the target window before adjusting it, and preserves the browser’s vertical position and height.</li>
+<li>Improved sidebar attachment while a browser is starting up.</li>
+<li>The sidebar can be narrowed again after being widened.</li>
+<li>Browser links dragged into the sidebar retain supplied page titles.</li>
+<li>Live Tabs use consistent window groups in linked Spaces.</li>
+<li>Air Traffic Control rules that match all URLs retain their explicit Space scope.</li>
+<li>Backup and recovery fixes preserve more saved-content details, including folder order, tags, empty notes, and Smart Folder references, and address incomplete exports in larger libraries.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.2.0/supasidebar_v1.2.0.zip"
-                sparkle:edSignature="pdPnwX1X5PMDaOp8DnbSZlOxRc8jILaRZTtt3wyhXwhW9NLPLfjArqivNbAitsB+qBk8GKzy1X3yzmZWYgl6AA=="
-                length="27493170"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.3.0/supasidebar_v1.3.0.zip"
+                sparkle:edSignature="Wrqn1SiglcwR9RjwkpZWzk2t0V5gnwDEFnhYwPmvu71BW8PfEKlG4UaPNatXdVLFwRcLxQJqNRE29oqBtducBw=="
+                length="29064185"
                 type="application/octet-stream"/>
         </item>
         <item>
