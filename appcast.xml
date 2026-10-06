@@ -3,32 +3,27 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.3.1</title>
-            <pubDate>Mon, 05 Oct 2026 01:55:00 +0530</pubDate>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <title>Version 1.3.2</title>
+            <pubDate>Tue, 06 Oct 2026 17:38:00 +0530</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.3.1">SupaSidebar 1.3.1</h1>
-<p>SupaSidebar 1.3.1 improves bookmark imports and tab restore reliability, with a few small refinements to the sidebar and Space settings.</p>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<ul>
-<li><strong>Browser Reattachment Crash</strong>: Fixed a crash that could occur when the sidebar reconnects to a browser while its window information is changing.</li>
-<li><strong>Find More Browser Bookmarks</strong>: Chromium-based browser imports now read both local and account bookmark stores, so recently added bookmarks in a browser profile are included when available on your Mac.</li>
-<li><strong>More Complete Firefox and Zen Imports</strong>: Imports include Mobile Bookmarks and read a consistent snapshot of the browser’s saved bookmarks, including recent changes while the browser is running.</li>
-<li><strong>Clearer Import Errors</strong>: Malformed Safari bookmark files are reported as invalid data. Unsupported encrypted Chromium bookmark stores produce an error instead of silently leaving bookmarks out.</li>
-<li><strong>Safer Tab Restore</strong>: Space switching waits for fresh browser tab data before saving or closing outgoing tabs. Incomplete reads are retried, and unreadable tab data stops the operation with a message instead of replacing saved tabs with incomplete information.</li>
-<li><strong>Keep Your Browser Order</strong>: Your custom Live Tabs browser order is preserved while tabs refresh during a Space restore.</li>
-</ul>
+<h1 id="supasidebar-1.3.2">SupaSidebar 1.3.2</h1>
+<p>SupaSidebar 1.3.2 adds automatic backup limits, expands translations, and fixes the icon editor’s appearance in colored Spaces.</p>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Quick Recents Control</strong>: A compact switch beside Recents takes you back to Live Tabs. Clicking the Recents title still collapses or expands the section.</li>
-<li><strong>Simpler Space Settings</strong>: Unlinked Spaces show the browser/profile picker first. Connection details appear after you link a browser or profile.</li>
+<li><strong>Choose How Many Backups to Keep</strong>: Automatic Backups now lets you keep 1, 5, 10, 25, 50, or 100 backups, with 10 as the default. Older automatic backups are removed only after a new backup saves successfully. Manual exports are left alone.</li>
+<li><strong>More Translated Text</strong>: Expanded translations across the 11 supported non-English languages, including Spaces, backup settings, onboarding, sidebar dialogs, and notifications. Existing translations are preserved.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li><strong>Readable Icon Editor</strong>: Fixed the white-on-white icon picker in Spaces that use white sidebar text. The icon popover and editor sheet now use a matching light or dark appearance.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.3.1/supasidebar_v1.3.1.zip"
-                sparkle:edSignature="YZKUun7e06Rz4taWGa9WBfX03Yrbl9A5F+PkJH6l/Xz0/mJKutOqKM65AoC8Teo35nL7kpWSYpfaTCQ9WZPvDw=="
-                length="29186904"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.3.2/supasidebar_v1.3.2.zip"
+                sparkle:edSignature="Y7xxSSx85+tua4zjsgr/ATTtFEUSnnp36w3T7lKcB9MNWgsupnK6+XvujDCIZ/1tMYpESvcd0IljUGap8CgSDQ=="
+                length="29842430"
                 type="application/octet-stream"/>
         </item>
         <item>
