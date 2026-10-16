@@ -3,24 +3,32 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.3.3</title>
-            <pubDate>Wed, 07 Oct 2026 12:33:00 +0530</pubDate>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <title>Version 1.3.4</title>
+            <pubDate>Fri, 16 Oct 2026 16:36:00 +0530</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.3.3">SupaSidebar 1.3.3</h1>
-<p>SupaSidebar 1.3.3 fixes how the sidebar responds to browser windows closing and reopening, and makes the sidebar toggle shortcut more consistent.</p>
+<h1 id="supasidebar-1.3.4">SupaSidebar 1.3.4</h1>
+<p>SupaSidebar 1.3.4 makes the profile picker faster, reopens Recents in the right browser profile, and fixes folder and Live Tabs display issues.</p>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Faster Profile Picker</strong>: Each browser now appears in the profile picker as soon as its profiles load, instead of waiting for Safari.</li>
+<li><strong>Version in the Menu Bar Menu</strong>: Right-clicking the menu bar icon now shows your SupaSidebar version, and clicking it opens About.</li>
+</ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Sidebar Returns When Your Browser Reopens</strong>: Fixed the sidebar staying hidden after closing the last browser window and opening a new one, including in Safari. Auto-show continues to respect your settings and manual hide choice.</li>
-<li><strong>Hide With the Attached Browser</strong>: Closing the browser window attached to the sidebar now hides the sidebar instead of keeping it beside another remaining window. This also applies to a manually opened Smart Attach sidebar when automatic browser show is off.</li>
-<li><strong>Consistent Sidebar Toggle</strong>: The toggle shortcut now hides the sidebar on the first press whenever any part of it is visible, even if another app has keyboard focus. If the sidebar is completely covered, the shortcut brings it forward.</li>
+<li>The profile picker no longer stays on “Detecting profiles…” for minutes when Safari is slow to respond.</li>
+<li>Brave, Chrome and other Chromium browsers no longer show an empty profile list when one profile’s data is unreadable.</li>
+<li>Pages opened from Recents in the command panel now reopen in the browser and profile you visited them in.</li>
+<li>Command panel search now learns from your recent page visits again, so pages you open often rank higher.</li>
+<li>Deleting a link inside an open folder now removes it from the sidebar right away.</li>
+<li>Live Tabs windows in linked Spaces no longer show the browser’s color tint.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.3.3/supasidebar_v1.3.3.zip"
-                sparkle:edSignature="cUi6mcsGsppVCgF6H/00ttFM0WbbAyznYxK8b12QpDtLQl/IqinxsZIFMLT81KPb19Vgtp7RLwRN8Dmm861vBQ=="
-                length="29879468"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.3.4/supasidebar_v1.3.4.zip"
+                sparkle:edSignature="mkHbBqGQjDtYFDtclHkqxXcit6Bk1UBdyJoKuF4ZNsoyQJEs5Mn3LNCOIyGayHXQPSmgI6eJ0kJiOiCJPnodDg=="
+                length="29915340"
                 type="application/octet-stream"/>
         </item>
         <item>
