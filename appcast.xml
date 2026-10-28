@@ -3,48 +3,31 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.4.0</title>
-            <pubDate>Tue, 27 Oct 2026 16:22:00 +0530</pubDate>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <title>Version 1.4.1</title>
+            <pubDate>Wed, 28 Oct 2026 14:24:00 +0530</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.4.0">SupaSidebar 1.4.0</h1>
-<p>SupaSidebar 1.4.0 makes the sidebar feel more like Arc’s. Let Spaces follow the browser window you’re using, step back and forward through your recent tabs, see which saved link is the tab you’re on, and arrange the top bar your way.</p>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Back and Forward Through Tabs</strong> - New top bar arrows step through the tabs you used recently, in any browser, and right-click lists them.</li>
-<li><strong>Back and Forward Shortcuts</strong> - Set optional shortcuts to go back or forward a tab, across every browser or within the current Space.</li>
-<li><strong>Show Open Tabs in Saved</strong> - A saved link now lights up while its page is your current tab, like a pinned tab in Arc.</li>
-<li><strong>Hide Saved Tabs From Live Tabs</strong> - With Show Open Tabs in Saved on, open tabs that match a saved link can show only in Saved.</li>
-<li><strong>Customizable Top Bar</strong> - Drag buttons to add, remove or reorder them in Settings &gt; Appearance &gt; Top Bar, or right-click the top bar.</li>
-<li><strong>Duplicate Tab</strong> - Right-click an open tab to open a second copy of it in the same browser.</li>
-<li><strong>Middle-Click to Close Tabs</strong> - Middle-click a tab in Live Tabs, in the sidebar or compact mode, to close it.</li>
-<li><strong>Search Shortcuts for Live Tabs and Saved</strong> - Two new shortcuts open the command panel straight into Live Tabs or Saved search.</li>
-</ul>
+<h1 id="supasidebar-1.4.1">SupaSidebar 1.4.1</h1>
+<p>SupaSidebar 1.4.1 makes Return in the Command Panel work like your browser’s address bar, and fixes a crash, Space colors and linked profile windows.</p>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Spaces Follow Your Browser Window</strong> - With Switch automatically on, focusing a window from a linked profile now switches to its Space.</li>
-<li><strong>See Why a Space Switched</strong> - A short note in the sidebar names the window that caused an automatic switch, with a Stop switching button.</li>
-<li><strong>Spaces Offer to Switch</strong> - Focusing a window from another Space’s linked profile now asks to switch, unless you picked a different behavior.</li>
-<li><strong>Automatic Switching When You Link a Profile</strong> - Linking a browser profile to a Space now turns on Switch automatically if you hadn’t chosen a behavior.</li>
-<li><strong>Compact Mode Catches Up</strong> - Compact mode now highlights your current tab, follows each Space’s linked profile in Live Tabs, and shows switch notes.</li>
-<li><strong>⌘N or ⌘T in Your Browser</strong> - Pick ⌘N or ⌘T to open the Command Panel inside your browser, with ⌘N as the new default.</li>
-<li><strong>Tidier ⋯ Menu</strong> - The sidebar’s ⋯ menu now groups settings under headings, and holds Full Screen Browser plus any buttons that don’t fit.</li>
-<li><strong>Updated Onboarding</strong> - New users get a simpler first-run setup that brings over their Arc Spaces and pinned tabs.</li>
+<li><strong>Return Works Like an Address Bar</strong> - In the Command Panel, Return opens your usual site for words like “git” and searches the web otherwise.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Automatic Space switches now leave your browser windows where they are instead of raising or moving them.</li>
-</ul>
-<h2 id="notes">Notes</h2>
-<ul>
-<li>Selection Mode is no longer in the ⋯ menu. Start it with right-click &gt; Select, or Shift-click and Command-Shift-click rows.</li>
+<li>SupaSidebar no longer quits unexpectedly when it tiles your browser windows as the sidebar opens.</li>
+<li>Space colors now show in the sidebar and compact mode when Reduce Transparency or Increase Contrast is on.</li>
+<li>Switching to a Space linked to a Chrome or Brave profile no longer opens a new window when the browser isn’t in English or you’re signed in to Google.</li>
+<li>Live Tabs window names in Edge, Brave, Vivaldi and other Chromium browsers no longer swap when you switch windows or Spaces.</li>
+<li>The Move to Space menu now shows Space icons at the right size and keeps the names of Spaces with emoji icons.</li>
+<li>New installs no longer show “Backup could not be saved” in Settings before the first Space is created.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.4.0/supasidebar_v1.4.0.zip"
-                sparkle:edSignature="KOpIillkzkLgUnC+SQnT8UsY3HHfCdQ5e5ncKWW/hkHXChE74wcTHQNnoGWKVzO6cX1jk0HlGB3ASIJnO5+CAw=="
-                length="31677197"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.4.1/supasidebar_v1.4.1.zip"
+                sparkle:edSignature="rXh1Z7cJhS9WCY8/b5pJ2ud+e4DcvPBT8oim8VL2J7KmUwPJMh0CtLypwVl0tUEQQw6vbihxr0hX1xfnOQKVDA=="
+                length="31726618"
                 type="application/octet-stream"/>
         </item>
         <item>
