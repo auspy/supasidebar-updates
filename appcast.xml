@@ -3,31 +3,67 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.4.1</title>
-            <pubDate>Wed, 28 Oct 2026 14:24:00 +0530</pubDate>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <title>Version 1.5.0</title>
+            <pubDate>Fri, 30 Oct 2026 17:38:00 +0530</pubDate>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.4.1">SupaSidebar 1.4.1</h1>
-<p>SupaSidebar 1.4.1 makes Return in the Command Panel work like your browser’s address bar, and fixes a crash, Space colors and linked profile windows.</p>
+<h1 id="supasidebar-1.5.0">SupaSidebar 1.5.0</h1>
+<p>SupaSidebar 1.5.0 brings an Arc-style pill for your current tab, a fuller Space menu, one key for Compact Mode and a new Labs page with two features to try early.</p>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li><strong>Labs</strong> - A new Labs page in Settings lets you try new beta features early. They’re part of Pro, and each one is free for 30 days.</li>
+<li><strong>Open Links From Other Apps in SupaView (Labs)</strong> - Make SupaSidebar your default browser and links from Slack, Mail or Terminal open in a small floating window.</li>
+<li><strong>Stay Signed In to SupaView (Labs)</strong> - Import your browser’s logins so sites in SupaView open signed in, and keep them in sync.</li>
+<li><strong>Archived Tabs (Labs)</strong> - Have tabs you stop using close on their own and wait in an archive for 30 days, ready to reopen.</li>
+<li><strong>SupaView From the Command Panel</strong> - ⇧Return now opens a Command Panel result in SupaView, and Settings lets you swap it with ⌘Return.</li>
+<li><strong>SupaView Links for Raycast and Alfred</strong> - Open any page or web search in SupaView from Raycast, Alfred or another app with a supasidebar://peek link.</li>
+<li><strong>Recall Past Searches</strong> - Press the Up arrow in an empty Command Panel to bring back your recent searches, newest first.</li>
+<li><strong>Open Sites Stay Visible in Closed Folders</strong> - A closed folder now shows the site you’re on beneath it, like Arc, and every open site it holds when Hide Saved Tabs is on.</li>
+</ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Return Works Like an Address Bar</strong> - In the Command Panel, Return opens your usual site for words like “git” and searches the web otherwise.</li>
+<li><strong>Peek Is Now SupaView</strong> - The small floating window for links is now called SupaView everywhere in SupaSidebar.</li>
+<li><strong>One SupaView Window per Link</strong> - Each link now opens in its own SupaView window, like Little Arc, instead of replacing the one already open.</li>
+<li><strong>Slimmer SupaView Toolbar</strong> - SupaView’s toolbar is now slimmer, and its Open button’s menu lists your browser profiles and Default Browser.</li>
+<li><strong>SupaView Keyboard Shortcuts</strong> - ⌘W now closes a SupaView window, and ⌘O opens its page in your browser.</li>
+<li><strong>Arc-Style Current Tab Pill</strong> - The page your browser is on now always gets a rounded pill in Saved, Live Tabs and pinned tabs, with no setting to turn on.</li>
+<li><strong>Fuller Space Menu</strong> - Right-click a Space icon or empty sidebar space to switch Spaces, paste a link, add a folder, change its color or delete it.</li>
+<li><strong>One Key for Compact Mode</strong> - ⌘ now collapses and expands Compact Mode, and Settings lets you leave ⌘[ and ⌘] to your browser’s Back and Forward.</li>
+<li><strong>Browser Shortcuts Stay Out of Other Apps</strong> - Smart Save, Smart Copy and other browser and Finder shortcuts now only take their keys while a browser or Finder is in front.</li>
+<li><strong>Command Panel Starts Fresh</strong> - After you open or search something, the Command Panel now opens empty instead of showing your last query.</li>
+<li><strong>Arc-Like Space Bar</strong> - Space icons now sit centered between Trash and +, and spread out as the sidebar gets wider.</li>
+<li><strong>Cleaner Clicks in the Sidebar</strong> - Clicking a row no longer leaves a grey cursor behind, and the arrow keys still show it when you need it.</li>
+<li><strong>SupaView Remembers Its Size</strong> - SupaView now keeps the size you set, even after you restart SupaSidebar.</li>
+<li><strong>Dismiss the Drag to Pin Hint</strong> - The “Drag to pin” box now has an X, and Appearance settings can bring it back.</li>
+<li><strong>New Tab Button Matches Your Tabs</strong> - The New Tab button now has the same height, icon and text size as the live tabs below it.</li>
+<li><strong>Search Bar Lines Up With Your Rows</strong> - The Search links bar now lines up with your sidebar rows, with a small margin and rounder corners.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>SupaSidebar no longer quits unexpectedly when it tiles your browser windows as the sidebar opens.</li>
-<li>Space colors now show in the sidebar and compact mode when Reduce Transparency or Increase Contrast is on.</li>
-<li>Switching to a Space linked to a Chrome or Brave profile no longer opens a new window when the browser isn’t in English or you’re signed in to Google.</li>
-<li>Live Tabs window names in Edge, Brave, Vivaldi and other Chromium browsers no longer swap when you switch windows or Spaces.</li>
-<li>The Move to Space menu now shows Space icons at the right size and keeps the names of Spaces with emoji icons.</li>
-<li>New installs no longer show “Backup could not be saved” in Settings before the first Space is created.</li>
+<li>Live Tabs no longer goes blank after you open a link in a Chrome, Brave or other Chromium browser profile.</li>
+<li>Live Tabs now shows a loading placeholder while you switch Spaces, instead of another profile’s tabs.</li>
+<li>Safari profile tabs in Live Tabs no longer stay empty after you jump to a full-screen window.</li>
+<li>Switching to a Space linked to a Chrome or Safari window in full screen or on another Desktop now goes to that window instead of opening a new one.</li>
+<li>Hovering links from the same site, like YouTube videos, now shows each link’s own preview image instead of the same one.</li>
+<li>Clicking a folder twice quickly now opens and closes it instead of starting a rename.</li>
+<li>Opening or closing a folder no longer flickers.</li>
+<li>Keyboard shortcuts in the sidebar now work right after you leave Compact Mode.</li>
+<li>Renaming a link or folder in a tinted Space now shows dark, readable text instead of white text on a light box.</li>
+<li>An Air Traffic Control open rule with no website and no Space no longer catches every link, and now shows “Needs a space”.</li>
+<li>Deleting a Space now also removes the Air Traffic Control rule linked to it.</li>
+<li>Clicking anywhere on a Space header now opens and closes it, not just its name.</li>
+<li>Saved links and live tabs now show favicons at the same size, and live tab favicons are no longer dimmed.</li>
+<li>Live Tabs browser headers now use up and down arrows to reorder, so moving down no longer looks like collapsing.</li>
+<li>A faint Space tint in dark mode no longer shows white arrows next to dark text.</li>
+<li>Opening a SupaView page in your browser now opens the page you’re on, not the link the window first opened.</li>
+<li>Open Tab in Other Browser now works in Wavebox, Helium, Dia, Comet, Zen and browser betas.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.4.1/supasidebar_v1.4.1.zip"
-                sparkle:edSignature="rXh1Z7cJhS9WCY8/b5pJ2ud+e4DcvPBT8oim8VL2J7KmUwPJMh0CtLypwVl0tUEQQw6vbihxr0hX1xfnOQKVDA=="
-                length="31726618"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.5.0/supasidebar_v1.5.0.zip"
+                sparkle:edSignature="MegS8zZSWnc/Ek5cdf93GrSuZSzxVXu8JmApALMn7BWjkK39SWd0/F6l+jLdzDdocfr0kFfujad5V1kNo22TAg=="
+                length="32390634"
                 type="application/octet-stream"/>
         </item>
         <item>
