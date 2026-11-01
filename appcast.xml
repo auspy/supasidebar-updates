@@ -3,36 +3,52 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.6.0</title>
-            <pubDate>Sat, 31 Oct 2026 11:08:00 +0530</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <title>Version 1.7.0</title>
+            <pubDate>Sun, 01 Nov 2026 15:32:00 +0530</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.6.0">SupaSidebar 1.6.0</h1>
-<p>SupaSidebar 1.6.0 adds a Tab Switcher to try in Labs, Back and Forward in Compact Mode, and zoom and search in SupaView.</p>
+<h1 id="supasidebar-1.7.0">SupaSidebar 1.7.0</h1>
+<p>SupaSidebar 1.7.0 adds browser keys for ⌘T, ⌘N and ⌘L, a lighter Command Panel in your Space’s color, and simpler Settings.</p>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Tab Switcher (Labs)</strong> - Tap ⌃Tab in your browser to go back to your last tab, or hold ⌃ to pick from your 5 most recent.</li>
-<li><strong>Pick How the Tab Switcher Looks</strong> - Show recent tabs as cards like Arc, big pictures like ⌘Tab, or a simple list.</li>
-<li><strong>Back and Forward in Compact Mode</strong> - Compact Mode now has Back and Forward buttons under Search, with the same right-click history list.</li>
-<li><strong>Zoom in SupaView</strong> - ⌘+, ⌘- and ⌘0 now zoom SupaView pages like Chrome, and each site keeps its own zoom.</li>
-<li><strong>Search From the SupaView Title</strong> - Click a SupaView window’s centered title or press ⌘L to search or type an address in that window.</li>
+<li><strong>Browser Keys Page</strong> - Turn ⌘T, ⌘N, ⌘L and ⌃Tab on separately in Settings &gt; Browsers &gt; Browser keys.</li>
+<li><strong>Edit the Address With ⌘L</strong> - Turn on ⌘L to edit the page’s address in the Command Panel, and Return loads it in the same tab.</li>
+<li><strong>Command Panel in Your Space Color</strong> - The Command Panel takes your current Space’s color, with a Tint with Space color switch to turn it off.</li>
+<li><strong>Live Tabs in One List</strong> - A new Live Tabs setting shows all your open tabs in one list, without browser and window headers.</li>
+<li><strong>Browser Setup in Onboarding</strong> - New users can pick their browsers, turn on browser keys and try SupaView for links during setup.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>SupaView Stays on Its Desktop</strong> - SupaView windows now stay on the desktop they opened on, or turn on Show on All Desktops to have them follow you.</li>
-<li><strong>Easier to Move SupaView</strong> - Drag anywhere on a SupaView window’s header, apart from its buttons, to move it.</li>
+<li><strong>A Lighter Command Panel</strong> - One-line rows now show six results at a time, under a bigger search field.</li>
+<li><strong>Edit a Result Before Opening It</strong> - Pressing ↓ puts the selected result’s address in the search field, ready to edit, like Chrome.</li>
+<li><strong>Web Suggestions Among Your Results</strong> - Google suggestions and past searches now sit with your other results instead of in a separate area.</li>
+<li><strong>Tab Into History or a Site</strong> - Type a word like “hist” or “reddit” and press Tab to search History or that site.</li>
+<li><strong>Recent Is Now History</strong> - The Recent scope is renamed History, and the scope bar stays hidden until you press Tab.</li>
+<li><strong>Your Top Settings in an Empty Panel</strong> - With nothing typed, the panel lists your 5 most-used settings and Talk to Founder instead of every command.</li>
+<li><strong>Footer Keys Match the Selected Row</strong> - The footer now shows what ↩︎, SupaView and Open with do for the row you’re on.</li>
+<li><strong>One Row per Site</strong> - Typing a site’s name now shows a single row for it, and repeated History visits show once.</li>
+<li><strong>⌘N Opens a New Window</strong> - Pages and searches picked after ⌘N now open in a new browser window instead of a new tab.</li>
+<li><strong>Simpler Settings</strong> - Settings now has a Browsers section and fewer pages, with Mouse Triggers under Sidebar and Backups under Data.</li>
+<li><strong>Choose Which Browsers to Use</strong> - The browser table’s Block column is now Use, so you tick the browsers SupaSidebar works with.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Firefox, Firefox Nightly, Developer Edition and LibreWolf now show up in Link a Browser or Profile.</li>
-<li>Hovering a folder now shows its preview while another app is in front, without clicking the sidebar first.</li>
+<li>The Tab Switcher now shows a site’s icon instead of stretching square logos like LinkedIn’s or Instagram’s.</li>
+<li>Tab Switcher previews that failed while offline now load again once you’re back online, without a restart.</li>
+<li>The Tab Switcher now lists your recent tabs right after launch, even before you open the sidebar.</li>
+<li>Labs, Archived Tabs, Tab Switcher and SupaView sign-in screens now show in your language instead of English.</li>
+</ul>
+<h2 id="performance">Performance</h2>
+<ul>
+<li><strong>Faster Command Panel Typing</strong> - Keys no longer pile up while you type, a lag that could reach 1.5 seconds before.</li>
+<li><strong>No Pause on the First ⌘ Key</strong> - The first ⌘ shortcut you press in the Command Panel after launch no longer stalls.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.6.0/supasidebar_v1.6.0.zip"
-                sparkle:edSignature="twuEluVandf0YigHivgDNtILKuF9/5nJ49+Bjl0oQGxYc+WyXi7vzuOwXz0jyPvAJtMXdQHoM3cFF9BGreWrAg=="
-                length="32537119"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.7.0/supasidebar_v1.7.0.zip"
+                sparkle:edSignature="m1nk8ErXcEwj3rdnJLak2+voayqzVLcB+0kHOkmgFCE/4OoUE0pWvF3bFH1kJgzHxWgfHf4VuCqxdZ6nu59ZDg=="
+                length="32876718"
                 type="application/octet-stream"/>
         </item>
         <item>
