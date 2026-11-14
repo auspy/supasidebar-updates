@@ -3,6 +3,79 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
+            <title>Version 1.8.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sat, 14 Nov 2026 23:29:00 +0530</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.8.0-beta.1</sparkle:shortVersionString>
+            <description><![CDATA[
+<h1 id="supasidebar-1.8.0-beta.1">SupaSidebar 1.8.0-beta.1</h1>
+<h2 id="whats-new">What’s New</h2>
+<ul>
+<li><strong>Not Responding Notice</strong> - When a browser stops answering, Live Tabs now says so and keeps its last tabs on screen, dimmed.</li>
+<li><strong>Try Again for a Frozen Browser</strong> - Switching to a profile Space whose browser is frozen leaves its windows alone and offers Try again.</li>
+<li><strong>Blocked Profiles on macOS 27</strong> - When macOS 27 blocks Chrome, Brave, Edge or Firefox profiles, the picker keeps them and shows how to allow access.</li>
+<li><strong>Dia Profiles</strong> - Link Spaces to Dia profiles and open links in the Dia profile you pick.</li>
+<li><strong>Make Room for Stage Manager</strong> - With Stage Manager on, the sidebar keeps clear of the recent apps strip, and a tip offers to turn off that edge’s trigger.</li>
+<li><strong>Use Icon Services</strong> - A new switch in About, Privacy stops icon lookups through DuckDuckGo and Google, for networks that block them.</li>
+<li><strong>Route Links by App</strong> - With SupaSidebar as your default browser, Air Traffic Control can route links by the app you clicked them in.</li>
+<li><strong>Domain and Regex Routes</strong> - Air Traffic Control routes can now match a whole domain or a regular expression.</li>
+<li><strong>Test a Link</strong> - Paste a link into Air Traffic Control to see which route opens it and where.</li>
+<li><strong>Skip SupaView for a Route</strong> - A route can now open its links straight in your browser instead of SupaView.</li>
+<li><strong>SupaView Address Bar</strong> - Click a SupaView page’s title or press ⌘L to edit its address in the Command Panel.</li>
+<li><strong>Copy URL in SupaView</strong> - Copy a SupaView page’s link from the icon in its URL bar or with ⌘⇧C.</li>
+</ul>
+<h2 id="improvements">Improvements</h2>
+<ul>
+<li><strong>Open All in One Profile Window</strong> - In a Space linked to a browser profile, Open All puts every page in one window of that profile.</li>
+<li><strong>New Windows Use the Linked Profile</strong> - Open in New Window and ⌘N now open in the Space’s linked profile, and the menu names it.</li>
+<li><strong>Hover Delay Down to 0s</strong> - Set Hover Delay to 0s and the sidebar appears the moment your cursor reaches the screen edge.</li>
+<li><strong>Room Past the Last Live Tab</strong> - Live Tabs now scrolls a little past the last tab, so it no longer sits against the bottom bar.</li>
+<li><strong>Clearer Linked Profile Loading</strong> - Live Tabs now says when it’s opening a window or loading its tabs, and why a list is empty.</li>
+<li><strong>Onboarding Built Around Your Browser</strong> - New users get ⌃Tab on its own screen, and the Command Panel and browser keys screens show what each one replaces.</li>
+<li><strong>Simpler Route Editor</strong> - The Air Traffic Control route editor now reads as one sentence, with an example for each match type.</li>
+<li><strong>Find New Profiles From the Editor</strong> - A refresh button next to Open in picks up browser profiles you added after SupaSidebar started.</li>
+<li><strong>Open in Says Why</strong> - SupaView’s Open in button now names the browser and profile it will use and why.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>The Command Panel no longer gets stuck as a thin strip on macOS 26 and 27.</li>
+<li>Auto-hide no longer stops working until a relaunch after Safari freezes.</li>
+<li>Live Tabs no longer goes empty when a slow Safari has many tabs open.</li>
+<li>Dia windows in Live Tabs now keep their numbers when you switch between them.</li>
+<li>Switching to a Space linked to a closed browser profile now brings its new window to the front and loads its tabs.</li>
+<li>Clicking another browser after closing a linked profile’s window now switches to that browser’s Space.</li>
+<li>Closing a linked profile’s window with ⌘W now brings the sidebar back and switches to the Space of the window behind it.</li>
+<li>Closing Live Tabs at the end of a scrolled list now slides the next tab under your pointer instead of the one above it.</li>
+<li>With Stage Manager on, clicking a Live Tab in a minimized window now brings that window to the front.</li>
+<li>Grant Access now adds SupaSidebar to the Accessibility list, so you no longer have to add it with +.</li>
+<li>Switching to SupaSidebar with Settings open no longer freezes it for several seconds.</li>
+<li>A Command Panel search in a Safari profile now opens in the window in front instead of one behind it.</li>
+<li>Opening a SupaView page in your browser now keeps its sign-in and deep-link details, so logins no longer break.</li>
+<li>Websites can no longer send commands to SupaSidebar’s MCP connection, which now requires a private access key.</li>
+</ul>
+<h2 id="performance">Performance</h2>
+<ul>
+<li><strong>Instant Command Panel</strong> - The Command Panel now opens in about 40 ms, down from about 230 ms, and closes instantly.</li>
+<li><strong>Faster Current-Tab Highlight</strong> - The sidebar now marks the tab you switch to in about 60 ms, down from about 250 ms.</li>
+<li><strong>No Stalls From a Frozen Browser</strong> - A browser that stops responding no longer holds up Smart Attach, auto-hide or the sidebar for seconds.</li>
+<li><strong>Faster Safari Live Tabs</strong> - Safari with 150 tabs open now loads in under a second instead of up to 7 seconds.</li>
+<li><strong>Lighter Safari Profile Spaces</strong> - Switching tabs in a Space linked to a Safari profile no longer asks Safari for its window list each time.</li>
+<li><strong>Lighter Folder List</strong> - Sidebars with many folders now do less work each time the list redraws.</li>
+<li><strong>Browser Icons Load in the Background</strong> - The first sidebar open no longer waits for browser icons to load from disk.</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>If an AI app reaches SupaSidebar through MCP, update supasidebar-mcp to 0.2.4 or later, since older versions can no longer connect.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.8.0-beta.1/supasidebar_v1.8.0-beta.1.zip"
+                sparkle:edSignature="ELAOJ7k0ZacdRnn6LfyzHXhrPgV2M/nGV4qXlyjJ+mB5EO0h4GgNxM9xnS5UCFMGuHqWI2LAHSOiKfqaA7TgDg=="
+                length="35709073"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.7.1</title>
             <pubDate>Wed, 11 Nov 2026 21:23:00 +0530</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -36,45 +109,6 @@
                 url="https://github.com/auspy/supasidebar-updates/releases/download/v1.7.1/supasidebar_v1.7.1.zip"
                 sparkle:edSignature="rkF49nbj9gbBbZu3VzMV4kvnNkQrfrnz6uU20cXNgsHAXcyAzEyxUmk/T2czVIgp31NloCkhBXBs/BFu2wSxCg=="
                 length="35099308"
-                type="application/octet-stream"/>
-        </item>
-        <item>
-            <title>Version 1.1.0-beta.2</title>
-            <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sat, 29 Aug 2026 11:47:00 +0530</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>1.1.0-beta.2</sparkle:shortVersionString>
-            <description><![CDATA[
-<h1 id="supasidebar-1.1.0-beta.2">SupaSidebar 1.1.0-beta.2</h1>
-<h2 id="whats-new">What’s New</h2>
-<ul>
-<li><strong>Updated Onboarding</strong>: New setups now use a browser-aware flow that helps you choose useful sites, configure how SupaSidebar opens, and reach your first working sidebar faster.</li>
-<li><strong>Search Settings</strong>: Find preferences from one search field, jump directly to the right section, and change supported toggles from the results.</li>
-<li><strong>Scoped Search Shortcuts</strong>: Assign optional shortcuts that open the Command Panel directly in the Live Tabs or Saved scope.</li>
-<li><strong>Precise Auto-Close Duration</strong>: Choose a custom timeout using any combination of days, hours, and minutes.</li>
-<li><strong>Local Folder Preview Sorting</strong>: Order files and subfolders by Name A-Z, Name Z-A, Date Modified Newest, or Date Modified Oldest. Name sorting handles numbered files naturally, so Export 2 appears before Export 10.</li>
-</ul>
-<h2 id="improvements">Improvements</h2>
-<ul>
-<li><strong>Smart Attach Stays in Sync</strong>: The menu and Preferences now agree with the sidebar’s actual attachment mode.</li>
-<li><strong>Sidebar Size and Position Are Remembered</strong>: A sidebar you move or resize returns to the same position and height after relaunching SupaSidebar.</li>
-<li><strong>Auto-Show Is Opt-In for New Setups</strong>: The sidebar does not appear automatically when you focus a browser unless you enable Auto Show on Browser Focus.</li>
-<li>Command Panel shortcut hints now adapt better when the panel has limited space.</li>
-</ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
-<ul>
-<li>Live Tabs search no longer hides an open tab when the same URL is also saved in SupaSidebar.</li>
-<li>Dragging a link or folder into a folder no longer moves the entire sidebar window.</li>
-</ul>
-<h2 id="notes">Notes</h2>
-<ul>
-<li>Local Folder Preview Sorting applies to Finder-style folder preview columns. It does not rearrange your saved SupaSidebar folders.</li>
-</ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.1.0-beta.2/supasidebar_v1.1.0-beta.2.zip"
-                sparkle:edSignature="LmZOTsMAV6+PmiYphcAqChCSAm8U20fKk3AYsiw7XH+A54yfuFaPdZ7jGv8F7xSHUN+hNjcffexbA4PjPOfzBw=="
-                length="23939212"
                 type="application/octet-stream"/>
         </item>
     </channel>
