@@ -3,76 +3,67 @@
     <channel>
         <title>SupaSidebar Updates</title>
         <item>
-            <title>Version 1.8.0-beta.1</title>
+            <title>Version 1.8.0-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sat, 14 Nov 2026 23:29:00 +0530</pubDate>
-            <sparkle:version>71</sparkle:version>
-            <sparkle:shortVersionString>1.8.0-beta.1</sparkle:shortVersionString>
+            <pubDate>Tue, 24 Nov 2026 16:02:00 +0530</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.8.0-beta.2</sparkle:shortVersionString>
             <description><![CDATA[
-<h1 id="supasidebar-1.8.0-beta.1">SupaSidebar 1.8.0-beta.1</h1>
+<h1 id="supasidebar-1.8.0-beta.2">SupaSidebar 1.8.0-beta.2</h1>
 <h2 id="whats-new">What’s New</h2>
 <ul>
-<li><strong>Not Responding Notice</strong> - When a browser stops answering, Live Tabs now says so and keeps its last tabs on screen, dimmed.</li>
-<li><strong>Try Again for a Frozen Browser</strong> - Switching to a profile Space whose browser is frozen leaves its windows alone and offers Try again.</li>
-<li><strong>Blocked Profiles on macOS 27</strong> - When macOS 27 blocks Chrome, Brave, Edge or Firefox profiles, the picker keeps them and shows how to allow access.</li>
-<li><strong>Dia Profiles</strong> - Link Spaces to Dia profiles and open links in the Dia profile you pick.</li>
-<li><strong>Make Room for Stage Manager</strong> - With Stage Manager on, the sidebar keeps clear of the recent apps strip, and a tip offers to turn off that edge’s trigger.</li>
-<li><strong>Use Icon Services</strong> - A new switch in About, Privacy stops icon lookups through DuckDuckGo and Google, for networks that block them.</li>
-<li><strong>Route Links by App</strong> - With SupaSidebar as your default browser, Air Traffic Control can route links by the app you clicked them in.</li>
-<li><strong>Domain and Regex Routes</strong> - Air Traffic Control routes can now match a whole domain or a regular expression.</li>
-<li><strong>Test a Link</strong> - Paste a link into Air Traffic Control to see which route opens it and where.</li>
-<li><strong>Skip SupaView for a Route</strong> - A route can now open its links straight in your browser instead of SupaView.</li>
-<li><strong>SupaView Address Bar</strong> - Click a SupaView page’s title or press ⌘L to edit its address in the Command Panel.</li>
-<li><strong>Copy URL in SupaView</strong> - Copy a SupaView page’s link from the icon in its URL bar or with ⌘⇧C.</li>
+<li><strong>Prevent Overlap Says Why</strong> - When the sidebar can’t clear your browser, a card names the cause and offers Try again and How to fix.</li>
+<li><strong>Freeze Note</strong> - After SupaSidebar freezes for 10 seconds or more, a note says for how long, which browser held it up and whether a report was sent.</li>
+<li><strong>Permission Warnings in the Sidebar</strong> - The sidebar now warns when Accessibility or a browser’s Automation access is off for a feature you use, with Fix right there.</li>
+<li><strong>Update Can’t Install</strong> - When SupaSidebar runs from a folder that blocks updates, a card offers to move it to Applications.</li>
+<li><strong>Try Again When Tabs Can’t Be Read</strong> - When a browser’s tabs can’t be read, Live Tabs keeps the last ones dimmed and offers Try again.</li>
+<li><strong>Undo After Saving a Page</strong> - The Page Saved toast now has Undo, so a page saved by mistake comes right back out.</li>
+<li><strong>Route Notice</strong> - When an Air Traffic Control route opens a link in another browser, a toast names the route and offers Edit Route.</li>
+<li><strong>Numpad Keys Switch Spaces</strong> - ⌘⌃ with numpad 1-9 now jumps to Spaces 1-9, like the number row, with a Use Numpad Keys switch.</li>
+<li><strong>Opera Support</strong> - Opera, Opera GX and Opera Air now work with Live Tabs, Recents, linked Spaces and opening links.</li>
+<li><strong>Crest in Labs</strong> - Turn on Crest Browser in Labs to use Crest with Live Tabs and Spaces, free for everyone.</li>
+<li><strong>New Window Note</strong> - When a Space switch opens a new window of its linked profile, a note says why, and warns if no window appears.</li>
 </ul>
 <h2 id="improvements">Improvements</h2>
 <ul>
-<li><strong>Open All in One Profile Window</strong> - In a Space linked to a browser profile, Open All puts every page in one window of that profile.</li>
-<li><strong>New Windows Use the Linked Profile</strong> - Open in New Window and ⌘N now open in the Space’s linked profile, and the menu names it.</li>
-<li><strong>Hover Delay Down to 0s</strong> - Set Hover Delay to 0s and the sidebar appears the moment your cursor reaches the screen edge.</li>
-<li><strong>Room Past the Last Live Tab</strong> - Live Tabs now scrolls a little past the last tab, so it no longer sits against the bottom bar.</li>
-<li><strong>Clearer Linked Profile Loading</strong> - Live Tabs now says when it’s opening a window or loading its tabs, and why a list is empty.</li>
-<li><strong>Onboarding Built Around Your Browser</strong> - New users get ⌃Tab on its own screen, and the Command Panel and browser keys screens show what each one replaces.</li>
-<li><strong>Simpler Route Editor</strong> - The Air Traffic Control route editor now reads as one sentence, with an example for each match type.</li>
-<li><strong>Find New Profiles From the Editor</strong> - A refresh button next to Open in picks up browser profiles you added after SupaSidebar started.</li>
-<li><strong>Open in Says Why</strong> - SupaView’s Open in button now names the browser and profile it will use and why.</li>
+<li><strong>One Look for Every Notice</strong> - Sidebar notices now share one off-white card with dark text that stays readable on every Space color.</li>
+<li><strong>Notices Stack at the Bottom</strong> - Warnings, updates, What’s New and Space notes now stack in one deck at the bottom of the sidebar, with Clear all.</li>
+<li><strong>Countdown on Notices That Close Themselves</strong> - Notices that leave on their own now show a countdown ring around their x, and hovering holds them.</li>
+<li><strong>Switch Note Says Why</strong> - After an automatic Space switch, the note names the Space and the browser or profile it’s linked to, then closes after 6 seconds.</li>
+<li><strong>Turn Notices Off in Settings</strong> - General, Notifications now lists each sidebar notice with its own switch, and Spaces settings has one for each switching note.</li>
+<li><strong>Waiting Line for Slow Browsers</strong> - While a browser is slow to share its tabs, Live Tabs shows a waiting line first and Try again after 15 seconds.</li>
+<li><strong>Live Tabs Star Works Like a Bookmark Star</strong> - The star now shows Page Saved with Undo, and clicking a filled star removes the page, also with Undo.</li>
+<li><strong>Note When Every Tab Is Saved</strong> - With saved tabs hidden, Live Tabs now says when every open tab is already saved and offers Show.</li>
+<li><strong>Regex Length in the Route Editor</strong> - The route editor now counts a regex’s characters as it nears the 500 limit and says how far over it is.</li>
+<li><strong>One Picker in Edit Space</strong> - Edit Space now has a single picker for the linked browser or profile, the same as New Space.</li>
+<li><strong>Clearer Free Plan Screen</strong> - When a trial ends, the license screen now says you can keep using SupaSidebar without a license key.</li>
+<li><strong>Help With Blocked Imports on macOS 27</strong> - When macOS 27 blocks a browser import during setup, onboarding now points to the Files &amp; Folders switch.</li>
+<li><strong>Smoother Folder Drags</strong> - Dragging over a sidebar with about 100 folders now takes the Mac roughly 18 times less work.</li>
+<li><strong>Smoother Card Closing</strong> - Closing a sidebar card now fades it out before the tabs below slide up.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>The Command Panel no longer gets stuck as a thin strip on macOS 26 and 27.</li>
-<li>Auto-hide no longer stops working until a relaunch after Safari freezes.</li>
-<li>Live Tabs no longer goes empty when a slow Safari has many tabs open.</li>
-<li>Dia windows in Live Tabs now keep their numbers when you switch between them.</li>
-<li>Switching to a Space linked to a closed browser profile now brings its new window to the front and loads its tabs.</li>
-<li>Clicking another browser after closing a linked profile’s window now switches to that browser’s Space.</li>
-<li>Closing a linked profile’s window with ⌘W now brings the sidebar back and switches to the Space of the window behind it.</li>
-<li>Closing Live Tabs at the end of a scrolled list now slides the next tab under your pointer instead of the one above it.</li>
-<li>With Stage Manager on, clicking a Live Tab in a minimized window now brings that window to the front.</li>
-<li>Grant Access now adds SupaSidebar to the Accessibility list, so you no longer have to add it with +.</li>
-<li>Switching to SupaSidebar with Settings open no longer freezes it for several seconds.</li>
-<li>A Command Panel search in a Safari profile now opens in the window in front instead of one behind it.</li>
-<li>Opening a SupaView page in your browser now keeps its sign-in and deep-link details, so logins no longer break.</li>
-<li>Websites can no longer send commands to SupaSidebar’s MCP connection, which now requires a private access key.</li>
-</ul>
-<h2 id="performance">Performance</h2>
-<ul>
-<li><strong>Instant Command Panel</strong> - The Command Panel now opens in about 40 ms, down from about 230 ms, and closes instantly.</li>
-<li><strong>Faster Current-Tab Highlight</strong> - The sidebar now marks the tab you switch to in about 60 ms, down from about 250 ms.</li>
-<li><strong>No Stalls From a Frozen Browser</strong> - A browser that stops responding no longer holds up Smart Attach, auto-hide or the sidebar for seconds.</li>
-<li><strong>Faster Safari Live Tabs</strong> - Safari with 150 tabs open now loads in under a second instead of up to 7 seconds.</li>
-<li><strong>Lighter Safari Profile Spaces</strong> - Switching tabs in a Space linked to a Safari profile no longer asks Safari for its window list each time.</li>
-<li><strong>Lighter Folder List</strong> - Sidebars with many folders now do less work each time the list redraws.</li>
-<li><strong>Browser Icons Load in the Background</strong> - The first sidebar open no longer waits for browser icons to load from disk.</li>
+<li>The sidebar now stays below the menu bar after a relaunch or a resize when Draggable Sidebar is on.</li>
+<li>Prevent Overlap, Smart Attach and tiling no longer stop working while VLC or another app keeps a screen-sized window open.</li>
+<li>Moving, dragging or tidying folders no longer freezes the sidebar on macOS 26 and later.</li>
+<li>Edit Space now saves a changed linked profile, so links, Live Tabs and window switching follow it.</li>
+<li>A Save Page that fails no longer gets saved anyway by your next change.</li>
+<li>The main window now appears once, fully drawn, at launch instead of after a Loading window.</li>
+<li>The license screen now fades in smoothly and stays centered after onboarding.</li>
+<li>Choosing Keep when macOS asks about your default browser no longer shows an error.</li>
+<li>The Review permissions button on the linked profile note is now visible on white and yellow Spaces.</li>
+<li>The collapse arrow in Space and section headers now matches the Space’s color.</li>
+<li>The Spaces icon in Settings now lines up with its title.</li>
 </ul>
 <h2 id="notes">Notes</h2>
 <ul>
-<li>If an AI app reaches SupaSidebar through MCP, update supasidebar-mcp to 0.2.4 or later, since older versions can no longer connect.</li>
+<li>Send Crash Reports in Settings, About, Privacy now works, so crash and freeze reports reach SupaSidebar while it’s on.</li>
 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.8.0-beta.1/supasidebar_v1.8.0-beta.1.zip"
-                sparkle:edSignature="ELAOJ7k0ZacdRnn6LfyzHXhrPgV2M/nGV4qXlyjJ+mB5EO0h4GgNxM9xnS5UCFMGuHqWI2LAHSOiKfqaA7TgDg=="
-                length="35709073"
+                url="https://github.com/auspy/supasidebar-updates/releases/download/v1.8.0-beta.2/supasidebar_v1.8.0-beta.2.zip"
+                sparkle:edSignature="veP+FLUdZxl1WASUArQvT3jxHuSViD5hPiXPUPFFt639xV5ER5IDQmAeSbWl/B5RlLZ7FmIWOGLpQtFOAT2HDg=="
+                length="36402906"
                 type="application/octet-stream"/>
         </item>
         <item>
